@@ -72,7 +72,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="719" selection-end="719" vertical-scroll-proportion="0.4071856">
+            <state line="33" column="119" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.79640716">
               <folding />
             </state>
           </provider>
@@ -100,8 +100,8 @@
         <option value="$PROJECT_DIR$/source/json/JSONStringer.java" />
         <option value="$PROJECT_DIR$/ITRovers.iml" />
         <option value="$PROJECT_DIR$/source/org/json/JSONML.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -432,7 +432,11 @@
       <created>1366826422105</created>
       <updated>1366826422105</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changes done...applicationContest.xml has been changed by retrieving jdbc properties...">
+      <created>1366828238105</created>
+      <updated>1366828238105</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -506,7 +510,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes done...jdbc properties and spring application context added..." />
+    <option name="LAST_COMMIT_MESSAGE" value="changes done...applicationContest.xml has been changed by retrieving jdbc properties..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -523,6 +527,7 @@
     <MESSAGE value="changes done..." />
     <MESSAGE value="changes done...org.json added&#10;" />
     <MESSAGE value="changes done...jdbc properties and spring application context added..." />
+    <MESSAGE value="changes done...applicationContest.xml has been changed by retrieving jdbc properties..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -576,7 +581,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="719" selection-end="719" vertical-scroll-proportion="0.4071856">
+        <state line="33" column="119" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.79640716">
           <folding />
         </state>
       </provider>
