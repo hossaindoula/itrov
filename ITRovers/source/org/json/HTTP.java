@@ -1,4 +1,4 @@
-package json;
+package org.json;
 
 /*
 Copyright (c) 2002 JSON.org
@@ -69,8 +69,8 @@ public class HTTP {
      * @throws JSONException
      */
     public static JSONObject toJSONObject(String string) throws JSONException {
-        JSONObject     o = new JSONObject();
-        HTTPTokener    x = new HTTPTokener(string);
+        JSONObject o = new JSONObject();
+        HTTPTokener x = new HTTPTokener(string);
         String         t;
 
         t = x.nextToken();

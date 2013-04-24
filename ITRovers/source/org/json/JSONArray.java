@@ -1,4 +1,4 @@
-package json;
+package org.json;
 
 /*
 Copyright (c) 2002 JSON.org
@@ -173,7 +173,7 @@ public class JSONArray {
     /**
      * Construct a JSONArray from a collection of beans.
      * The collection should have Java Beans.
-     * 
+     *
      * @throws JSONException If not an array.
      */
 
@@ -181,12 +181,12 @@ public class JSONArray {
 		this.myArrayList = new ArrayList();
 		if(collection != null) {
 			for (Iterator iter = collection.iterator(); iter.hasNext();) {
-				this.myArrayList.add(new JSONObject(iter.next(),includeSuperClass));	
+				this.myArrayList.add(new JSONObject(iter.next(),includeSuperClass));
 			}
 		}
     }
 
-    
+
     /**
      * Construct a JSONArray from an array
      * @throws JSONException If not an array.
@@ -206,7 +206,7 @@ public class JSONArray {
     /**
      * Construct a JSONArray from an array with a bean.
      * The array should have Java Beans.
-     * 
+     *
      * @throws JSONException If not an array.
      */
     public JSONArray(Object array,boolean includeSuperClass) throws JSONException {
@@ -221,8 +221,8 @@ public class JSONArray {
         }
     }
 
-    
-    
+
+
     /**
      * Get the object value associated with an index.
      * @param index
@@ -268,7 +268,7 @@ public class JSONArray {
      *
      * @param index The index must be between 0 and length() - 1.
      * @return      The value.
-     * @throws   JSONException If the key is not found or if the value cannot
+     * @throws JSONException If the key is not found or if the value cannot
      *  be converted to a number.
      */
     public double getDouble(int index) throws JSONException {
@@ -289,7 +289,7 @@ public class JSONArray {
      *
      * @param index The index must be between 0 and length() - 1.
      * @return      The value.
-     * @throws   JSONException If the key is not found or if the value cannot
+     * @throws JSONException If the key is not found or if the value cannot
      *  be converted to a number.
      *  if the value cannot be converted to a number.
      */
@@ -339,7 +339,7 @@ public class JSONArray {
      *
      * @param index The index must be between 0 and length() - 1.
      * @return      The value.
-     * @throws   JSONException If the key is not found or if the value cannot
+     * @throws JSONException If the key is not found or if the value cannot
      *  be converted to a number.
      */
     public long getLong(int index) throws JSONException {

@@ -1,4 +1,4 @@
-package json;
+package org.json;
 
 /*
 Copyright (c) 2002 JSON.org
@@ -224,7 +224,7 @@ public class JSONObject {
 
     /**
      * Construct a JSONObject from a Map.
-     * 
+     *
      * @param map A map object that can be used to initialize the contents of
      *  the JSONObject.
      */
@@ -234,9 +234,9 @@ public class JSONObject {
 
     /**
      * Construct a JSONObject from a Map.
-     * 
+     *
      * Note: Use this constructor when the map contains <key,bean>.
-     * 
+     *
      * @param map - A map with Key-Bean data.
      * @param includeSuperClass - Tell whether to include the super class properties.
      */
@@ -273,14 +273,14 @@ public class JSONObject {
     	this();
         populateInternalMap(bean, false);
     }
-    
-    
+
+
     /**
      * Construct JSONObject from the given bean. This will also create JSONObject
      * for all internal object (List, Map, Inner Objects) of the provided bean.
-     * 
+     *
      * -- See Documentation of JSONObject(Object bean) also.
-     * 
+     *
      * @param bean An object that has getter methods that should be used
      * to make a JSONObject.
      * @param includeSuperClass - Tell whether to include the super class properties.
@@ -289,17 +289,17 @@ public class JSONObject {
     	this();
         populateInternalMap(bean, includeSuperClass);
     }
-    
+
     private void populateInternalMap(Object bean, boolean includeSuperClass){
     	Class klass = bean.getClass();
-    	
+
         //If klass.getSuperClass is System class then includeSuperClass = false;
-    	
+
     	if (klass.getClassLoader() == null) {
     		includeSuperClass = false;
     	}
-    	
-    	Method[] methods = (includeSuperClass) ? 
+
+    	Method[] methods = (includeSuperClass) ?
     			klass.getMethods() : klass.getDeclaredMethods();
         for (int i = 0; i < methods.length; i += 1) {
             try {
@@ -320,7 +320,7 @@ public class JSONObject {
                         key = key.substring(0, 1).toLowerCase() +
                             key.substring(1);
                     }
-                    
+
                     Object result = method.invoke(bean, (Object[])null);
                     if (result == null){
                     	map.put(key, NULL);
@@ -333,8 +333,8 @@ public class JSONObject {
                     }else if (isStandardProperty(result.getClass())) { //Primitives, String and Wrapper
                     	map.put(key, result);
                     }else{
-                    	if (result.getClass().getPackage().getName().startsWith("java") || 
-                    			result.getClass().getClassLoader() == null) { 
+                    	if (result.getClass().getPackage().getName().startsWith("java") ||
+                    			result.getClass().getClassLoader() == null) {
                     		map.put(key, result.toString());
                     	} else { //User defined Objects
                     		map.put(key, new JSONObject(result,includeSuperClass));
@@ -346,7 +346,7 @@ public class JSONObject {
             }
         }
     }
-    
+
     private boolean isStandardProperty(Class clazz) {
     	return clazz.isPrimitive()                  ||
     		clazz.isAssignableFrom(Byte.class)      ||
@@ -383,7 +383,7 @@ public class JSONObject {
         	} catch (Exception e) {
                 /* forget about it */
             }
-        }    
+        }
     }
 
 
@@ -487,7 +487,7 @@ public class JSONObject {
      *
      * @param key   A key string.
      * @return      The object associated with the key.
-     * @throws   JSONException if the key is not found.
+     * @throws JSONException if the key is not found.
      */
     public Object get(String key) throws JSONException {
         Object o = opt(key);
@@ -504,7 +504,7 @@ public class JSONObject {
      *
      * @param key   A key string.
      * @return      The truth.
-     * @throws   JSONException
+     * @throws JSONException
      *  if the value is not a Boolean or the String "true" or "false".
      */
     public boolean getBoolean(String key) throws JSONException {
@@ -549,7 +549,7 @@ public class JSONObject {
      *
      * @param key   A key string.
      * @return      The integer value.
-     * @throws   JSONException if the key is not found or if the value cannot
+     * @throws JSONException if the key is not found or if the value cannot
      *  be converted to an integer.
      */
     public int getInt(String key) throws JSONException {
@@ -564,7 +564,7 @@ public class JSONObject {
      *
      * @param key   A key string.
      * @return      A JSONArray which is the value.
-     * @throws   JSONException if the key is not found or
+     * @throws JSONException if the key is not found or
      *  if the value is not a JSONArray.
      */
     public JSONArray getJSONArray(String key) throws JSONException {
@@ -582,7 +582,7 @@ public class JSONObject {
      *
      * @param key   A key string.
      * @return      A JSONObject which is the value.
-     * @throws   JSONException if the key is not found or
+     * @throws JSONException if the key is not found or
      *  if the value is not a JSONObject.
      */
     public JSONObject getJSONObject(String key) throws JSONException {
@@ -601,7 +601,7 @@ public class JSONObject {
      *
      * @param key   A key string.
      * @return      The long value.
-     * @throws   JSONException if the key is not found or if the value cannot
+     * @throws JSONException if the key is not found or if the value cannot
      *  be converted to a long.
      */
     public long getLong(String key) throws JSONException {
@@ -660,7 +660,7 @@ public class JSONObject {
      *
      * @param key   A key string.
      * @return      A string which is the value.
-     * @throws   JSONException if the key is not found.
+     * @throws JSONException if the key is not found.
      */
     public String getString(String key) throws JSONException {
         return get(key).toString();
@@ -1150,7 +1150,7 @@ public class JSONObject {
     public Object remove(String key) {
         return this.map.remove(key);
     }
-   
+
     /**
      * Get an enumeration of the keys of the JSONObject.
      * The keys will be sorted alphabetically.
