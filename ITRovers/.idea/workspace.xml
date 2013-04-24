@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6546f58-0c84-40bf-8b92-3c0b836ccc29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITRovers.iml" afterPath="$PROJECT_DIR$/ITRovers.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml" />
     </list>
     <ignored path="ITRovers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,22 +66,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="itr-applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="itr-applicationContext.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml">
           <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="108" selection-start="692" selection-end="692" vertical-scroll-proportion="-3.6170213">
+            <state line="12" column="25" selection-start="719" selection-end="719" vertical-scroll-proportion="0.4071856">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jdbc.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="50" selection-start="124" selection-end="124" vertical-scroll-proportion="0.04">
+            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -431,7 +428,11 @@
       <created>1366825621105</created>
       <updated>1366825621105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes done...jdbc properties and spring application context added...">
+      <created>1366826422105</created>
+      <updated>1366826422105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -448,7 +449,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -505,7 +506,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes done...org.json added&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes done...jdbc properties and spring application context added..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -521,6 +522,7 @@
     <MESSAGE value="Initial import..." />
     <MESSAGE value="changes done..." />
     <MESSAGE value="changes done...org.json added&#10;" />
+    <MESSAGE value="changes done...jdbc properties and spring application context added..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -562,19 +564,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml">
       <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="108" selection-start="692" selection-end="692" vertical-scroll-proportion="-3.6170213">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="50" selection-start="124" selection-end="124" vertical-scroll-proportion="0.04">
+        <state line="12" column="25" selection-start="719" selection-end="719" vertical-scroll-proportion="0.4071856">
           <folding />
         </state>
       </provider>
