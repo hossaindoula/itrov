@@ -1,4 +1,4 @@
-package json;
+package org.json;
 
 /*
 Copyright (c) 2002 JSON.org
@@ -110,7 +110,7 @@ public class XML {
     	}
     	for (i = 0; i < length; i += 1) {
 		    if (Character.isWhitespace(string.charAt(i))) {
-		    	throw new JSONException("'" + string + 
+		    	throw new JSONException("'" + string +
 		    			"' contains a space character.");
 		    }
 		}
@@ -193,7 +193,7 @@ public class XML {
         	t = x.nextToken();
             if (name == null) {
                 throw x.syntaxError("Mismatched close tag" + t);
-            }            
+            }
             if (!t.equals(name)) {
                 throw x.syntaxError("Mismatched " + name + " and " + t);
             }
@@ -309,7 +309,7 @@ public class XML {
      * Convert a JSONObject into a well-formed, element-normal XML string.
      * @param o A JSONObject.
      * @return  A string.
-     * @throws  JSONException
+     * @throws JSONException
      */
     public static String toString(Object o) throws JSONException {
         return toString(o, null);
@@ -327,8 +327,8 @@ public class XML {
             throws JSONException {
         StringBuffer b = new StringBuffer();
         int          i;
-        JSONArray    ja;
-        JSONObject   jo;
+        JSONArray ja;
+        JSONObject jo;
         String       k;
         Iterator     keys;
         int          len;

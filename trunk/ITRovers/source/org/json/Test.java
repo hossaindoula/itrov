@@ -1,4 +1,4 @@
-package json;
+package org.json;
 
 import java.io.StringWriter;
 import java.util.Collection;
@@ -32,63 +32,63 @@ public class Test {
         	public String aString;
         	public double aNumber;
         	public boolean aBoolean;
-        	
+
             public Obj(String string, double n, boolean b) {
                 this.aString = string;
                 this.aNumber = n;
                 this.aBoolean = b;
             }
-            
+
             public double getNumber() {
             	return this.aNumber;
             }
-            
+
             public String getString() {
             	return this.aString;
             }
-            
+
             public boolean isBoolean() {
             	return this.aBoolean;
             }
-            
+
             public String getBENT() {
             	return "All uppercase key";
             }
-            
+
             public String getX() {
             	return "x";
             }
-            
+
             public String toJSONString() {
-            	return "{" + JSONObject.quote(this.aString) + ":" + 
+            	return "{" + JSONObject.quote(this.aString) + ":" +
             	JSONObject.doubleToString(this.aNumber) + "}";
-            }            
+            }
             public String toString() {
-            	return this.getString() + " " + this.getNumber() + " " + 
+            	return this.getString() + " " + this.getNumber() + " " +
             			this.isBoolean() + "." + this.getBENT() + " " + this.getX();
             }
-        }      
-        
+        }
+
     	Obj obj = new Obj("A beany object", 42, true);
-        
-        try {     
+
+        try {
             j = XML.toJSONObject("<![CDATA[This is a collection of test patterns and examples for org.json.]]>  Ignore the stuff past the end.  ");
             System.out.println(j.toString());
-            
+
             s = "<div id=\"demo\" class=\"JSONML\"><p>JSONML is a transformation between <b>JSON</b> and <b>XML</b> that preserves ordering of document features.</p><p>JSONML can work with JSON arrays or JSON objects.</p><p>Three<br/>little<br/>words</p></div>";
             j = JSONML.toJSONObject(s);
             System.out.println(j.toString(4));
             System.out.println(JSONML.toString(j));
             System.out.println();
-            
+
             a = JSONML.toJSONArray(s);
             System.out.println(a.toString(4));
             System.out.println(JSONML.toString(a));
             System.out.println();
-            
+
             j = new JSONObject(obj);
             System.out.println(j.toString());
-            
+
             s = "{ \"entity\": { \"imageURL\": \"\", \"name\": \"IXXXXXXXXXXXXX\", \"id\": 12336, \"ratingCount\": null, \"averageRating\": null } }";
             j = new JSONObject(s);
             System.out.println(j.toString(2));
@@ -163,12 +163,12 @@ public class Test {
         	int ar[] = {1, 2, 3};
         	JSONArray ja = new JSONArray(ar);
         	System.out.println(ja.toString());
-        	
-        	String sa[] = {"aString", "aNumber", "aBoolean"};            
+
+        	String sa[] = {"aString", "aNumber", "aBoolean"};
             j = new JSONObject(obj, sa);
             j.put("Testing JSONString interface", obj);
-            System.out.println(j.toString(4));          
-            
+            System.out.println(j.toString(4));
+
             j = new JSONObject("{slashes: '///', closetag: '</script>', backslash:'\\\\', ei: {quotes: '\"\\''},eo: {a: '\"quoted\"', b:\"don't\"}, quotes: [\"'\", '\"']}");
             System.out.println(j.toString(2));
             System.out.println(XML.toString(j));
@@ -218,12 +218,12 @@ public class Test {
             System.out.println(j.toString(2));
             System.out.println(XML.toString(j));
             System.out.println("");
-            
+
             ja = JSONML.toJSONArray(s);
             System.out.println(ja.toString(4));
             System.out.println(JSONML.toString(ja));
             System.out.println("");
-            
+
             s = "<xml do='0'>uno<a re='1' mi='2'>dos<b fa='3'/>tres<c></c>quatro</a>cinqo<d>seis<e/></d></xml>";
             ja = JSONML.toJSONArray(s);
             System.out.println(ja.toString(4));
@@ -284,25 +284,25 @@ public class Test {
             System.out.println(HTTP.toString(j));
             System.out.println("");
 
-            j = XML.toJSONObject("<?xml version='1.0' encoding='UTF-8'?>"+"\n\n"+"<SOAP-ENV:Envelope"+
-              " xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\""+
-              " xmlns:xsi=\"http://www.w3.org/1999/XMLSchema-instance\""+
-              " xmlns:xsd=\"http://www.w3.org/1999/XMLSchema\">"+
-              "<SOAP-ENV:Body><ns1:doGoogleSearch"+
-              " xmlns:ns1=\"urn:GoogleSearch\""+
-              " SOAP-ENV:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">"+
-              "<key xsi:type=\"xsd:string\">GOOGLEKEY</key> <q"+
-              " xsi:type=\"xsd:string\">'+search+'</q> <start"+
-              " xsi:type=\"xsd:int\">0</start> <maxResults"+
-              " xsi:type=\"xsd:int\">10</maxResults> <filter"+
-              " xsi:type=\"xsd:boolean\">true</filter> <restrict"+
-              " xsi:type=\"xsd:string\"></restrict> <safeSearch"+
-              " xsi:type=\"xsd:boolean\">false</safeSearch> <lr"+
-              " xsi:type=\"xsd:string\"></lr> <ie"+
-              " xsi:type=\"xsd:string\">latin1</ie> <oe"+
-              " xsi:type=\"xsd:string\">latin1</oe>"+
-              "</ns1:doGoogleSearch>"+
-              "</SOAP-ENV:Body></SOAP-ENV:Envelope>");
+            j = XML.toJSONObject("<?xml version='1.0' encoding='UTF-8'?>" + "\n\n" + "<SOAP-ENV:Envelope" +
+                    " xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\"" +
+                    " xmlns:xsi=\"http://www.w3.org/1999/XMLSchema-instance\"" +
+                    " xmlns:xsd=\"http://www.w3.org/1999/XMLSchema\">" +
+                    "<SOAP-ENV:Body><ns1:doGoogleSearch" +
+                    " xmlns:ns1=\"urn:GoogleSearch\"" +
+                    " SOAP-ENV:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">" +
+                    "<key xsi:type=\"xsd:string\">GOOGLEKEY</key> <q" +
+                    " xsi:type=\"xsd:string\">'+search+'</q> <start" +
+                    " xsi:type=\"xsd:int\">0</start> <maxResults" +
+                    " xsi:type=\"xsd:int\">10</maxResults> <filter" +
+                    " xsi:type=\"xsd:boolean\">true</filter> <restrict" +
+                    " xsi:type=\"xsd:string\"></restrict> <safeSearch" +
+                    " xsi:type=\"xsd:boolean\">false</safeSearch> <lr" +
+                    " xsi:type=\"xsd:string\"></lr> <ie" +
+                    " xsi:type=\"xsd:string\">latin1</ie> <oe" +
+                    " xsi:type=\"xsd:string\">latin1</oe>" +
+                    "</ns1:doGoogleSearch>" +
+                    "</SOAP-ENV:Body></SOAP-ENV:Envelope>");
             System.out.println(j.toString(2));
             System.out.println(XML.toString(j));
             System.out.println("");
@@ -417,19 +417,19 @@ public class Test {
             j = XML.toJSONObject(s);
             System.out.println(j.toString(4));
             System.out.println(XML.toString(j));
-            
+
             s = "<book><chapter>Content of the first chapter</chapter><chapter>Content of the second chapter      <chapter>Content of the first subchapter</chapter>      <chapter>Content of the second subchapter</chapter></chapter><chapter>Third Chapter</chapter></book>";
             j = XML.toJSONObject(s);
             System.out.println(j.toString(4));
             System.out.println(XML.toString(j));
-            
+
             a = JSONML.toJSONArray(s);
             System.out.println(a.toString(4));
             System.out.println(JSONML.toString(a));
-            
+
             Collection c = null;
             Map m = null;
-            
+
             j = new JSONObject(m);
             a = new JSONArray(c);
             j.append("stooge", "Joe DeRita");
@@ -444,15 +444,15 @@ public class Test {
             a.put(m);
             a.put(c);
             System.out.println(j.toString(4));
-            
-            s = "{plist=Apple; AnimalSmells = { pig = piggish; lamb = lambish; worm = wormy; }; AnimalSounds = { pig = oink; lamb = baa; worm = baa;  Lisa = \"Why is the worm talking like a lamb?\" } ; AnimalColors = { pig = pink; lamb = black; worm = pink; } } "; 
+
+            s = "{plist=Apple; AnimalSmells = { pig = piggish; lamb = lambish; worm = wormy; }; AnimalSounds = { pig = oink; lamb = baa; worm = baa;  Lisa = \"Why is the worm talking like a lamb?\" } ; AnimalColors = { pig = pink; lamb = black; worm = pink; } } ";
             j = new JSONObject(s);
             System.out.println(j.toString(4));
-            
+
             s = " (\"San Francisco\", \"New York\", \"Seoul\", \"London\", \"Seattle\", \"Shanghai\")";
             a = new JSONArray(s);
             System.out.println(a.toString());
-            
+
             s = "<a ichi='1' ni='2'><b>The content of b</b> and <c san='3'>The content of c</c><d>do</d><e></e><d>re</d><f/><d>mi</d></a>";
             j = XML.toJSONObject(s);
 
@@ -463,8 +463,8 @@ public class Test {
             System.out.println(ja.toString(4));
             System.out.println(JSONML.toString(ja));
             System.out.println("");
-          
-            
+
+
             System.out.println("\nTesting Exceptions: ");
 
             System.out.print("Exception: ");
@@ -517,7 +517,7 @@ public class Test {
             	j = XML.toJSONObject("<a><b>    ");
             } catch (Exception e) {
             	System.out.println(e);
-            }            
+            }
             System.out.print("Exception: ");
             try {
             	j = XML.toJSONObject("<a></b>    ");

@@ -1,4 +1,4 @@
-package json;
+package org.json;
 
 /*
 Copyright (c) 2002 JSON.org
@@ -58,7 +58,7 @@ public class XMLTokener extends JSONTokener {
     /**
      * Get the text in the CDATA block.
      * @return The string up to the <code>]]&gt;</code>.
-     * @throws JSONException If the <code>]]&gt;</code> is not found.
+     * @throws org.json.JSONException If the <code>]]&gt;</code> is not found.
      */
     public String nextCDATA() throws JSONException {
         char         c;
@@ -87,7 +87,7 @@ public class XMLTokener extends JSONTokener {
      *
      * @return  A string, or a '<' Character, or null if there is no more
      * source text.
-     * @throws JSONException
+     * @throws org.json.JSONException
      */
     public Object nextContent() throws JSONException {
         char         c;
@@ -122,7 +122,7 @@ public class XMLTokener extends JSONTokener {
      *     <code>&amp;  &apos;  &gt;  &lt;  &quot;</code>.
      * @param a An ampersand character.
      * @return  A Character or an entity String if the entity is not recognized.
-     * @throws JSONException If missing ';' in XML entity.
+     * @throws org.json.JSONException If missing ';' in XML entity.
      */
     public Object nextEntity(char a) throws JSONException {
         StringBuffer sb = new StringBuffer();
@@ -148,7 +148,7 @@ public class XMLTokener extends JSONTokener {
      * @return Syntax characters (<code>< > / = ! ?</code>) are returned as
      *  Character, and strings and names are returned as Boolean. We don't care
      *  what the values actually are.
-     * @throws JSONException If a string is not properly closed or if the XML
+     * @throws org.json.JSONException If a string is not properly closed or if the XML
      *  is badly structured.
      */
     public Object nextMeta() throws JSONException {
@@ -214,7 +214,7 @@ public class XMLTokener extends JSONTokener {
      * may be a string wrapped in single quotes or double quotes, or it may be a
      * name.
      * @return a String or a Character.
-     * @throws JSONException If the XML is not well formed.
+     * @throws org.json.JSONException If the XML is not well formed.
      */
     public Object nextToken() throws JSONException {
         char c;
@@ -290,13 +290,13 @@ public class XMLTokener extends JSONTokener {
             }
         }
     }
-    
-    
+
+
     /**
      * Skip characters until past the requested string.
      * If it is not found, we are left at the end of the source with a result of false.
      * @param to A string to skip past.
-     * @throws JSONException
+     * @throws org.json.JSONException
      */
     public boolean skipPast(String to) throws JSONException {
     	boolean b;
