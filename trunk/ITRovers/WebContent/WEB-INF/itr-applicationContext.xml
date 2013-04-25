@@ -30,5 +30,25 @@
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
           <property name="dataSource" ref="itroversDataSource"/>
+          <property name="hibernateProperties">
+             <props>
+                 <prop key="hibernate.dialect"> ${jdbc.hibernate.dialect} </prop>
+                 <prop key="hibernate.hbm2ddl.auto"> update </prop>
+                 <prop key="hibernate.generate_statistics"> true </prop>
+                 <prop key="hibernate.show_sql"> true </prop>
+                 <prop key="org.hibernate.type"> true </prop>
+                 <prop key="hibernate.format_sql"> true </prop>
+                 <prop key="hibernate.jdbc.batch_size"> 50 </prop>
+                 <prop key="hibernate.cache.use_second_level_cache"> true </prop>
+                 <prop key="hibernate.cache.use_query_cache"> true </prop>
+                 <prop key="hibernate.cache.provider_class"> com.googlecode.hibernate.memcached.MemcachedCacheProvider</prop>
+                 <prop key="hibernate.memcached.servers"> 127.0.0.1:11211 </prop>
+
+
+             </props>
+          </property>
+
+
     </bean>
+
 </beans>
