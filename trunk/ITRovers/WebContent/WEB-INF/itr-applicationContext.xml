@@ -30,6 +30,7 @@
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
           <property name="dataSource" ref="itroversDataSource"/>
+
           <property name="hibernateProperties">
              <props>
                  <prop key="hibernate.dialect"> ${jdbc.hibernate.dialect} </prop>
@@ -47,6 +48,12 @@
 
              </props>
           </property>
+            <property name="annotatedClasses">
+                <list>
+                    <value> com.itrovers.domain.User </value>
+                    <value> com.itrovers.domain.Content </value>
+                </list>
+            </property>
 
 
     </bean>
