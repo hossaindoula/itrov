@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6546f58-0c84-40bf-8b92-3c0b836ccc29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/controller" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/dao" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/domain" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/service" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/util" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/domain/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/admin_panel" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITRovers.iws" />
@@ -28,7 +27,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" />
     <breakpoint_any default_suspend_policy="SuspendAll">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -61,6 +59,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <breakpoint_rules default_suspend_policy="SuspendAll" />
     <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_rules />
     <ui_properties />
@@ -77,19 +76,35 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="92" selection-start="2648" selection-end="2648" vertical-scroll-proportion="-18.085106">
+            <state line="2" column="7" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.7234042">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="0" selection-start="1758" selection-end="1758" vertical-scroll-proportion="1.4848485">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Content.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Content.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="6" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="501" selection-end="501" vertical-scroll-proportion="0.24242425">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="20" column="4" selection-start="445" selection-end="496" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,8 +132,10 @@
         <option value="$PROJECT_DIR$/ITRovers.iml" />
         <option value="$PROJECT_DIR$/source/org/json/JSONML.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml" />
         <option value="$PROJECT_DIR$/source/com/itrovers/domain/User.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/domain/Content.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -159,17 +176,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="All" />
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -183,6 +189,17 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All" />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -217,6 +234,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,7 +532,15 @@
       <created>1366917251109</created>
       <updated>1366917251109</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="user entity created and layering of pkgs done..">
+      <created>1366994581125</created>
+      <updated>1366994581125</updated>
+    </task>
+    <task id="LOCAL-00009" summary="content entity created">
+      <created>1366995485104</created>
+      <updated>1366995485104</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -526,7 +565,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.6704675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32799146" sideWeight="0.6704675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -575,7 +614,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="user entity created and layering of pkgs done.." />
+    <option name="LAST_COMMIT_MESSAGE" value="web.xml for deployment descriptor.. updated" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -595,6 +634,8 @@
     <MESSAGE value="changes done...applicationContest.xml has been changed by retrieving jdbc properties..." />
     <MESSAGE value="changes done...applicationContest.xml has been changed by retrieving jdbc properties...props added" />
     <MESSAGE value="user entity created and layering of pkgs done.." />
+    <MESSAGE value="content entity created" />
+    <MESSAGE value="web.xml for deployment descriptor.. updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -634,6 +675,26 @@
         <state line="35" column="13" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.7" />
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/ejb3-persistence.jar!/javax/persistence/GeneratedValue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="350" selection-end="350" vertical-scroll-proportion="0.19029851" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/ejb3-persistence.jar!/javax/persistence/Lob.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="350" selection-end="350" vertical-scroll-proportion="0.19029851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Content.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="4" selection-start="445" selection-end="496" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="57" selection-start="194" selection-end="228" vertical-scroll-proportion="0.0" />
@@ -644,17 +705,15 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="92" selection-start="2648" selection-end="2648" vertical-scroll-proportion="-18.085106">
+        <state line="2" column="7" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.7234042">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="501" selection-end="501" vertical-scroll-proportion="0.24242425">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="49" column="0" selection-start="1758" selection-end="1758" vertical-scroll-proportion="1.4848485">
+          <folding />
         </state>
       </provider>
     </entry>
