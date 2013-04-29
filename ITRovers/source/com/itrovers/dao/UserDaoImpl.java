@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.annotation.Propagation;
 
-import com.itrovers.DESEDE;
+import com.itrovers.util.DESEDE;
 import com.itrovers.domain.User;
 
 

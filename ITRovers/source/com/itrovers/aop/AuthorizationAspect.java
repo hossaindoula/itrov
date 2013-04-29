@@ -1,9 +1,9 @@
 package com.itrovers.aop;
 
-import com.wings4.security.SessionUtil;
-import com.wings4.security.model.Feature;
-import com.wings4.security.service.AuthenticationAndAuthorizationService;
-import com.wings4.util.ERPConstants;
+import com.itrovers.util.SessionUtil;
+import com.itrovers.domain.Feature;
+import com.itrovers.service.AuthenticationAndAuthorizationService;
+import com.itrovers.util.ITRConstants;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -11,7 +11,7 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.wings4.security.service.SecurityService;
+import com.itrovers.service.SecurityService;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.lang.annotation.Annotation;
@@ -33,7 +33,7 @@ public class AuthorizationAspect {
 
 
     @Pointcut("within(@org.springframework.stereotype.Controller *) " +
-			"&& !within(@org.springframework.stereotype.Controller com.wings4.guest.AuthenticationController)")
+			"&& !within(@org.springframework.stereotype.Controller com.itrovers.controller.AuthenticationController)")
 	public void allControllers(){}
 	
 	@Pointcut("execution(* save*(..))")
@@ -167,7 +167,7 @@ public class AuthorizationAspect {
 
         operation = proceedJoinPoint.getSignature().getName();
         isAllowed = authorizationService.checkAuthorization(features,module,operation);
-        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/security/unauthorized");
+        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/unauthorized");
 
 	}
 

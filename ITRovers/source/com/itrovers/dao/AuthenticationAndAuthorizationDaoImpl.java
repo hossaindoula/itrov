@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.wings4.security.model.Feature;
-import com.wings4.security.model.Authority;
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.User;
-import com.wings4.security.model.Component;
+import com.itrovers.domain.Feature;
+import com.itrovers.domain.Authority;
+import com.itrovers.domain.AuthorizedGroups;
+import com.itrovers.domain.User;
+import com.itrovers.domain.Component;
 
 @Repository
 public class AuthenticationAndAuthorizationDaoImpl implements
