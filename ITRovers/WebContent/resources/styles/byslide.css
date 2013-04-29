@@ -1,0 +1,30 @@
+/* BySlideMenu CSS rules */
+div, ul {
+    position: relative;
+    overflow: hidden;
+}
+div img, li {
+    position: absolute;
+    width: 300px;
+    height: 225px;
+}
+
+/* Rules below are optional, here for demos */
+ul{
+	list-style-type: none;
+}
+div, ul {
+    margin: 0px 0px 20px;
+	padding: 0px;
+}
+.trigger{
+    position: absolute;
+    width: 50px;
+    font-family: arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 6px 0px; 
+}

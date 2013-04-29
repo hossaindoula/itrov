@@ -1,0 +1,49 @@
+﻿ul#menu * 
+{
+    outline:none;}
+ul#menu
+{
+    text-align:left;
+}
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 15em;
+}
+
+ul#menu a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#menu li {
+  margin-top: 1px;
+}
+
+ul#menu li a {
+    border-bottom: 1px solid #C2C9CF;
+ color:#134A8A;
+    padding: 0.5em;
+}
+
+ul#menu li a:hover, .parent-category-selected {
+  background: #EFF7FF;
+}
+
+ul#menu li ul li a {
+
+  color: #000;
+  padding-left: 20px;
+  font-size:12px;
+}
+
+ul#menu li ul li a:hover, .child-category-selected {
+
+  border-left: 5px #90b9d2 solid;
+  padding-left: 15px;
+}
+
+.parent-category
+{
+    font-weight:bold;}

@@ -1,0 +1,83 @@
+.menu-area {
+	height:51px;
+	background-image:url(../images/bg-menu.png);
+	background-repeat:repeat-x;
+	margin:auto;
+	text-align:left;
+	border:1px solid #78a12a;
+	-moz-border-radius-topleft:7px;
+	-moz-border-radius-topright:7px;
+}
+.menu-home{
+	background-image:url(../images/menu-home.png);
+	background-repeat:no-repeat;
+	width:90px;
+	height:48px;
+	margin-top:4px;
+	margin-left:5px;
+}
+.menu-home:hover, .home-active {
+	background-image:url(../images/menu-home-hover.png) !important;
+}
+
+.menu-shop{
+	background-image:url(../images/menu-hop.png);
+	background-repeat:no-repeat;
+	width:90px;
+	height:48px;
+	margin-top:4px;
+	margin-left:5px;
+}
+.menu-shop:hover, .shop-active {
+	background-image:url(../images/menu-hover-shop.png) !important;
+}
+.menu-efile{
+	background-image:url(../images/menu-efile.png);
+	width:90px;
+	height:48px;
+	background-repeat:no-repeat;
+	margin-top:4px;
+}
+.menu-efile:hover {
+	background-image:url(../images/menu-hover-efile.png);
+}
+.menu-logos{
+	background-image:url(../images/menu-logos.png);
+	width:169px;
+	height:48px;
+	background-repeat:no-repeat;
+	margin-top:4px;
+}
+.menu-logos:hover {
+	background-image:url(../images/menu-hover-logos.png);
+}
+.menu-my-orders{
+	background-image:url(../images/menu-my-orders.png);
+	width:111px;
+	height:48px;
+	background-repeat:no-repeat;
+	margin-top:4px;
+}
+.menu-my-orders:hover {
+	background-image:url(../images/menu-hover-my-orders.png);
+}
+.menu-my-account{
+	background-image:url(../images/menu-my-account.png);
+	width:121px;
+	height:48px;
+	background-repeat:no-repeat;
+	margin-top:4px;
+}
+.menu-my-account:hover, .menu-my-account-active {
+	background-image:url(../images/menu-hover-my-account.png);
+}
+.menu-seperator {
+	background-image:url(../images/seperator-menu.png);
+	width:1px;
+	height:48px;
+	background-repeat:no-repeat;
+}
+.menu-home, .menu-shop, .menu-efile, .menu-logos, .menu-my-orders, .menu-my-account, .menu-seperator{
+	float:left;
+	display:inline;
+}

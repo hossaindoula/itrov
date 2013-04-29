@@ -1,0 +1,78 @@
+﻿.details-wrapper {
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+
+.details-left-image {
+    border: 1px solid #BBBBBB;
+    height: 350px;
+    text-align: center;
+	margin-bottom:10px;
+}
+.details-left-image img {
+    margin-top: 5px;
+	width:330px;
+	height:340px;
+}
+.description-detail{
+	margin-top:-8px;
+}
+.text-detail {
+    color: #575757;
+    font-size: 12px;
+    margin: auto;
+}
+.select-option {
+    display: inline-block;
+    margin-right: 10px;
+}
+.instructionlist {
+    list-style: none outside none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.instructionlist li {
+    background-image: url("../images/bullet_next.gif");
+    background-position: -1px 2px;
+    background-repeat: no-repeat;
+    margin-top: -2px;
+    padding-left: 19px;
+}
+.select-layout {
+    margin-top: -12px;
+}
+.unit-issue {
+    margin: auto;
+}
+.price-detail {
+    display: inline-block;
+    margin-top: 8px;
+}
+.quantity-detail {
+    display: inline-block;
+    margin-left: -8px;
+}
+.product-title-detail{
+	font-size:18px;
+	font-weight:bold;
+	color:#005581;
+}
+.featured-products-detail
+{
+	padding-top:10px !important;
+	margin-left:5px;
+}
+.future-title{
+	color: #005581;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom:6px;
+}
+.form-heading {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}

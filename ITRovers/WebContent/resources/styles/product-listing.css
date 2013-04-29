@@ -1,0 +1,78 @@
+﻿
+.product-list-item {
+	border:1px solid #e3e3e3;
+	display:inline;
+	float:left;
+	height:16em;
+	margin-bottom:0.25em;
+	margin-left:0.25em;
+	padding-bottom:.5em;
+	padding-top:0.75em;
+	text-align:center;
+	width:14em;
+}
+.product-list-item-title-new{
+    display: block;
+    text-decoration: none;
+    color: #999;
+	padding:2px 5px;
+    font-size: 12px;
+	text-align:center;
+}
+.product-list-item-title-new:hover {
+	color: #29b473;
+}
+.product-list-item-price {
+	font-size: 14px;
+	color: #2d2d2d;
+	float: left;
+	margin-left: 12%;
+	margin-right: 5%;
+}
+.product-list-item-price2 {
+	font-size: 14px;
+}
+
+.tab-slider-listing{
+	text-align:center;
+	margin:auto	
+}
+.nav-left-number
+{   float:left;
+    width:20px !important;
+    margin-right:5px;
+    margin-top:10px; 
+    margin-left:384px; 
+   }
+.nav-right-number
+{   float:right;
+    width:20px !important;  
+    margin-left:5px;
+    margin-top:10px;
+   }
+.nav-middle-number
+{   float:left;
+    margin-top:10px;
+   }
+.product-list-item1 {
+	border:1px solid #e3e3e3;
+	display:inline;
+	float:left;
+	height:11em;
+	margin-bottom:0.25em;
+	margin-left:0.25em;
+	padding-bottom:.5em;
+	padding-top:0.75em;
+	text-align:center;
+	width:10em;
+}
+.titile-cat-current{
+	color:#999;
+}
+.listing-search input.text{
+	position: relative;
+    right: -22px;
+}
+.text-align-right{
+	text-align: right;
+}
