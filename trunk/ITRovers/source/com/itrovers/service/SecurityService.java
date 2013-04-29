@@ -4,11 +4,11 @@ import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
-import com.wings4.security.AuthorizationToken;
-import com.wings4.security.model.Feature;
-import com.wings4.security.model.Authority;
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.Component;
+import com.itrovers.util.AuthorizationToken;
+import com.itrovers.domain.Feature;
+import com.itrovers.domain.Authority;
+import com.itrovers.domain.AuthorizedGroups;
+import com.itrovers.domain.Component;
 
 public interface SecurityService {
 	

@@ -4,16 +4,16 @@ import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
-import com.wings4.security.SessionUtil;
+import com.itrovers.util.SessionUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wings4.security.AuthorizationFilter;
-import com.wings4.security.dao.UserDao;
-import com.wings4.security.model.Feature;
-import com.wings4.security.model.Authority;
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.User;
+import com.itrovers.util.AuthorizationFilter;
+import com.itrovers.dao.UserDao;
+import com.itrovers.domain.Feature;
+import com.itrovers.domain.Authority;
+import com.itrovers.domain.AuthorizedGroups;
+import com.itrovers.domain.User;
 
 @Service
 public class AuthenticationAndAuthorizationServiceImpl implements

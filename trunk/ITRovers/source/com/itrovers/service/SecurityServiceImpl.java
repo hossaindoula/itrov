@@ -5,11 +5,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wings4.security.dao.SecurityDao;
-import com.wings4.security.model.Feature;
-import com.wings4.security.model.Authority;
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.Component;
+import com.itrovers.dao.SecurityDao;
+import com.itrovers.domain.Feature;
+import com.itrovers.domain.Authority;
+import com.itrovers.domain.AuthorizedGroups;
+import com.itrovers.domain.Component;
 
 @Service
 public class SecurityServiceImpl implements SecurityService {

@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6546f58-0c84-40bf-8b92-3c0b836ccc29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/util/ITRConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDao.java" afterPath="$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDaoImpl.java" afterPath="$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/aop/AuthenticationAspect.java" afterPath="$PROJECT_DIR$/source/com/itrovers/aop/AuthenticationAspect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/aop/AuthorizationAspect.java" afterPath="$PROJECT_DIR$/source/com/itrovers/aop/AuthorizationAspect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/dao/SecurityDao.java" afterPath="$PROJECT_DIR$/source/com/itrovers/dao/SecurityDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/dao/SecurityDaoImpl.java" afterPath="$PROJECT_DIR$/source/com/itrovers/dao/SecurityDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java" afterPath="$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/dao/UserDaoImpl.java" afterPath="$PROJECT_DIR$/source/com/itrovers/dao/UserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/domain/ContentTexts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationService.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/BootStrap.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/BootStrap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/BootStrapImpl.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/BootStrapImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/domain/Content.java" afterPath="$PROJECT_DIR$/source/com/itrovers/domain/Content.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/SecurityService.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/SecurityService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/domain/Tag.java" afterPath="$PROJECT_DIR$/source/com/itrovers/domain/Tag.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITRovers.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="F:/GamerReview/.idea/workspace.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1366814034677" ignored="false" />
-    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244050186" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367249167478" ignored="false" />
     <file path="/itr-dispatcher-servlet.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238459841" ignored="false" />
     <file path="/UserDaoImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243997500" ignored="false" />
     <file path="/DESEDE.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238739449" ignored="false" />
@@ -28,6 +29,17 @@
     <file path="/ITRConstants.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243290480" ignored="false" />
     <file path="/AuthorizationAspect.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243448381" ignored="false" />
     <file path="/AuthenticationAndAuthorizationDao.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243524382" ignored="false" />
+    <file path="/AuthorizationToken.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244295709" ignored="false" />
+    <file path="/AuthenticationAndAuthorizationService.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244315788" ignored="false" />
+    <file path="/AuthenticationAndAuthorizationServiceImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244417277" ignored="false" />
+    <file path="/AuthorizationFilter.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244442018" ignored="false" />
+    <file path="/BootStrap.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244459010" ignored="false" />
+    <file path="/BootStrapImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244477069" ignored="false" />
+    <file path="/SecurityService.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244499074" ignored="false" />
+    <file path="/SecurityServiceImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244596919" ignored="false" />
+    <file path="/Tag.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244765034" ignored="false" />
+    <file path="/Content.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244799800" ignored="false" />
+    <file path="/ContentTexts.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367245550375" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +105,20 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/source/com/itrovers/domain/Component.java" line="2" class="Component.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -103,19 +129,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AuthenticationAspect.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/aop/AuthenticationAspect.java">
+      <file leaf-file-name="AuthenticationAndAuthorizationService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorizationAspect.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/aop/AuthorizationAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="52" selection-start="6682" selection-end="6682" vertical-scroll-proportion="0.0">
+            <state line="22" column="68" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,10 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationAndAuthorizationDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDao.java">
+      <file leaf-file-name="AuthenticationAndAuthorizationServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
+            <state line="18" column="13" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,37 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationAndAuthorizationDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDaoImpl.java">
+      <file leaf-file-name="SecurityService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/SecurityService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/SecurityDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="26" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/SecurityDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="24" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+            <state line="24" column="27" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,10 +162,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDaoImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDaoImpl.java">
+      <file leaf-file-name="Authority.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Authority.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="67" selection-start="572" selection-end="572" vertical-scroll-proportion="-1.8793503">
+            <state line="12" column="13" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,20 +173,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java">
+      <file leaf-file-name="AuthorizedGroups.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/AuthorizedGroups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="44" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+            <state line="22" column="26" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="29" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Content.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Content.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="24" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ITRConstants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/ITRConstants.java">
+      <file leaf-file-name="ContentTexts.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/ContentTexts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="43" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+            <state line="13" column="43" selection-start="282" selection-end="282" vertical-scroll-proportion="0.2563805">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tag.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Tag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="12" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="40" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,22 +243,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/com/itrovers/util/DESEDE.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/domain/Token.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/domain/AuthorizedGroups.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/domain/User.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/domain/Content.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/util/ITRConstants.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/aop/AuthenticationAspect.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/aop/AuthorizationAspect.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDao.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDaoImpl.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/dao/SecurityDao.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/dao/SecurityDaoImpl.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/UserDetailsService.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationService.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationFilter.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/BootStrap.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/BootStrapImpl.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/SecurityService.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/domain/Tag.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/domain/Content.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/domain/ContentTexts.java" />
       </list>
     </option>
   </component>
@@ -384,6 +416,10 @@
               <option name="myItemId" value="itrovers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -426,6 +462,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itrovers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -683,7 +737,15 @@
       <created>1367243054104</created>
       <updated>1367243054104</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ITRConstants and SessionUtil added...">
+      <created>1367244082106</created>
+      <updated>1367244082106</updated>
+    </task>
+    <task id="LOCAL-00014" summary="UserDetailsService modified...">
+      <created>1367244157104</created>
+      <updated>1367244157104</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -725,8 +787,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -758,7 +820,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="ITRConstants and SessionUtil added..." />
+    <option name="LAST_COMMIT_MESSAGE" value="content and content text entity..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -783,6 +845,8 @@
     <MESSAGE value="freemarker added in appcontext" />
     <MESSAGE value="itr-dispatcher-servlet.xml updated" />
     <MESSAGE value="ITRConstants and SessionUtil added..." />
+    <MESSAGE value="UserDetailsService modified..." />
+    <MESSAGE value="content and content text entity..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -792,127 +856,137 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Token.java">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+        <state line="26" column="44" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/AuthorizationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+        <state line="8" column="39" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/BootStrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/BootStrapImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="33" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="43" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="40" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="68" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="27" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Authority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="43" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="12" column="13" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/AuthorizedGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Tag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+        <state line="11" column="12" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Content.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+        <state line="19" column="24" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/ContentTexts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="50" selection-start="2091" selection-end="2091" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/ITRConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+        <state line="13" column="43" selection-start="282" selection-end="282" vertical-scroll-proportion="0.2563805">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="44" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/aop/AuthenticationAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/aop/AuthorizationAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="52" selection-start="6682" selection-end="6682" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/AuthenticationAndAuthorizationDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/SecurityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/SecurityDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="67" selection-start="572" selection-end="572" vertical-scroll-proportion="-1.8793503">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
