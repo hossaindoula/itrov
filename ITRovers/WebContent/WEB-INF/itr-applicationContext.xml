@@ -71,6 +71,18 @@
         <property name="viewResolvers" ref="viewResolver" />
     </bean>
 
+    <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+        <property name="templateLoaderPath">
+            <value>/</value>
+        </property>
+        <property name="freemarkerSettings">
+            <props>
+                <prop key="template_exception_handler">rethrow</prop>
+                <prop key="number_format">0.########</prop>
+            </props>
+        </property>
+    </bean>
+
     <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
         <property name="suffix" value=".ftl" />
         <!-- if you want to use the Spring FreeMarker macros, set this property to true -->
