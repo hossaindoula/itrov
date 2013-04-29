@@ -4,9 +4,9 @@
  */
 package com.itrovers.service;
 
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.Token;
-import com.wings4.security.model.User;
+import com.itrovers.domain.AuthorizedGroups;
+import com.itrovers.domain.Token;
+import com.itrovers.domain.User;
 import java.util.List;
 
 /**
