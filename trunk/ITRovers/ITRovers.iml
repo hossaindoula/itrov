@@ -26,9 +26,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/WebContent/" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src" />
-        </sourceRoots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="javaeeApplication" name="javaEEApplication">
@@ -41,7 +39,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="sessionFactory" value="tradePlusDataSource" />
+          <unit-entry name="sessionFactory" />
         </datasource-map>
       </configuration>
     </facet>
@@ -58,6 +56,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Glassfish 3.1" level="application_server_libraries" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="sass-stdlib" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="Glassfish 3.1.2.2" level="application_server_libraries" />
   </component>
 </module>
 

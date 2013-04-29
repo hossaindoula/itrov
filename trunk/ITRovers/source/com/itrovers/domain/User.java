@@ -20,7 +20,6 @@ public class User implements Serializable {
     private int id;
     @OneToOne
     private Token token;
-    private boolean active;
 
     @ManyToMany
     private List<AuthorizedGroups> authorizedGroups;

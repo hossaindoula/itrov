@@ -50,7 +50,7 @@ public class AuthorizationToken {
 			
 			HttpSession session = SessionUtil.getSession();
 			
-			session.setAttribute(ERPConstants.SESSION_USER, principal);
+			session.setAttribute(ITRConstants.SESSION_USER, principal);
 			
 			authorizedGroups = principal.getAuthorizedGroups();
 			
@@ -66,7 +66,7 @@ public class AuthorizationToken {
 				}
 			}
 			
-			session.setAttribute(ERPConstants.SESSION_USER_FEATURES, grantedAuthorities);
+			session.setAttribute(ITRConstants.SESSION_USER_FEATURES, grantedAuthorities);
 		}
 		
 		// get the list of authorized groups, authorities and aspects and put them in session.
