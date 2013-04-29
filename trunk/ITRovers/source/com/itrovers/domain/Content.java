@@ -11,9 +11,9 @@ import javax.persistence.*;
  */
 @Entity
 public class Content {
-   @Id              // about us
-   @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int Id;
+    @Id              // about us
+    // @GeneratedValue(strategy = GenerationType.IDENTITY)
+   private int Id;
     private String contentName;
     private String contentHeader;
 

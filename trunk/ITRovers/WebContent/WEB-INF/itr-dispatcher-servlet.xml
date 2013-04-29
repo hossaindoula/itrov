@@ -15,8 +15,8 @@
 
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
 
-    <bean id="authenticationAspect" class="com.wings4.aop.AuthenticationAspect" />
-    <bean id="authorizationAspect" class="com.wings4.aop.AuthorizationAspect" />
+    <bean id="authenticationAspect" class="com.itrovers.aop.AuthenticationAspect" />
+    <bean id="authorizationAspect" class="com.itrovers.aop.AuthorizationAspect" />
 
     <!-- Enable the @AspectJ support -->
     <aop:aspectj-autoproxy proxy-target-class="true">
