@@ -27,7 +27,7 @@ import com.itrovers.util.SessionUtil;
 public class AuthenticationAspect {
 	
 	@Pointcut("within(@org.springframework.stereotype.Controller *) " +
-			"&& !within(@org.springframework.stereotype.Controller com.itrovers.controller.AuthenticationController) ")
+			"&& !within(@org.springframework.stereotype.Controller com.itrovers.controller.FrontEndController) ")
 	public void allControllers(){}
 	
 	@Pointcut("execution(* *(..))")

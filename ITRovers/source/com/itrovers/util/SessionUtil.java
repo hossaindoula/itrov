@@ -3,15 +3,14 @@ package com.itrovers.util;
 import java.util.List;
 
 import javax.servlet.http.HttpSession;
+import com.itrovers.domain.User;
+import com.itrovers.domain.Feature;
+import com.itrovers.domain.Authority;
+import com.itrovers.domain.AuthorizedGroups;
 
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import com.wings4.security.model.Feature;
-import com.wings4.security.model.Authority;
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.User;
-import com.wings4.util.ERPConstants;
 
 public class SessionUtil {
 	
@@ -25,9 +24,10 @@ public class SessionUtil {
 	 * @return User
 	 * 		The logged-in user object
 	 */
+
 	public static User getSessionUser(){
 		
-		User user = (User) getSession().getAttribute(ERPConstants.SESSION_USER);
+		User user = (User) getSession().getAttribute(ITRConstants.SESSION_USER);
 		if(user instanceof User){
 			return user;
 		}
@@ -41,7 +41,7 @@ public class SessionUtil {
 	 */
 	public static Long getSessionUserId(){
 		
-		Long userId = (Long) getSession().getAttribute(ERPConstants.SESSION_USER_ID);
+		Long userId = (Long) getSession().getAttribute(ITRConstants.SESSION_USER_ID);
 		if(userId instanceof Long){
 			return userId;
 		}
@@ -53,9 +53,11 @@ public class SessionUtil {
 	 * @return List<AuthorizedGroups>
 	 * 		The list of authorized user groups for the session user.
 	 */
+
+
 	public static List<AuthorizedGroups> getSessionUserAuthorizedGroups(){
 		
-		List<AuthorizedGroups>  authorizedGroups = (List<AuthorizedGroups>) getSession().getAttribute(ERPConstants.SESSION_USER_AUTHORIZED_GROUPS);
+		List<AuthorizedGroups>  authorizedGroups = (List<AuthorizedGroups>) getSession().getAttribute(ITRConstants.SESSION_USER_AUTHORIZED_GROUPS);
 		if(authorizedGroups != null){
 			return authorizedGroups;
 		}
@@ -69,7 +71,7 @@ public class SessionUtil {
 	 */
 	public static List<Authority> getSessionUserAuthorities(){
 		
-		List<Authority>  authorities = (List<Authority>) getSession().getAttribute(ERPConstants.SESSION_USER_AUTHORITIES);
+		List<Authority>  authorities = (List<Authority>) getSession().getAttribute(ITRConstants.SESSION_USER_AUTHORITIES);
 		if(authorities != null){
 			return authorities;
 		}
@@ -83,7 +85,7 @@ public class SessionUtil {
 	 */
 	public static List<Feature> getSessionUserFeatures(){
 		
-		List<Feature>  features = (List<Feature>) getSession().getAttribute(ERPConstants.SESSION_USER_FEATURES);
+		List<Feature>  features = (List<Feature>) getSession().getAttribute(ITRConstants.SESSION_USER_FEATURES);
 		if(features != null){
 			return features;
 		}
