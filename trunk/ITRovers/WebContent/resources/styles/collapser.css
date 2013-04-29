@@ -1,0 +1,15 @@
+﻿
+.expArrow{
+	padding-left: 20px;
+	background-image: url(../images/arrow-down.png);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	cursor:pointer;
+}
+.collArrow{
+	padding-left: 20px;
+	background: url(../images/arrow-up.png) no-repeat 0px 4px;
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	cursor:pointer;
+}

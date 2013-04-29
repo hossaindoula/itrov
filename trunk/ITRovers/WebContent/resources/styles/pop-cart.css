@@ -1,0 +1,140 @@
+﻿/*---------------view cart---------------*/
+.title{
+	color:#005581;
+	font-size:18px;
+	font-weight:bold;
+	display:block;
+	padding:10px 0;	
+}
+.cart-table {
+	border:1px solid #dbdbdb !important;
+}
+.cart-table td{
+	padding-left:5px;
+	border:1px solid #dbdbdb !important;
+}
+.cart-table-header {
+	font-size: 11px;
+	background-color:#dbdbdb ;
+	color:#000;
+}
+.cart-table a {
+	 color:gray;
+	 text-decoration:none;
+}
+.cart-table a:hover {
+	 color: #555856;
+}
+.cart-total {
+	float: right;
+	font-size: 11px;
+}
+.cart-total-caption {
+	font-weight:bold;
+}
+.cart-total-value {
+	text-align:right;
+}
+.margin-close{
+	margin:0 !important;
+}
+.laquinta-leftmenu-bar{
+	margin-top:5px;
+}
+.no-border {
+    border: medium none !important;
+}
+.form-heading span {
+	font-weight:normal;
+}
+.form-heading td{
+	height:25px;
+	padding-top:5px;	
+}
+.form-heading td{
+	height:25px;
+	padding-top:5px;	
+}
+.align-right {
+    text-align: right;
+}
+.margin-bottom-20{
+	margin-bottom:20px;	
+}
+.img-right a{
+	display:inline-block;
+}
+/*---------------End view cart---------------*/
+
+/*---------------Details page---------------*/
+.pop-detail{
+	width:700px !important;	
+}
+.pop-detail .pop-detail-img, .pop-detail-text{
+	float:left;
+}
+.pop-detail-img{
+	width:340px;
+	margin:10px;
+}
+.pop-detail-text{
+	width:300px;
+	margin:10px;
+}
+/*---------------End Details page---------------*/
+
+/*----------AddToCartPopup-----*/
+.pop-addtocart{
+	width:420px !important;
+}
+.pop-addtocart .pop-addtocart-img, .pop-addtocart-text{
+	float:left;
+}
+.pop-addtocart-img{
+	width:100px;
+	margin-left:10px;
+	float:left;
+}
+.pop-addtocart-text{
+	width:300px;	
+}
+.title-1{
+	color:#005581;
+	font-size:18px;
+	font-weight:bold;
+	display:block;
+	padding:10px ;	
+}
+.thankyou-pack{
+	color:#90470e;	
+}
+.thankyou-productname{
+	color:#005581;	
+}
+.cart-pop-button{
+	text-align:right;	
+}
+
+/*-------pop-add-a-new-address--------*/
+.pop-add-a-new-address{
+	/*width:360px !important;*/
+	margin-top:10px;
+}
+.pop-add-a-new-address div{
+	margin-left:20px;
+}
+.title-2{
+	color:#005581;
+	font-size:18px;
+	font-weight:bold;
+	display:block;
+	padding-bottom:10px ;	
+}
+.pop-changeP-left{
+	margin-left:20px;	
+}
+
+
+.pop-add-a-new-credit-card{
+	margin-left:10px;	
+}

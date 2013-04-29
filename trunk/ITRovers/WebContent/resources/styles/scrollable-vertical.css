@@ -1,0 +1,56 @@
+/* root element for scrollable */
+.vertical {  
+	
+	/* required settings */
+	position:relative;
+	overflow:hidden;	
+
+	/* vertical scrollers have typically larger height than width */	
+ height: 279px; 
+	width: 300px;
+}
+
+/* root element for scrollable items */
+.items {	
+	position:absolute;
+	
+	/* this time we have very large space for height */	
+/*	height:20000em;	
+*/	margin: 0px;
+}
+
+
+/* elements inside single item */
+.item img {
+	float:left;
+	margin-right:20px;
+	height:180px;
+	width:240px;
+}
+
+.item h3 {
+	margin:0 0 5px 0;
+	font-size:16px;
+	color:#456;
+	font-weight:normal;
+}
+
+/* the action buttons above the scrollable */
+.actions {
+	
+}
+
+.actions{
+	font-size:11px;		
+	cursor:pointer;
+	color:#666;
+}
+
+
+.disabled {
+visibility:hidden;
+}
+
+.next {
+}	
+
