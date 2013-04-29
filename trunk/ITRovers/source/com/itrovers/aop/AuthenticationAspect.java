@@ -6,8 +6,8 @@ import java.lang.reflect.Method;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.wings4.security.model.User;
-import com.wings4.util.ERPConstants;
+import com.itrovers.domain.User;
+import com.itrovers.util.ITRConstants;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
@@ -21,13 +21,13 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.wings4.security.SessionUtil;
+import com.itrovers.util.SessionUtil;
 
 @Aspect
 public class AuthenticationAspect {
 	
 	@Pointcut("within(@org.springframework.stereotype.Controller *) " +
-			"&& !within(@org.springframework.stereotype.Controller com.wings4.guest.AuthenticationController) ")
+			"&& !within(@org.springframework.stereotype.Controller com.itrovers.controller.AuthenticationController) ")
 	public void allControllers(){}
 	
 	@Pointcut("execution(* *(..))")
@@ -35,7 +35,7 @@ public class AuthenticationAspect {
 
 	@Around("allControllers() && methodPointcut()")
 	public Object proceedToAction(ProceedingJoinPoint proceedJoinPoint) throws Throwable {
-		if(SessionUtil.getSession().getAttribute(ERPConstants.SESSION_USER) instanceof User){
+		if(SessionUtil.getSession().getAttribute(ITRConstants.SESSION_USER) instanceof User){
             return proceedJoinPoint.proceed();
 		} else {
             return new ModelAndView("redirect:/");

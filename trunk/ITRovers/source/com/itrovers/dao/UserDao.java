@@ -2,9 +2,9 @@ package com.itrovers.dao;
 
 import java.util.List;
 
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.Token;
-import com.wings4.security.model.User;
+import com.itrovers.domain.AuthorizedGroups;
+import com.itrovers.domain.Token;
+import com.itrovers.domain.User;
 
 public interface UserDao {
 	

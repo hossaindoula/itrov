@@ -3,7 +3,7 @@ package com.itrovers.dao;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.wings4.security.model.*;
+import com.itrovers.domain.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Repository;

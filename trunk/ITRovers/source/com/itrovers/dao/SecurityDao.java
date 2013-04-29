@@ -2,10 +2,10 @@ package com.itrovers.dao;
 
 import java.util.List;
 
-import com.wings4.security.model.Feature;
-import com.wings4.security.model.Authority;
-import com.wings4.security.model.AuthorizedGroups;
-import com.wings4.security.model.Component;
+import com.itrovers.domain.Feature;
+import com.itrovers.domain.Authority;
+import com.itrovers.domain.AuthorizedGroups;
+import com.itrovers.domain.Component;
 
 public interface SecurityDao {
 	
