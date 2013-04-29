@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+                                               <!-- for spring framework-->
 
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -58,4 +58,31 @@
 
     </bean>
 
+    <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+
+    <!-- Freemarker configuration -->
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+        <property name="mediaTypes">
+            <map>
+                <entry key="xml" value="application/xml"/>
+                <entry key="html" value="text/html"/>
+            </map>
+        </property>
+        <property name="viewResolvers" ref="viewResolver" />
+    </bean>
+
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+        <property name="suffix" value=".ftl" />
+        <!-- if you want to use the Spring FreeMarker macros, set this property to true -->
+        <property name="exposeSpringMacroHelpers" value="true" />
+        <property name="exposeRequestAttributes">
+            <value>true</value>
+        </property>
+        <property name="exposeSessionAttributes">
+            <value>true</value>
+        </property>
+        <property name="requestContextAttribute" value="rc"/>
+    </bean>
+
+    <!-- Freemarker configuration -->
 </beans>
