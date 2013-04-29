@@ -12,13 +12,10 @@ import javax.persistence.*;
 @Entity
 public class Content {
     @Id              // about us
-    // @GeneratedValue(strategy = GenerationType.IDENTITY)
-   private int Id;
-    private String contentName;
-    private String contentHeader;
-
-    @Lob
-    private String contentDescription;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int Id;
+    private String title;
+    private String url;
 
     public int getId() {
         return Id;
@@ -28,27 +25,19 @@ public class Content {
         Id = id;
     }
 
-    public String getContentName() {
-        return contentName;
+    public String getTitle() {
+        return title;
     }
 
-    public void setContentName(String contentName) {
-        this.contentName = contentName;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getContentHeader() {
-        return contentHeader;
+    public String getUrl() {
+        return url;
     }
 
-    public void setContentHeader(String contentHeader) {
-        this.contentHeader = contentHeader;
-    }
-
-    public String getContentDescription() {
-        return contentDescription;
-    }
-
-    public void setContentDescription(String contentDescription) {
-        this.contentDescription = contentDescription;
+    public void setUrl(String url) {
+        this.url = url;
     }
 }
