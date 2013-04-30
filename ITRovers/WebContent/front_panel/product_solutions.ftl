@@ -1,4 +1,5 @@
-<?php $this->load->view($header); ?>
+<#import "{rc.getContextPath()}/template/guest_layout.ftl" as layout>
+<@layout.gen_app_layout "${PageTitle}" >
 	<section id="content">
 				<div class="container">
 					<div class="mainbody ">
@@ -20,5 +21,5 @@
 						</div>
 					</div>
 				</div>
-			</section> 
-<?php $this->load->view($footer); ?>
+			</section>
+</@layout.gen_app_layout>
