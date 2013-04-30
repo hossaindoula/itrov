@@ -2,704 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6546f58-0c84-40bf-8b92-3c0b836ccc29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ImageFlow" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ToolTip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/accordion-menu" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/adapters" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/collapsible" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/datepicker" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_loading.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_nav_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_nav_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_shadow_e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_shadow_n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_shadow_ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_shadow_nw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_shadow_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_shadow_se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_shadow_sw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_shadow_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_title_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_title_main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_title_over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancy_title_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancybox-x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancybox-y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/fancybox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/flip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/core" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/carousel/darkdots.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/carousel/darkdotsv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/carousel/darkh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/carousel/darkv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/carousel/lightdots.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/carousel/lightdotsv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/carousel/lighth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/carousel/lightv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/carousel" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/ab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/al.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/ar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/at.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/cbl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/cbr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/ctl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/ctr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel/transbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/darkpanel" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/button-blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/button-bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/button-italics.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/button-orderedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/button-strike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/button-unorderedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/dark-button-blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/dark-button-bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/dark-button-italics.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/dark-button-orderedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/dark-button-strike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/dark-button-unorderedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/light-button-blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/light-button-bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/light-button-italics.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/light-button-strike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor/menuarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/editor" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/ab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/al.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/ar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/at.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/cbl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/cbr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/ctl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/ctr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel/transbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/lightpanel" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/slider/darkh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/slider/darkv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/slider/lighth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/slider/lightv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/slider" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/t.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/timetable/darkh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/timetable/darkv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/timetable/lighth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/timetable/lightv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images/timetable" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jCrop" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jwplayer/player.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jwplayer/skins/beelden.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jwplayer/skins" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jwplayer/yt.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jwplayer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/maskedinput" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/modules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/img/backgrounds.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/img/buttons-disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/img/buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/img/delete.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/img/done.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/img/error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/img/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/img/transp50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.ui.plupload/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.ui.plupload/img/plupload-bw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.ui.plupload/img/plupload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.ui.plupload/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.ui.plupload" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.flash.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.silverlight.xap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/jquery" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/uploads" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/img/backgrounds.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/img/buttons-disabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/img/buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/img/delete.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/img/done.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/img/error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/img/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/img/transp50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.ui.plupload/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.ui.plupload/img/plupload-bw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.ui.plupload/img/plupload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.ui.plupload/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.ui.plupload" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.flash.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.silverlight.xap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/themes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/thikbox" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/img/sample.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autolink" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autoresize" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autosave/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autosave" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/bbcode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/contextmenu" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/directionality" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-cool.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-cry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-embarassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-frown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-innocent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-laughing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-sealed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-surprised.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-undecided.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img/smiley-yell.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/img/example.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example_dependency" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullscreen" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/iespell" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/insertdatetime" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/layer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/legacyoutput" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/lists" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/moxieplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/nonbreaking" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/noneditable" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/pagebreak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/preview/jscripts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/preview" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/print" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/save" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/spellchecker/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/spellchecker/img/wline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/spellchecker/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/spellchecker" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/tabfocus" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/visualchars" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/wordcount" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/colorpicker.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/flash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/iframe.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/quicktime.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/realmedia.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/shockwave.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/video.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img/windowsmedia.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/img/buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/img/items.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/img/menu_check.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/img/progress.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/img/tabs.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/highcontrast" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/img/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/langs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/skins/default" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/skins/o2k7/img" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/skins/o2k7" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/skins" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/utils" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ImageFlow/imageflow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ImageFlow/imageflow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ToolTip/jq.tools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ToolTip/jquery.qtip-1.0.0-rc3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ToolTip/jquery.qtip-1.0.0-rc3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ToolTip/jquery.tools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/accordion-menu/left-menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/accordionImageMenu-0.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/accordionImageMenu-0.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/adapters/mootools-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/adapters/mootools-adapter.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/adapters/prototype-adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/adapters/prototype-adapter.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/add-to-cart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/byslidemenu-2.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/byslidemenu_demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/cart-fragments.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/category-slide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/category-slide2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/collapsible/jquery.collapser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/comment-reply.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/confirm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/cute.slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/cute.transitions.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/datepicker/datepicker-ultimate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/datepicker/datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/datepicker/eye.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/datepicker/layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/datepicker/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/demo_panel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/jquery.fancybox-1.3.4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/jquery.fancybox-1.3.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fancybox/jquery.fancybox-1.3.4.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/fileUploadApp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/flexigrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/flexigrid.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/flip/jquery-1.4.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/flip/jquery-ui-1.7.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/flip/jquery.flip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/core/core.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/core/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/widgets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/widgets.debug.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/widgets.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/1.7.0/widgets/widgets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/map.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/glow/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/grid.base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/grid.locale-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/highcharts.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jCrop/jquery.Jcrop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jCrop/jquery.Jcrop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jCrop/jqueryJcrop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jqgrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-1.3.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-1.3.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-1.4.1-vsdoc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-1.4.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-1.4.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-1.4.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-1.4.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-fluid16.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-ui-1.8.14.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.alphanumeric.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.autoclear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.autoclear.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.bgpos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.block.ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.blockUI.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.carouFredSel-6.0.4-packed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.chrono.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.coda-slider-2.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.coda.slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.contextmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.cookie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.countdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.dependClass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.drawinglibrary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.easing-1.3.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.easing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.effect.ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.fancybox-1.3.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.fancybox-1.3.4.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.fileupload-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.fileupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.hrzAccordion.examples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.hrzAccordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.hrzAccordion.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.iframe-transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.iosslider.kalypso.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.iosslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.jBreadCrumb.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.miniColors.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.mousewheel-3.0.4.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.paginate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.pikachoose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.placeholder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.prettyPhoto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.qtip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.simplemodal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.slider-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.tablednd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.themepunch.plugins.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.themepunch.revolution.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.tmpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.treeview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.ui.dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.url.util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery.v4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jquery_for_megamenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jwplayer/jwplayer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/jwplayer/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/lavalamp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/maskedinput/jquery.maskedinput-1.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/megamenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/modernizr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/modules/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/modules/exporting.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/mootools-1.2.4.4-more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/mootools-1.2.5-core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/panelist.menu.effect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/css/jquery.plupload.queue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.plupload.queue/jquery.plupload.queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.ui.plupload/css/jquery.ui.plupload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/jquery.ui.plupload/jquery.ui.plupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.browserplus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.gears.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.html4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.html5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload-js/plupload.silverlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/custom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/dump.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/jquery/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/jquery/jquery_ui_widget.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/jquery/queue_widget.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/jquery/s3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/examples/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.plupload.queue/jquery.plupload.queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.ui.plupload/css/jquery.ui.plupload.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/jquery.ui.plupload/jquery.ui.plupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.browserplus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.gears.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.html4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.html5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/js/plupload.silverlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/plupload/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/raphael-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/superfish_menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/themes/dark-blue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/themes/dark-green.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/themes/gray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/themes/grid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/thikbox/thickbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/thikbox/thickbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/jquery.tinymce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr/css/advhr.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr/js/rule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advhr/rule.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/css/advimage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/image.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/js/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advimage/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink/css/advlink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink/js/advlink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlink/link.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlist/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/advlist/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autolink/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autolink/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autoresize/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autoresize/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autosave/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autosave/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/autosave/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/bbcode/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/bbcode/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/contextmenu/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/contextmenu/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/directionality/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/directionality/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/emotions.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/js/emotions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/emotions/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/dialog.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/js/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example_dependency/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/example_dependency/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage/css/fullpage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage/fullpage.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage/js/fullpage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullpage/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullscreen/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullscreen/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/fullscreen/fullscreen.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/iespell/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/iespell/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/inlinepopups/template.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/insertdatetime/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/layer/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/layer/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/legacyoutput/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/lists/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/lists/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/css/media.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/js/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/js/media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/media/media.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/nonbreaking/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/noneditable/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/noneditable/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/pagebreak/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/pagebreak/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste/js/pastetext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste/js/pasteword.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste/pastetext.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/paste/pasteword.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/preview/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/preview/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/preview/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/preview/jscripts/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/preview/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/print/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/print/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/save/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/save/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace/css/searchreplace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace/js/searchreplace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/searchreplace/searchreplace.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/spellchecker/css/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/spellchecker/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/spellchecker/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style/css/props.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style/js/props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/style/props.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/tabfocus/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/tabfocus/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/cell.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/css/cell.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/css/row.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/css/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/js/cell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/js/merge_cells.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/js/row.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/js/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/merge_cells.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/row.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/table/table.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/blank.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/css/template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/js/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/template/template.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/visualchars/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/visualchars/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/wordcount/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/wordcount/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/abbr.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/acronym.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/attributes.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/cite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/css/popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/del.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/ins.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/js/abbr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/js/acronym.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/js/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/js/cite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/js/del.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/js/ins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/about.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/anchor.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/charmap.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/color_picker.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/editor_template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/editor_template_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/image.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/js/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/js/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/js/charmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/js/color_picker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/js/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/js/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/js/source_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/link.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/shortcuts.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/default/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/highcontrast/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/highcontrast/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/highcontrast/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/advanced/source_editor.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/editor_template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/editor_template_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/skins/default/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/skins/default/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/skins/o2k7/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/themes/simple/skins/o2k7/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/tiny_mce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/tiny_mce_popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/tiny_mce_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/utils/editable_selects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/utils/form_utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/utils/mctabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/tiny_mce/utils/validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/twitter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/typecast.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/typecast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ui.jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/ui.multiselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/woocommerce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/znscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/scripts/znscript_old.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/template/header.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITRovers.iws" />
@@ -812,25 +115,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jdbc.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="15" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="24" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+            <state line="59" column="30" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left-menu.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Token.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Token.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="50" selection-start="655" selection-end="655" vertical-scroll-proportion="-10.777778">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="left-menu.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/resources/scripts/accordion-menu/left-menu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -839,19 +142,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java">
+      <file leaf-file-name="header.ftl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/template/header.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="34" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="342" column="11" selection-start="20896" selection-end="20896" vertical-scroll-proportion="0.9749104">
+              <folding>
+                <marker date="1367316550723" expanded="true" signature="88:132" placeholder="..." />
+                <marker date="1367316550723" expanded="true" signature="166:210" placeholder="..." />
+                <marker date="1367316550723" expanded="true" signature="244:282" placeholder="..." />
+                <marker date="1367316550723" expanded="true" signature="3552:3681" placeholder="..." />
+                <marker date="1367316550723" expanded="true" signature="3781:4289" placeholder="..." />
+                <marker date="1367316550723" expanded="true" signature="3800:3923" placeholder="{...}" />
+                <marker date="1367316550723" expanded="true" signature="3814:3917" placeholder="{&quot;i&quot;: 8...}" />
+                <marker date="1367316550723" expanded="true" signature="3987:4280" placeholder="{...}" />
+                <marker date="1367316550723" expanded="true" signature="4001:4052" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationAspect.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/aop/AuthenticationAspect.java">
+      <file leaf-file-name="SessionUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="97" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+            <state line="6" column="34" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -921,7 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationFilter.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/service/BootStrap.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/service/BootStrapImpl.java" />
@@ -937,6 +249,7 @@
         <option value="$PROJECT_DIR$/source/com/itrovers/aop/AuthenticationAspect.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java" />
+        <option value="$PROJECT_DIR$/WebContent/template/header.ftl" />
       </list>
     </option>
   </component>
@@ -1055,6 +368,10 @@
               <option name="myItemId" value="WebContent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1071,6 +388,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1546,12 +877,16 @@
       <created>1367265843106</created>
       <updated>1367265843106</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="scripts added in webcontent">
+      <created>1367313684127</created>
+      <updated>1367313684127</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1566,12 +901,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.258547" sideWeight="0.6704675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.258547" sideWeight="0.6704675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1579,7 +915,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1620,7 +955,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="scripts added in webcontent" />
+    <option name="LAST_COMMIT_MESSAGE" value="template modified.. header" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1649,6 +984,7 @@
     <MESSAGE value="content and content text entity..." />
     <MESSAGE value="Lots of changes done .. glassfish deployment and others" />
     <MESSAGE value="scripts added in webcontent" />
+    <MESSAGE value="template modified.. header" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1658,16 +994,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Content.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/ContentTexts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Tag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="12" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" />
@@ -1742,9 +1068,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="50" selection-start="655" selection-end="655" vertical-scroll-proportion="-10.777778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+        <state line="59" column="30" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1753,6 +1086,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/template/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="342" column="11" selection-start="20896" selection-end="20896" vertical-scroll-proportion="0.9749104">
+          <folding>
+            <marker date="1367316550723" expanded="true" signature="88:132" placeholder="..." />
+            <marker date="1367316550723" expanded="true" signature="166:210" placeholder="..." />
+            <marker date="1367316550723" expanded="true" signature="244:282" placeholder="..." />
+            <marker date="1367316550723" expanded="true" signature="3552:3681" placeholder="..." />
+            <marker date="1367316550723" expanded="true" signature="3781:4289" placeholder="..." />
+            <marker date="1367316550723" expanded="true" signature="3800:3923" placeholder="{...}" />
+            <marker date="1367316550723" expanded="true" signature="3814:3917" placeholder="{&quot;i&quot;: 8...}" />
+            <marker date="1367316550723" expanded="true" signature="3987:4280" placeholder="{...}" />
+            <marker date="1367316550723" expanded="true" signature="4001:4052" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
