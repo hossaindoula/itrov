@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6546f58-0c84-40bf-8b92-3c0b836ccc29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/template/header.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/approach.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/awards.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/careers.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/clients.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/contact_us.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/executive_team.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/history.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/industry_solutions.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/locations.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/management_team.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/news.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/our_story.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/our_work.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/people.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/web_hosting.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/welcome.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/template/footer.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITRovers.iws" />
@@ -142,10 +162,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.ftl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/template/header.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="342" column="11" selection-start="20896" selection-end="20896" vertical-scroll-proportion="0.9749104">
+            <state line="296" column="158" selection-start="18322" selection-end="18322" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1367316550723" expanded="true" signature="88:132" placeholder="..." />
                 <marker date="1367316550723" expanded="true" signature="166:210" placeholder="..." />
@@ -161,28 +181,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="footer.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/template/footer.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="309" column="7" selection-start="28086" selection-end="28086" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="approach.ftl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/front_panel/approach.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SessionUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="34" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorizationToken.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="52" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animate.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/resources/styles/animate.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -234,7 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationFilter.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/service/BootStrap.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/service/BootStrapImpl.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/service/SecurityService.java" />
@@ -250,6 +269,7 @@
         <option value="$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java" />
         <option value="$PROJECT_DIR$/WebContent/template/header.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/template/footer.ftl" />
       </list>
     </option>
   </component>
@@ -501,11 +521,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ITRovers\WebContent\front_panel" />
       <recent name="C:\ITRovers\WebContent\resources" />
       <recent name="C:\ITRovers\WebContent\resources\styles" />
       <recent name="F:\ITRovers\source\com\itrovers\util" />
       <recent name="F:\ITRovers\source\com\itrovers\domain" />
-      <recent name="F:\ITRovers\source\com\itrovers\dao" />
     </key>
   </component>
   <component name="RunManager" selected="Glassfish Server.Glassfish 3.1.2.2">
@@ -881,12 +901,16 @@
       <created>1367313684127</created>
       <updated>1367313684127</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="template modified.. header">
+      <created>1367316627106</created>
+      <updated>1367316627106</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -907,7 +931,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.258547" sideWeight="0.6704675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.258547" sideWeight="0.6704675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -955,7 +979,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="template modified.. header" />
+    <option name="LAST_COMMIT_MESSAGE" value="template modified.. header, footer and front_panel" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -985,6 +1009,7 @@
     <MESSAGE value="Lots of changes done .. glassfish deployment and others" />
     <MESSAGE value="scripts added in webcontent" />
     <MESSAGE value="template modified.. header" />
+    <MESSAGE value="template modified.. header, footer and front_panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -994,16 +1019,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="40" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" />
@@ -1091,7 +1106,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/template/header.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="342" column="11" selection-start="20896" selection-end="20896" vertical-scroll-proportion="0.9749104">
+        <state line="296" column="158" selection-start="18322" selection-end="18322" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1367316550723" expanded="true" signature="88:132" placeholder="..." />
             <marker date="1367316550723" expanded="true" signature="166:210" placeholder="..." />
@@ -1103,6 +1118,20 @@
             <marker date="1367316550723" expanded="true" signature="3987:4280" placeholder="{...}" />
             <marker date="1367316550723" expanded="true" signature="4001:4052" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/template/footer.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="309" column="7" selection-start="28086" selection-end="28086" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/approach.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
