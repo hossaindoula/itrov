@@ -1,4 +1,5 @@
-<?php $this->load->view($header); ?>
+<#import "{rc.getContextPath()}/template/guest_layout.ftl" as layout>
+<@layout.gen_app_layout "${PageTitle}" >
 	<section id="content">
 	<div class="container">
 	<div class="row ">
@@ -169,4 +170,4 @@ Curabitur fringilla ipsum id quam lacinia venenatis.</p>
 			</ul>
 		</div>
 	</div><div class="row "><div class="span12"><div class="keywordbox">just some keywords here, services or what any text you want</div></div></div></div></section><!-- end #content -->
-<?php $this->load->view($footer); ?>
+</@layout.gen_app_layout>

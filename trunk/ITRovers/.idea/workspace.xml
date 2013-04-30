@@ -2,28 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6546f58-0c84-40bf-8b92-3c0b836ccc29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/approach.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/awards.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/careers.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/clients.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/contact_us.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/executive_team.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/history.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/industry_solutions.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/locations.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/management_team.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/news.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/our_story.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/our_work.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/people.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/web_hosting.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/welcome.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/template/footer.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/template/guest_layout.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/approach.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/approach.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/awards.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/awards.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/careers.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/careers.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/clients.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/clients.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/contact_us.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/contact_us.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/executive_team.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/executive_team.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/history.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/history.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/industry_solutions.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/industry_solutions.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/locations.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/locations.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/management_team.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/management_team.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/news.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/news.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/our_story.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/our_story.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/our_work.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/our_work.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/people.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/people.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/web_hosting.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/web_hosting.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/welcome.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/welcome.ftl" />
     </list>
     <ignored path="ITRovers.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -181,19 +181,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.ftl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="footer.ftl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/template/footer.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="309" column="7" selection-start="28086" selection-end="28086" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="approach.ftl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/front_panel/approach.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="309" column="7" selection-start="28086" selection-end="28086" vertical-scroll-proportion="0.9749104">
               <folding />
             </state>
           </provider>
@@ -203,24 +194,6 @@
         <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="34" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="byslide.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/resources/styles/byslide.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrontEndController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -254,22 +227,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/com/itrovers/service/BootStrap.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/service/BootStrapImpl.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/service/SecurityService.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/domain/Tag.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/domain/Content.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/domain/ContentTexts.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/sun-web.xml" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/domain/User.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/aop/AuthenticationAspect.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java" />
-        <option value="$PROJECT_DIR$/WebContent/template/header.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/template/footer.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/contact_us.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/executive_team.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/history.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/industry_solutions.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/locations.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/management_team.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/news.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/our_story.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/our_work.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/people.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/web_hosting.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/welcome.ftl" />
       </list>
     </option>
   </component>
@@ -424,6 +397,24 @@
               <option name="myItemId" value="WebContent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -526,6 +517,9 @@
       <recent name="C:\ITRovers\WebContent\resources\styles" />
       <recent name="F:\ITRovers\source\com\itrovers\util" />
       <recent name="F:\ITRovers\source\com\itrovers\domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ITRovers\WebContent\template" />
     </key>
   </component>
   <component name="RunManager" selected="Glassfish Server.Glassfish 3.1.2.2">
@@ -905,7 +899,11 @@
       <created>1367316627106</created>
       <updated>1367316627106</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="template modified.. header, footer and front_panel">
+      <created>1367318186106</created>
+      <updated>1367318186106</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -931,7 +929,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.258547" sideWeight="0.6704675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.258547" sideWeight="0.6704675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1019,118 +1017,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/executive_team.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/sun-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/aop/AuthenticationAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="97" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="52" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/resources/styles/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/resources/styles/byslide.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="38" vertical-scroll-proportion="-0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/SessionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+        <state line="182" column="56" selection-start="10392" selection-end="10392" vertical-scroll-proportion="0.8742294">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Token.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/history.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="50" selection-start="655" selection-end="655" vertical-scroll-proportion="-10.777778">
+        <state line="21" column="25" selection-start="1179" selection-end="1180" vertical-scroll-proportion="0.4401973">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/industry_solutions.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="30" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
+        <state line="24" column="25" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.50308263">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/resources/scripts/accordion-menu/left-menu.js">
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="63" column="25" selection-start="4749" selection-end="4749" vertical-scroll-proportion="0.8742294">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/header.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="296" column="158" selection-start="18322" selection-end="18322" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1367316550723" expanded="true" signature="88:132" placeholder="..." />
-            <marker date="1367316550723" expanded="true" signature="166:210" placeholder="..." />
-            <marker date="1367316550723" expanded="true" signature="244:282" placeholder="..." />
-            <marker date="1367316550723" expanded="true" signature="3552:3681" placeholder="..." />
-            <marker date="1367316550723" expanded="true" signature="3781:4289" placeholder="..." />
-            <marker date="1367316550723" expanded="true" signature="3800:3923" placeholder="{...}" />
-            <marker date="1367316550723" expanded="true" signature="3814:3917" placeholder="{&quot;i&quot;: 8...}" />
-            <marker date="1367316550723" expanded="true" signature="3987:4280" placeholder="{...}" />
-            <marker date="1367316550723" expanded="true" signature="4001:4052" placeholder="{...}" />
-          </folding>
+        <state line="64" column="25" selection-start="4305" selection-end="4305" vertical-scroll-proportion="0.8742294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/locations.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.4192355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/management_team.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="25" selection-start="10392" selection-end="10392" vertical-scroll-proportion="0.8742294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="25" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.58692974">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/news.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="25" selection-start="10379" selection-end="10379" vertical-scroll-proportion="0.8742294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/our_story.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="25" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.48212084">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/our_work.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.50308263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/people.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="25" selection-start="10379" selection-end="10379" vertical-scroll-proportion="0.8742294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.50308263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/web_hosting.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="25" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.81750923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/welcome.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="25" selection-start="18179" selection-end="18179" vertical-scroll-proportion="0.8742294">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/template/footer.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="7" selection-start="28086" selection-end="28086" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/approach.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="309" column="7" selection-start="28086" selection-end="28086" vertical-scroll-proportion="0.9749104">
           <folding />
         </state>
       </provider>
