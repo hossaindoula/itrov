@@ -23,16 +23,16 @@ public class FrontEndController {
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView ourStory(){
-        Map<String,Object> our_storyModel = new HashMap<String, Object>();
+        Map<String,Object> ourStoryModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/our_story", our_storyModel);
+        return new ModelAndView("/our_story", ourStoryModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView our_work(){
-        Map<String,Object> our_workModel = new HashMap<String, Object>();
+    public ModelAndView ourWork(){
+        Map<String,Object> ourWorkModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/our_work", our_workModel);
+        return new ModelAndView("/our_work", ourWorkModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
@@ -43,10 +43,10 @@ public class FrontEndController {
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView contact_us(){
-        Map<String,Object> contact_usModel = new HashMap<String, Object>();
+    public ModelAndView contactUs(){
+        Map<String,Object> contactUsModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/contact_us", contact_usModel);
+        return new ModelAndView("/contact_us", contactUsModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
@@ -82,44 +82,44 @@ public class FrontEndController {
         return new ModelAndView("/careers", careersModel);
     }
     @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView executive_team(){
-        Map<String,Object> executive_teamModel = new HashMap<String, Object>();
+    public ModelAndView executiveTeam(){
+        Map<String,Object> executiveTeamModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/executive_team", executive_teamModel);
+        return new ModelAndView("/executive_team", executiveTeamModel);
     }
     @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView industry_solutions(){
-        Map<String,Object> industry_solutionsModel = new HashMap<String, Object>();
+    public ModelAndView industrySolutions(){
+        Map<String,Object> industrySolutionsModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/industry_solutions", industry_solutionsModel);
-    }
-
-    @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView integrated_marketing(){
-        Map<String,Object> integrated_marketingModel = new HashMap<String, Object>();
-
-        return new ModelAndView("/integrated_marketing", integrated_marketingModel);
+        return new ModelAndView("/industry_solutions", industrySolutionsModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView interactive_services(){
-        Map<String,Object> interactive_servicesModel = new HashMap<String, Object>();
+    public ModelAndView integratedMarketing(){
+        Map<String,Object> integratedMarketingModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/interactive_services", interactive_servicesModel);
+        return new ModelAndView("/integrated_marketing", integratedMarketingModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView management_team(){
-        Map<String,Object> management_teamModel = new HashMap<String, Object>();
+    public ModelAndView interactiveServices(){
+        Map<String,Object> interactiveServicesModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/management_team", management_teamModel);
+        return new ModelAndView("/interactive_services", interactiveServicesModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView marketing_innovation(){
-        Map<String,Object> marketing_innovationModel = new HashMap<String, Object>();
+    public ModelAndView managementTeam(){
+        Map<String,Object> managementTeamModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/marketing_innovation", marketing_innovationModel);
+        return new ModelAndView("/management_team", managementTeamModel);
+    }
+
+    @RequestMapping(method = RequestMethod.GET)
+    public ModelAndView marketingInnovation(){
+        Map<String,Object> marketingInnovationModel = new HashMap<String, Object>();
+
+        return new ModelAndView("/marketing_innovation", marketingInnovationModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
@@ -137,17 +137,17 @@ public class FrontEndController {
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView product_solutions(){
-        Map<String,Object> product_solutionsModel = new HashMap<String, Object>();
+    public ModelAndView productSolutions(){
+        Map<String,Object> productSolutionsModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/product_solutions", product_solutionsModel);
+        return new ModelAndView("/product_solutions", productSolutionsModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView web_hosting(){
-        Map<String,Object> web_hostingModel = new HashMap<String, Object>();
+    public ModelAndView webHosting(){
+        Map<String,Object> webHostingModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/web_hosting", web_hostingModel);
+        return new ModelAndView("/web_hosting", webHostingModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
