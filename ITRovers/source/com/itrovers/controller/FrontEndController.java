@@ -21,11 +21,13 @@ import java.util.Map;
 @RequestMapping("/")
 public class FrontEndController {
 
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET, value="ourStory.itr")
     public ModelAndView ourStory(){
         Map<String,Object> ourStoryModel = new HashMap<String, Object>();
+        ourStoryModel.put("PageTitle", "Our Story");
+        ourStoryModel.put("SubTitle", "Action");
 
-        return new ModelAndView("/our_story", ourStoryModel);
+        return new ModelAndView("front_panel/our_story", ourStoryModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
