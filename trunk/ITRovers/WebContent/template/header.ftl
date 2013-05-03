@@ -5,34 +5,34 @@
 	lang="en-US" class="isie ie9 no-js"> <![endif]--> <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en-US" class="no-js"> <!--<![endif]-->
 <head>
-    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}styles/css/main_design.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}styles/css/extra_design.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}styles/css/more_design.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}/styles/css/main_design.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}/styles/css/extra_design.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}/styles/css/more_design.css" media="all" />
     <title> ITRovers </title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <!-- <link rel="pingback" href="http://hogash-demo.com/kallyas_wp/xmlrpc.php" /> -->
-    <link rel="icon" href="${rc.getContextPath()}styles/images/favicon.png" type="image/x-ico"/>
+    <link rel="icon" href="${rc.getContextPath()}/styles/images/favicon.png" type="image/x-ico"/>
     <!-- <link rel="alternate" type="application/rss+xml" title="IT Rovers Product; Feed" href="http://hogash-demo.com/kallyas_wp/feed/" />
          <link rel="alternate" type="application/rss+xml" title="IT Rovers Project" href="http://hogash-demo.com/kallyas_wp/comments/feed/" />
          <link rel="alternate" type="application/rss+xml" title="IT Rovers Project" href="http://hogash-demo.com/kallyas_wp/about-us/feed/" /> -->
-    <link rel='stylesheet' id='Lato_default-css'  href='${rc.getContextPath()}styles/css/googleapis_design.css' type='text/css' media='screen' />
-    <link rel='stylesheet' id='Open+Sans_default-css'  href='${rc.getContextPath()}styles/css/googleapis_font_design.css' type='text/css' media='screen' />
-    <link rel='stylesheet' id='Open+Sans-css'  href='${rc.getContextPath()}styles/css/googleapis_des.css' type='text/css' media='all' />
-    <script type='text/javascript' src='${rc.getContextPath()}styles/css/js/comment-reply.min.js'></script>
+    <link rel='stylesheet' id='Lato_default-css'  href='${rc.getContextPath()}/styles/css/googleapis_design.css' type='text/css' media='screen' />
+    <link rel='stylesheet' id='Open+Sans_default-css'  href='${rc.getContextPath()}/styles/css/googleapis_font_design.css' type='text/css' media='screen' />
+    <link rel='stylesheet' id='Open+Sans-css'  href='${rc.getContextPath()}/styles/css/googleapis_des.css' type='text/css' media='all' />
+    <script type='text/javascript' src='${rc.getContextPath()}/styles/css/js/comment-reply.min.js'></script>
     <script type='text/javascript' src='js/modernizr.min.js'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var CSSettings = {"pluginPath":"http:\/\/hogash-demo.com\/kallyas_wp\/wp-content\/plugins\/CuteSlider"};
         /* ]]> */
     </script>
-    <script type='text/javascript' src='${rc.getContextPath()}scripts/cute.slider.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}scripts/cute.transitions.all.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}scripts/respond.min.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}scripts/jquery.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}scripts/jquery.themepunch.plugins.min.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}scripts/jquery.themepunch.revolution.min.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/scripts/cute.slider.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/scripts/cute.transitions.all.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/scripts/respond.min.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/scripts/jquery.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/scripts/jquery.themepunch.plugins.min.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/scripts/jquery.themepunch.revolution.min.js'></script>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="rsd/xmlrpc.xml" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="rsd/wlwmanifest.xml" />
     <!-- <link rel='prev' title='PAGE HEADER FOR EASTER' href='http://hogash-demo.com/kallyas_wp/page-header-for-easter/' />
