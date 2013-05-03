@@ -15,13 +15,23 @@
 
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
 
-    <bean id="authenticationAspect" class="com.itrovers.aop.AuthenticationAspect" />
-    <bean id="authorizationAspect" class="com.itrovers.aop.AuthorizationAspect" />
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <!-- 				<prop key="/consumer/*">consumerController</prop> -->
+                <!-- 				<prop key="/admin/*">adminController</prop> -->
+                <!-- 				<prop key="/security/*">securityController</prop> -->
+            </props>
+        </property>
+    </bean>
+
+    <!-- <bean id="authenticationAspect" class="com.itrovers.aop.AuthenticationAspect" />
+    <bean id="authorizationAspect" class="com.itrovers.aop.AuthorizationAspect" />   -->
 
     <!-- Enable the @AspectJ support -->
-    <aop:aspectj-autoproxy proxy-target-class="true">
+    <!-- <aop:aspectj-autoproxy proxy-target-class="true">
         <aop:include name="authenticationAspect" />
         <aop:include name="authorizationAspect" />
-    </aop:aspectj-autoproxy>
+    </aop:aspectj-autoproxy>       -->
 
 </beans>
