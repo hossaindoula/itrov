@@ -34,7 +34,7 @@
 <div class="loginpanel">
     <div class="loginpanelinner">
         <div class="logo animate0 bounceIn"><img src="images/logo.png" alt="" /></div>
-        <form id="login" action="dashboard.html" method="post">
+        <form id="login" action="authenticate.itr" method="post">
             <div class="inputwrapper login-alert">
                 <div class="alert alert-error">Invalid username or password</div>
             </div>
@@ -56,7 +56,7 @@
 </div><!--loginpanel-->
 
 <div class="loginfooter">
-    <p>&copy; 2013. Shamcey Admin Template. All Rights Reserved.</p>
+    <p>&copy; 2013. ITRovers PTY LTD. All Rights Reserved.</p>
 </div>
 
 </body>
