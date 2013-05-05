@@ -197,7 +197,7 @@
 <div id="page_wrapper">
     <header id="header" class="style2">
         <div class="container">
-            <h3 id="logo"><a href="/itrovers"><img src="<?php echo base_url();?>styles/images/logo_header.png" alt="ITRovers" /></a></h3>
+            <h3 id="logo"><a href="${rc.getContextPath()}"><img src="${rc.getContextPath()}/resources/styles/images/logo_header.png" alt="ITRovers" /></a></h3>
             <ul class="topnav navLeft">
                 <li class="drop">
                     <a id="mycartbtn" href="http://hogash-demo.com/kallyas_wp/cart/" title="View your shopping cart"> MY CART </a>
@@ -240,10 +240,10 @@
             </div>
             <nav id="main_menu" class="">
                 <ul id="menu-main-menu" class="sf-menu nav clearfix">
-                    <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27">
-                        <a title="Home" href="/ITRovers">HOME</a>
+                    <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27 ">
+                        <a title="Home" href="${rc.getContextPath()}">HOME</a>
                     </li>
-                    <li id="menu-item-957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-957">
+                    <li id="menu-item-957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-957 ">
                         <a href="#">ABOUT US</a>
                         <ul class="sub-menu">
                             <li id="menu-item-956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-956">
