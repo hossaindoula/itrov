@@ -14,6 +14,7 @@
 
     <bean id="itroversDataSource" class = "org.springframework.jdbc.datasource.DriverManagerDataSource" p:driverClassName = "${jdbc.driverClassName}" p:url="${jdbc.url}" p:username="${jdbc.username}" p:password="${jdbc.password}"/>
 
+    <!-- hibernatetemplate is for query for JPA specific Entities -->
     <bean id="jpaTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
         <property name="sessionFactory">
             <ref bean="sessionFactory"/>
@@ -21,6 +22,7 @@
 
     </bean>
 
+    <!-- Hibernate Transaction for JPA specific Entities -->
     <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
         <property name="sessionFactory">
             <ref bean="sessionFactory"/>
@@ -28,13 +30,15 @@
 
     </bean>
 
+
+    <!-- Hibernate configuration for corresponding cfg.xml and JPA specific Annotation classes -->
     <bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
           <property name="dataSource" ref="itroversDataSource"/>
 
           <property name="hibernateProperties">
              <props>
                  <prop key="hibernate.dialect"> ${jdbc.hibernate.dialect} </prop>
-                 <prop key="hibernate.hbm2ddl.auto"> update </prop>
+                 <prop key="hibernate.hbm2ddl.auto"> ${hibernate.ddl.auto} </prop>
                  <prop key="hibernate.generate_statistics"> true </prop>
                  <prop key="hibernate.show_sql"> true </prop>
                  <prop key="org.hibernate.type"> true </prop>

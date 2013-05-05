@@ -41,7 +41,7 @@
         <session-timeout> 1 </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>home.itr</welcome-file>
+        <welcome-file>/home.itr</welcome-file>
     </welcome-file-list>
 
 </web-app>

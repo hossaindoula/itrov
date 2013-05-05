@@ -1,12 +1,12 @@
-<#import "template/guest_layout.ftl" as layout>
+<#import "../template/guest_layout.ftl" as layout>
 <@layout.gen_app_layout "${PageTitle}" >
 	<section id="content">
 				<div class="container">
 					<div class="mainbody ">
 						<div class="row ">
 							<div class="span12">
-								<h1 class="page-title"><?php echo $title; ?></h1>
-								<h2 class="subtitle"><?php echo $subtitle; ?></h2>
+								<h1 class="page-title">${PageTitle}</h1>
+								<h2 class="subtitle">${SubTitle}</h2>
 								
 								<p>
 									<strong> 

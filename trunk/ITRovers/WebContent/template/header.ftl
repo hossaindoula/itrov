@@ -5,9 +5,9 @@
 	lang="en-US" class="isie ie9 no-js"> <![endif]--> <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en-US" class="no-js"> <!--<![endif]-->
 <head>
-    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}resources/styles/main_design.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}resources/styles/extra_design.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}resources/styles/more_design.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}/resources/styles/main_design.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}/resources/styles/extra_design.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}/resources/styles/more_design.css" media="all" />
     <title> ITRovers </title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -17,22 +17,22 @@
     <!-- <link rel="alternate" type="application/rss+xml" title="IT Rovers Product; Feed" href="http://hogash-demo.com/kallyas_wp/feed/" />
          <link rel="alternate" type="application/rss+xml" title="IT Rovers Project" href="http://hogash-demo.com/kallyas_wp/comments/feed/" />
          <link rel="alternate" type="application/rss+xml" title="IT Rovers Project" href="http://hogash-demo.com/kallyas_wp/about-us/feed/" /> -->
-    <link rel='stylesheet' id='Lato_default-css'  href='${rc.getContextPath()}resources/styles/googleapis_design.css' type='text/css' media='screen' />
-    <link rel='stylesheet' id='Open+Sans_default-css'  href='${rc.getContextPath()}resources/styles/googleapis_font_design.css' type='text/css' media='screen' />
-    <link rel='stylesheet' id='Open+Sans-css'  href='${rc.getContextPath()}resources/styles/googleapis_des.css' type='text/css' media='all' />
-    <script type='text/javascript' src='${rc.getContextPath()}resources/styles/js/comment-reply.min.js'></script>
-    <script type='text/javascript' src='js/modernizr.min.js'></script>
+    <link rel='stylesheet' id='Lato_default-css'  href='${rc.getContextPath()}/resources/styles/googleapis_design.css' type='text/css' media='screen' />
+    <link rel='stylesheet' id='Open+Sans_default-css'  href='${rc.getContextPath()}/resources/styles/googleapis_font_design.css' type='text/css' media='screen' />
+    <link rel='stylesheet' id='Open+Sans-css'  href='${rc.getContextPath()}/resources/styles/googleapis_des.css' type='text/css' media='all' />
+    <script type='text/javascript' src='${rc.getContextPath()}/resources/styles/js/comment-reply.min.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/resources/scripts/modernizr.min.js'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var CSSettings = {"pluginPath":"http:\/\/hogash-demo.com\/kallyas_wp\/wp-content\/plugins\/CuteSlider"};
         /* ]]> */
     </script>
-    <script type='text/javascript' src='${rc.getContextPath()}resources/scripts/cute.slider.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}resources/scripts/cute.transitions.all.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}resources/scripts/respond.min.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}resources/scripts/jquery.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}resources/scripts/jquery.themepunch.plugins.min.js'></script>
-    <script type='text/javascript' src='${rc.getContextPath()}resources/scripts/jquery.themepunch.revolution.min.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/resources/scripts/cute.slider.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/resources/scripts/cute.transitions.all.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/resources/scripts/respond.min.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/resources/scripts/jquery.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/resources/scripts/jquery.themepunch.plugins.min.js'></script>
+    <script type='text/javascript' src='${rc.getContextPath()}/resources/scripts/jquery.themepunch.revolution.min.js'></script>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="rsd/xmlrpc.xml" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="rsd/wlwmanifest.xml" />
     <!-- <link rel='prev' title='PAGE HEADER FOR EASTER' href='http://hogash-demo.com/kallyas_wp/page-header-for-easter/' />
@@ -241,22 +241,22 @@
             <nav id="main_menu" class="">
                 <ul id="menu-main-menu" class="sf-menu nav clearfix">
                     <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27">
-                        <a title="sadasdasd" href="/itrovers">HOME</a>
+                        <a title="Home" href="/ITRovers">HOME</a>
                     </li>
                     <li id="menu-item-957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-957">
                         <a href="#">ABOUT US</a>
                         <ul class="sub-menu">
                             <li id="menu-item-956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-956">
-                                <a href="ourStory">Our Story</a>
+                                <a href="ourStory.itr">Our Story</a>
                             </li>
                             <li id="menu-item-878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-878">
-                                <a href="clients">Clients</a>
+                                <a href="clients.itr">Clients</a>
                             </li>
                             <li id="menu-item-385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385">
-                                <a href="history">History</a>
+                                <a href="history.itr">History</a>
                             </li>
                             <li id="menu-item-794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-794">
-                                <a href="locations">Locations</a>
+                                <a href="locations.itr">Locations</a>
                             </li>
                             <!-- <li id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-819">
                                                <a href="investorRelations">Investor Relations</a>
@@ -268,53 +268,53 @@
                         </ul>
                     </li>
                     <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-80 current_page_item menu-item-81 active">
-                        <a href="approach">APPROACH</a>
+                        <a href="approach.itr">APPROACH</a>
                     </li>
                     <li id="menu-item-53" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53">
                         <a href="#">SOLUTIONS</a>
                         <ul class="sub-menu">
                             <li id="menu-item-1439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1439">
-                                <a href="interactiveServices">Interactive Services</a>
+                                <a href="interactiveServices.itr">Interactive Services</a>
                             </li>
                             <li id="menu-item-1447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1447">
-                                <a href="marketingInnovation">Marketing Innovation</a>
+                                <a href="marketingInnovation.itr">Marketing Innovation</a>
                             </li>
                             <li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228">
-                                <a href="industrySolutions">Industry Solutions</a>
+                                <a href="industrySolutions.itr">Industry Solutions</a>
                             </li>
 
                             <li id="menu-item-1317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1317">
-                                <a href="productSolutions">Product Solutions</a>
+                                <a href="productSolutions.itr">Product Solutions</a>
                             </li>
 
                             <li id="menu-item-983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-983">
-                                <a href="integratedMarketing">Integrated Marketing</a>
+                                <a href="integratedMarketing.itr">Integrated Marketing</a>
                             </li>
 
                             <li id="menu-item-983" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-983">
-                                <a href="webHosting">Web Hosting</a>
+                                <a href="webHosting.itr">Web Hosting</a>
                             </li>
                         </ul>
                     </li>
                     <li id="menu-item-629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629">
-                        <a href="ourWork">OUR WORK</a>
+                        <a href="ourWork.itr">OUR WORK</a>
                     </li>
                     <li id="menu-item-954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-954">
                         <a href="#">MEET ITROVERS</a>
                         <ul class="sub-menu">
                             <li id="menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-627">
-                                <a href="managementTeam">Management Team</a>
+                                <a href="managementTeam.itr">Management Team</a>
                             </li>
                             <li id="menu-item-639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-639">
-                                <a href="executiveTeam">Executive Team</a>
+                                <a href="executiveTeam.itr">Executive Team</a>
                             </li>
                             <li id="menu-item-695" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-695">
-                                <a href="contactUs">Contact Us</a>
+                                <a href="contactUs.itr">Contact Us</a>
                             </li>
                         </ul>
                     </li>
                     <li id="menu-item-898" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-898">
-                        <a href="careers">CAREERS</a>
+                        <a href="careers.itr">CAREERS</a>
                     </li>
                 </ul>
             </nav>

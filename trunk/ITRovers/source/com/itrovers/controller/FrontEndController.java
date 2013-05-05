@@ -21,6 +21,15 @@ import java.util.Map;
 @RequestMapping("/")
 public class FrontEndController {
 
+    @RequestMapping(method = RequestMethod.GET, value="home.itr")
+    public ModelAndView home(){
+        Map<String,Object> homeModel = new HashMap<String, Object>();
+        homeModel.put("PageTitle", "home");
+        homeModel.put("SubTitle", "Action");
+
+        return new ModelAndView("front_panel/home", homeModel);
+    }
+
     @RequestMapping(method = RequestMethod.GET, value="ourStory.itr")
     public ModelAndView ourStory(){
         Map<String,Object> ourStoryModel = new HashMap<String, Object>();
@@ -33,130 +42,134 @@ public class FrontEndController {
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView ourWork(){
         Map<String,Object> ourWorkModel = new HashMap<String, Object>();
+        ourWorkModel.put("PageTitle", "Our Work");
+        ourWorkModel.put("SubTitle", "Action");
 
-        return new ModelAndView("/our_work", ourWorkModel);
+        return new ModelAndView("front_panel/our_work", ourWorkModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView history(){
         Map<String,Object> historyModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/history", historyModel);
+        return new ModelAndView("front_panel/history", historyModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView contactUs(){
         Map<String,Object> contactUsModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/contact_us", contactUsModel);
+        return new ModelAndView("front_panel/contact_us", contactUsModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView clients(){
         Map<String,Object> clientsModel = new HashMap<String, Object>();
+        clientsModel.put("PageTitle", "Clients");
+        clientsModel.put("SubTitle", "Action");
 
-        return new ModelAndView("/clients", clientsModel);
+        return new ModelAndView("front_panel/clients", clientsModel);
     }
     
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView locations(){
         Map<String,Object> locationsModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/locations", locationsModel);
+        return new ModelAndView("front_panel/locations", locationsModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView approach(){
         Map<String,Object> approachModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/approach", approachModel);
+        return new ModelAndView("front_panel/approach", approachModel);
     }
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView awards(){
         Map<String,Object> awardsModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/awards", awardsModel);
+        return new ModelAndView("front_panel/awards", awardsModel);
     }
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView careers(){
         Map<String,Object> careersModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/careers", careersModel);
+        return new ModelAndView("front_panel/careers", careersModel);
     }
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView executiveTeam(){
         Map<String,Object> executiveTeamModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/executive_team", executiveTeamModel);
+        return new ModelAndView("front_panel/executive_team", executiveTeamModel);
     }
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView industrySolutions(){
         Map<String,Object> industrySolutionsModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/industry_solutions", industrySolutionsModel);
+        return new ModelAndView("front_panel/industry_solutions", industrySolutionsModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView integratedMarketing(){
         Map<String,Object> integratedMarketingModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/integrated_marketing", integratedMarketingModel);
+        return new ModelAndView("front_panel/integrated_marketing", integratedMarketingModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView interactiveServices(){
         Map<String,Object> interactiveServicesModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/interactive_services", interactiveServicesModel);
+        return new ModelAndView("front_panel/interactive_services", interactiveServicesModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView managementTeam(){
         Map<String,Object> managementTeamModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/management_team", managementTeamModel);
+        return new ModelAndView("front_panel/management_team", managementTeamModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView marketingInnovation(){
         Map<String,Object> marketingInnovationModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/marketing_innovation", marketingInnovationModel);
+        return new ModelAndView("front_panel/marketing_innovation", marketingInnovationModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView news(){
         Map<String,Object> newsModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/news", newsModel);
+        return new ModelAndView("front_panel/news", newsModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView people(){
         Map<String,Object> peopleModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/people", peopleModel);
+        return new ModelAndView("front_panel/people", peopleModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView productSolutions(){
         Map<String,Object> productSolutionsModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/product_solutions", productSolutionsModel);
+        return new ModelAndView("front_panel/product_solutions", productSolutionsModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView webHosting(){
         Map<String,Object> webHostingModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/web_hosting", webHostingModel);
+        return new ModelAndView("front_panel/web_hosting", webHostingModel);
     }
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView welcome(){
         Map<String,Object> welcomeModel = new HashMap<String, Object>();
 
-        return new ModelAndView("/welcome", welcomeModel);
+        return new ModelAndView("front_panel/welcome", welcomeModel);
     }
 
 }
