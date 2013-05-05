@@ -1,4 +1,4 @@
-<#import "template/guest_layout.ftl" as layout>
+<#import "../template/guest_layout.ftl" as layout>
 <@layout.gen_app_layout "${PageTitle}" >
 	<section id="content">
 				<div class="container">

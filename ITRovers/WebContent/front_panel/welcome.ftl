@@ -1,4 +1,4 @@
-<#import "template/guest_layout.ftl" as layout>
+<#import "../template/guest_layout.ftl" as layout>
 <@layout.gen_app_layout "${PageTitle}" >
 	<section id="content">
 	<div class="container">
@@ -123,7 +123,7 @@
 						</div><!-- end acc-style -->
 					</div>
 	
-	</div></div><div class="gray-area "><div class="container"><div class="row "><div class="span8 box image-boxes imgboxes_style1 zn_ib_style2"><h3 class="m_title">WELCOME TO KALLYAS TEMPLATE</h3><a class="hoverBorder alignright" href="#" target="_blank"><img src="http://hogash-demo.com/kallyas_wp/wp-content/uploads/2013/01/img6.jpg" width="220" height="156" alt=""></a>						<p>Vivamus ut molestie nulla. Aenean vel tortor velit. Morbi quis varius tortor. Quisque sit amet leo purus, eget accumsan lorem.<br>
+	</div></div><div class="gray-area "><div class="container"><div class="row "><div class="span8 box image-boxes imgboxes_style1 zn_ib_style2"><h3 class="m_title">WELCOME TO ITRovers</h3><a class="hoverBorder alignright" href="#" target="_blank"><img src="http://hogash-demo.com/kallyas_wp/wp-content/uploads/2013/01/img6.jpg" width="220" height="156" alt=""></a>						<p>Vivamus ut molestie nulla. Aenean vel tortor velit. Morbi quis varius tortor. Quisque sit amet leo purus, eget accumsan lorem.<br>
 Curabitur fringilla ipsum id quam lacinia venenatis.</p>
 						<p>Nullam facilisis mattis lacus, ut dapibus risus congue vitae. Suspendisse potenti. </p>
 						<p>Nunc sodales dolor at justo posuere vitae pretium magna rhoncus. Sed quis velit eget diam condimentum tempus.</p></div><!-- end span -->			<div class="span4">
