@@ -10,6 +10,8 @@ import com.itrovers.domain.Feature;
 import com.itrovers.domain.Authority;
 import com.itrovers.domain.AuthorizedGroups;
 import com.itrovers.domain.Component;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class SecurityServiceImpl implements SecurityService {
@@ -38,11 +40,13 @@ public class SecurityServiceImpl implements SecurityService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
     public boolean save(AuthorizedGroups authorizedGroups) {
         return securityDao.save(authorizedGroups);
     }
 
     @Override
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
 	public boolean save(Feature feature) {
 		return securityDao.save(feature);
 	}
@@ -62,6 +66,7 @@ public class SecurityServiceImpl implements SecurityService {
 	}
 
 	@Override
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
 	public boolean save(Authority authority) {
 		return securityDao.save(authority);
 	}
@@ -82,6 +87,7 @@ public class SecurityServiceImpl implements SecurityService {
 	}
 
 	@Override
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
 	public boolean save(Component component) {
 		return securityDao.save(component);
 	}
