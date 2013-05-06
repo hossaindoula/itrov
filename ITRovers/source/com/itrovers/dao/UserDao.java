@@ -6,7 +6,7 @@ import com.itrovers.domain.AuthorizedGroups;
 import com.itrovers.domain.Token;
 import com.itrovers.domain.User;
 
-public interface UserDao {
+public interface UserDao {     // query
 	
 	public boolean save(User user);
     

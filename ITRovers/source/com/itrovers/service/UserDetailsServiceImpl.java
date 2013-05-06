@@ -44,6 +44,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
     public boolean saveUser(Token token) {
         userDao.save(token);
         User user = new User();
@@ -55,6 +56,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     }
 
     @Override
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
     public boolean saveUser(User user) {
         return userDao.save(user);
     }

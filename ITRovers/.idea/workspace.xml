@@ -2,59 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6546f58-0c84-40bf-8b92-3c0b836ccc29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/front_panel/home.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/itr-applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/itr-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/itr-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/approach.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/approach.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/awards.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/awards.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/careers.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/careers.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/clients.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/clients.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/contact_us.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/contact_us.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/executive_team.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/executive_team.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/history.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/history.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/industry_solutions.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/industry_solutions.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/locations.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/locations.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/management_team.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/management_team.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/news.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/news.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/our_work.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/our_work.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/people.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/people.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/web_hosting.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/web_hosting.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/front_panel/welcome.ftl" afterPath="$PROJECT_DIR$/WebContent/front_panel/welcome.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/template/header.ftl" afterPath="$PROJECT_DIR$/WebContent/template/header.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" afterPath="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java" afterPath="$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java" afterPath="$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITRovers.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ContentTexts.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367245550375" ignored="false" />
-    <file path="/Content.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244799800" ignored="false" />
-    <file path="/Tag.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244765034" ignored="false" />
-    <file path="/SecurityServiceImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244596919" ignored="false" />
-    <file path="/SecurityService.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244499074" ignored="false" />
-    <file path="/BootStrapImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244477069" ignored="false" />
-    <file path="/BootStrap.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244459010" ignored="false" />
-    <file path="/AuthorizationFilter.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244442018" ignored="false" />
-    <file path="/AuthenticationAndAuthorizationServiceImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244417277" ignored="false" />
-    <file path="/AuthenticationAndAuthorizationService.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244315788" ignored="false" />
-    <file path="/AuthorizationToken.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244295709" ignored="false" />
-    <file path="/AuthenticationAndAuthorizationDao.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243524382" ignored="false" />
-    <file path="/AuthorizationAspect.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243448381" ignored="false" />
-    <file path="/ITRConstants.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243290480" ignored="false" />
-    <file path="/AuthenticationAspect.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243361976" ignored="false" />
-    <file path="/AuthorizedGroups.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367240732767" ignored="false" />
-    <file path="/Token.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238854796" ignored="false" />
-    <file path="/UserDetailsServiceImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238827317" ignored="false" />
-    <file path="/DESEDE.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238739449" ignored="false" />
-    <file path="/UserDaoImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243997500" ignored="false" />
-    <file path="/itr-dispatcher-servlet.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238459841" ignored="false" />
-    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367322044855" ignored="false" />
     <file path="F:/GamerReview/.idea/workspace.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1366814034677" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367322044855" ignored="false" />
+    <file path="/itr-dispatcher-servlet.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238459841" ignored="false" />
+    <file path="/UserDaoImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243997500" ignored="false" />
+    <file path="/DESEDE.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238739449" ignored="false" />
+    <file path="/UserDetailsServiceImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367870222705" ignored="false" />
+    <file path="/Token.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238854796" ignored="false" />
+    <file path="/AuthorizedGroups.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367240732767" ignored="false" />
+    <file path="/AuthenticationAspect.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243361976" ignored="false" />
+    <file path="/ITRConstants.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243290480" ignored="false" />
+    <file path="/AuthorizationAspect.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243448381" ignored="false" />
+    <file path="/AuthenticationAndAuthorizationDao.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243524382" ignored="false" />
+    <file path="/AuthorizationToken.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244295709" ignored="false" />
+    <file path="/AuthenticationAndAuthorizationService.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244315788" ignored="false" />
+    <file path="/AuthenticationAndAuthorizationServiceImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244417277" ignored="false" />
+    <file path="/AuthorizationFilter.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244442018" ignored="false" />
+    <file path="/BootStrap.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244459010" ignored="false" />
+    <file path="/BootStrapImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244477069" ignored="false" />
+    <file path="/SecurityService.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244499074" ignored="false" />
+    <file path="/SecurityServiceImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367870359974" ignored="false" />
+    <file path="/Tag.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244765034" ignored="false" />
+    <file path="/Content.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367244799800" ignored="false" />
+    <file path="/ContentTexts.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367245550375" ignored="false" />
+    <file path="/FrontEndController.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367870038973" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,42 +52,17 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll">
-      <breakpoint url="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDaoImpl.java" line="2" class="UserDaoImpl.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/source/com/itrovers/domain/Component.java" line="2" class="Component.java" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <breakpoint_any default_suspend_policy="SuspendAll">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="true" />
@@ -119,7 +77,9 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="true" />
@@ -129,8 +89,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" />
-    <ui_properties default_suspend_policy="SuspendAll" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/source/com/itrovers/domain/Component.java" line="2" class="Component.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -140,56 +115,119 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/front_panel/home.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FrontEndController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="46" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/template/header.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="252" column="61" selection-start="15357" selection-end="15364" vertical-scroll-proportion="0.0">
+            <state line="30" column="64" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1367750322312" expanded="true" signature="88:132" placeholder="..." />
-                <marker date="1367750322312" expanded="true" signature="166:210" placeholder="..." />
-                <marker date="1367750322312" expanded="true" signature="244:282" placeholder="..." />
-                <marker date="1367750322312" expanded="true" signature="3706:3835" placeholder="..." />
-                <marker date="1367750322312" expanded="true" signature="3935:4443" placeholder="..." />
-                <marker date="1367750322312" expanded="true" signature="3954:4077" placeholder="{...}" />
-                <marker date="1367750322312" expanded="true" signature="3968:4071" placeholder="{&quot;i&quot;: 8...}" />
-                <marker date="1367750322312" expanded="true" signature="4141:4434" placeholder="{...}" />
-                <marker date="1367750322312" expanded="true" signature="4155:4206" placeholder="{...}" />
+                <element signature="e#1005#1021#0" expanded="true" />
+                <element signature="e#1391#1407#0" expanded="true" />
+                <element signature="e#1806#1822#0" expanded="true" />
+                <element signature="e#2163#2179#0" expanded="true" />
+                <element signature="e#2522#2538#0" expanded="true" />
+                <element signature="e#2887#2903#0" expanded="true" />
+                <element signature="e#3252#3268#0" expanded="true" />
+                <element signature="e#3618#3634#0" expanded="true" />
+                <element signature="e#3973#3989#0" expanded="true" />
+                <element signature="e#4321#4337#0" expanded="true" />
+                <element signature="e#4692#4708#0" expanded="true" />
+                <element signature="e#5107#5123#0" expanded="true" />
+                <element signature="e#5549#5565#0" expanded="true" />
+                <element signature="e#5988#6004#0" expanded="true" />
+                <element signature="e#6425#6441#0" expanded="true" />
+                <element signature="e#6852#6868#0" expanded="true" />
+                <element signature="e#7259#7275#0" expanded="true" />
+                <element signature="e#7595#7611#0" expanded="true" />
+                <element signature="e#7971#7987#0" expanded="true" />
+                <element signature="e#8381#8397#0" expanded="true" />
+                <element signature="e#8752#8768#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clients.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/front_panel/clients.ftl">
+      <file leaf-file-name="BootStrapImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/BootStrapImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="69" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+            <state line="35" column="21" selection-start="902" selection-end="902" vertical-scroll-proportion="0.37329286">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="our_story.ftl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/front_panel/our_story.ftl">
+      <file leaf-file-name="SecurityService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/SecurityService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="45" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.48212084">
+            <state line="23" column="19" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="55" selection-start="2302" selection-end="2302" vertical-scroll-proportion="-7.4444447">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/SecurityDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="29" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-0.6296296">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDetailsService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="19" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="19" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="25" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="40" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootStrap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/BootStrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="34" selection-start="76" selection-end="94" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,14 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/front_panel/contact_us.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/front_panel/executive_team.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/front_panel/industry_solutions.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/front_panel/locations.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/front_panel/management_team.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl" />
         <option value="$PROJECT_DIR$/WebContent/front_panel/news.ftl" />
         <option value="$PROJECT_DIR$/WebContent/front_panel/people.ftl" />
         <option value="$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl" />
@@ -220,7 +250,15 @@
         <option value="$PROJECT_DIR$/WebContent/front_panel/welcome.ftl" />
         <option value="$PROJECT_DIR$/WebContent/front_panel/our_work.ftl" />
         <option value="$PROJECT_DIR$/WebContent/front_panel/clients.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/front_panel/home.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/template/header.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/admin_panel/login.ftl" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -268,17 +306,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="All" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -314,60 +341,6 @@
               <option name="myItemId" value="WebContent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITRovers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITRovers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITRovers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITRovers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITRovers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITRovers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front_panel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -398,6 +371,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="itrovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itrovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itrovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,6 +442,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All" />
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -442,17 +470,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
@@ -472,12 +500,7 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -485,11 +508,7 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="GlassfishConfiguration" factoryName="Local">
       <deployment />
@@ -502,12 +521,20 @@
       </server-settings>
       <predefined_log_file id="GlassFish" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -535,30 +562,7 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -573,23 +577,14 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -610,12 +605,7 @@
       </option>
       <envs />
       <patterns />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="false" name="Glassfish" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Glassfish 3.1.2.2">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/itrovers" />
@@ -693,7 +683,6 @@
       </method>
     </configuration>
     <configuration default="false" name="Glassfish 3.1.2.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Glassfish 3.1.2.2">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ITRovers/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ITRovers:war exploded">
@@ -720,13 +709,13 @@
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="               " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
         <SHUTDOWN>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="               " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
@@ -735,13 +724,13 @@
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="               " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
         <SHUTDOWN>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="               " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
@@ -750,13 +739,13 @@
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="               " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
         <SHUTDOWN>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="               " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
@@ -777,7 +766,7 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -787,11 +776,11 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="false">C:\Users\Admin\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
@@ -928,40 +917,69 @@
       <created>1367608563105</created>
       <updated>1367608563105</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="changes made in front_panel">
+      <created>1367776265158</created>
+      <updated>1367776265158</updated>
+    </task>
+    <task id="LOCAL-00028" summary="admin controller and admin panel updated..">
+      <created>1367789336105</created>
+      <updated>1367789336105</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.50053364" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.49573106" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33026114" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282322" sideWeight="0.15507412" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32994652" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1927024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18676628" sideWeight="0.80865604" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19134396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -987,22 +1005,27 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes made in header and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin controller and admin panel updated.." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1013,6 +1036,7 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial import..." />
@@ -1037,8 +1061,9 @@
     <MESSAGE value="FrontEndController.java updated.." />
     <MESSAGE value="FrontEndController.java corrections made" />
     <MESSAGE value="changes made in various files" />
-    <MESSAGE value="changes made in front_panel" />
     <MESSAGE value="changes made in header and footer" />
+    <MESSAGE value="changes made in front_panel" />
+    <MESSAGE value="admin controller and admin panel updated.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1048,84 +1073,142 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/integrated_marketing.ftl">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
+        <state line="14" column="13" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/interactive_services.ftl">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/AuthorizationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
+        <state line="23" column="61" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/welcome.ftl">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="104" selection-start="11111" selection-end="11111" vertical-scroll-proportion="0.30645162" />
+        <state line="41" column="34" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/web_hosting.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/itr-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
+        <state line="11" column="4" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/product_solutions.ftl">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
+        <state line="15" column="27" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/people.ftl">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
+        <state line="26" column="19" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/locations.ftl">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/BootStrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/management_team.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/marketing_innovation.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/news.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/our_work.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="64" selection-start="315" selection-end="315" vertical-scroll-proportion="-5.230769" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/home.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
+        <state line="3" column="34" selection-start="76" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/controller/FrontEndController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="46" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.0" />
+        <state line="30" column="64" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1005#1021#0" expanded="true" />
+            <element signature="e#1391#1407#0" expanded="true" />
+            <element signature="e#1806#1822#0" expanded="true" />
+            <element signature="e#2163#2179#0" expanded="true" />
+            <element signature="e#2522#2538#0" expanded="true" />
+            <element signature="e#2887#2903#0" expanded="true" />
+            <element signature="e#3252#3268#0" expanded="true" />
+            <element signature="e#3618#3634#0" expanded="true" />
+            <element signature="e#3973#3989#0" expanded="true" />
+            <element signature="e#4321#4337#0" expanded="true" />
+            <element signature="e#4692#4708#0" expanded="true" />
+            <element signature="e#5107#5123#0" expanded="true" />
+            <element signature="e#5549#5565#0" expanded="true" />
+            <element signature="e#5988#6004#0" expanded="true" />
+            <element signature="e#6425#6441#0" expanded="true" />
+            <element signature="e#6852#6868#0" expanded="true" />
+            <element signature="e#7259#7275#0" expanded="true" />
+            <element signature="e#7595#7611#0" expanded="true" />
+            <element signature="e#7971#7987#0" expanded="true" />
+            <element signature="e#8381#8397#0" expanded="true" />
+            <element signature="e#8752#8768#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/template/header.ftl">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="61" selection-start="15357" selection-end="15364" vertical-scroll-proportion="0.0" />
+        <state line="21" column="19" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/clients.ftl">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/SecurityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="69" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" />
+        <state line="23" column="19" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/front_panel/our_story.ftl">
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/SecurityDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.48212084">
+        <state line="30" column="29" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-0.6296296">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="55" selection-start="2302" selection-end="2302" vertical-scroll-proportion="-7.4444447">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="25" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="40" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/BootStrapImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="21" selection-start="902" selection-end="902" vertical-scroll-proportion="0.37329286">
           <folding />
         </state>
       </provider>

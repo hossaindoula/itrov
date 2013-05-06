@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
+import com.itrovers.dao.UserDaoImpl;
 import com.itrovers.util.SessionUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,7 +21,7 @@ public class AuthenticationAndAuthorizationServiceImpl implements
 		AuthenticationAndAuthorizationService {
 	
 	@Autowired
-	private UserDao userDao;
+	private UserDao userDao;        //talking with dao
 
 	@Override
 	public boolean authenticate(String username, String password) {

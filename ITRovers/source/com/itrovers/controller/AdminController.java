@@ -35,7 +35,7 @@ public class AdminController {
     @RequestMapping(method = RequestMethod.GET, value = "login.itr")
     public ModelAndView login(){
         Map<String,Object> loginModel = new HashMap<String, Object>();
-        return new ModelAndView("admin_panel/login", loginModel); //name of the folder path
+        return new ModelAndView("admin_panel/login", loginModel); //folder path
 
     }
 

@@ -1,6 +1,8 @@
 package com.itrovers.controller;
 
+import com.itrovers.service.BootStrap;
 import com.itrovers.util.SessionUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -22,8 +24,12 @@ import java.util.Map;
 @RequestMapping("/")
 public class FrontEndController {
 
+    @Autowired
+    private BootStrap bootStrap;
+
     @RequestMapping(method = RequestMethod.GET, value="home.itr")
     public ModelAndView home(){              // this method will tell about data that will be shown..
+        bootStrap.createDefaultAdmin();
         Map<String,Object> homeModel = new HashMap<String, Object>();
         homeModel.put("PageTitle", "home");
         homeModel.put("SubTitle", "Action");
@@ -140,6 +146,8 @@ public class FrontEndController {
     @RequestMapping(method = RequestMethod.GET,value = "interactiveServices.itr")
     public ModelAndView interactiveServices(){
         Map<String,Object> interactiveServicesModel = new HashMap<String, Object>();
+        interactiveServicesModel.put("PageTitle", "Interactive services");
+        interactiveServicesModel.put("SubTitle", "Action");
 
         return new ModelAndView("front_panel/interactive_services", interactiveServicesModel);
     }
@@ -147,6 +155,8 @@ public class FrontEndController {
     @RequestMapping(method = RequestMethod.GET,value = "managementTeam.itr")
     public ModelAndView managementTeam(){
         Map<String,Object> managementTeamModel = new HashMap<String, Object>();
+        managementTeamModel.put("PageTitle", "Management team");
+        managementTeamModel.put("SubTitle", "Action");
 
         return new ModelAndView("front_panel/management_team", managementTeamModel);
     }
@@ -154,6 +164,8 @@ public class FrontEndController {
     @RequestMapping(method = RequestMethod.GET,value = "marketingInnovation.itr")
     public ModelAndView marketingInnovation(){
         Map<String,Object> marketingInnovationModel = new HashMap<String, Object>();
+        marketingInnovationModel.put("PageTitle", "Marketing innovation");
+        marketingInnovationModel.put("SubTitle", "Action");
 
         return new ModelAndView("front_panel/marketing_innovation", marketingInnovationModel);
     }
@@ -161,6 +173,8 @@ public class FrontEndController {
     @RequestMapping(method = RequestMethod.GET,value = "news.itr")
     public ModelAndView news(){
         Map<String,Object> newsModel = new HashMap<String, Object>();
+        newsModel.put("PageTitle", "News");
+        newsModel.put("SubTitle", "Action");
 
         return new ModelAndView("front_panel/news", newsModel);
     }
@@ -168,6 +182,8 @@ public class FrontEndController {
     @RequestMapping(method = RequestMethod.GET,value = "people.itr")
     public ModelAndView people(){
         Map<String,Object> peopleModel = new HashMap<String, Object>();
+        peopleModel.put("PageTitle", "People");
+        peopleModel.put("SubTitle", "Action");
 
         return new ModelAndView("front_panel/people", peopleModel);
     }
@@ -175,6 +191,8 @@ public class FrontEndController {
     @RequestMapping(method = RequestMethod.GET,value = "productSolutions.itr")
     public ModelAndView productSolutions(){
         Map<String,Object> productSolutionsModel = new HashMap<String, Object>();
+        productSolutionsModel.put("PageTitle", "Product solutions");
+        productSolutionsModel.put("SubTitle", "Action");
 
         return new ModelAndView("front_panel/product_solutions", productSolutionsModel);
     }
@@ -182,6 +200,8 @@ public class FrontEndController {
     @RequestMapping(method = RequestMethod.GET,value = "webHosting.itr")
     public ModelAndView webHosting(){
         Map<String,Object> webHostingModel = new HashMap<String, Object>();
+        webHostingModel.put("PageTitle", "Web hosting");
+        webHostingModel.put("SubTitle", "Action");
 
         return new ModelAndView("front_panel/web_hosting", webHostingModel);
     }
@@ -189,6 +209,8 @@ public class FrontEndController {
     @RequestMapping(method = RequestMethod.GET,value = "welcome.itr")
     public ModelAndView welcome(){
         Map<String,Object> welcomeModel = new HashMap<String, Object>();
+        welcomeModel.put("PageTitle", "Welcome");
+        welcomeModel.put("SubTitle", "Action");
 
         return new ModelAndView("front_panel/welcome", welcomeModel);
     }
