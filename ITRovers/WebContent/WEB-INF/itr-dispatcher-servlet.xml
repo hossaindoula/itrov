@@ -9,6 +9,8 @@
  http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
  http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
+
     <context:component-scan base-package="com.itrovers" />
 
     <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
@@ -25,13 +27,13 @@
         </property>
     </bean>
 
-    <!-- <bean id="authenticationAspect" class="com.itrovers.aop.AuthenticationAspect" />
-    <bean id="authorizationAspect" class="com.itrovers.aop.AuthorizationAspect" />   -->
+     <bean id="authenticationAspect" class="com.itrovers.aop.AuthenticationAspect" />
+    <bean id="authorizationAspect" class="com.itrovers.aop.AuthorizationAspect" />
 
     <!-- Enable the @AspectJ support -->
-    <!-- <aop:aspectj-autoproxy proxy-target-class="true">
+     <aop:aspectj-autoproxy proxy-target-class="true">
         <aop:include name="authenticationAspect" />
         <aop:include name="authorizationAspect" />
-    </aop:aspectj-autoproxy>       -->
+    </aop:aspectj-autoproxy>
 
 </beans>

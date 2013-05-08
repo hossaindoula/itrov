@@ -3,6 +3,8 @@ package com.itrovers.service;
 import com.itrovers.domain.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +18,7 @@ import java.util.List;
  */
 
 @Service
+@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 public class BootStrapImpl implements BootStrap {
 
     @Autowired
@@ -29,6 +32,7 @@ public class BootStrapImpl implements BootStrap {
     private List<AuthorizedGroups> authorizedCumulativeGroups;
 
 
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
     public void createDefaultAdmin(){
         System.out.println("userDetailsService.count() = " + userDetailsService.count());
         if(userDetailsService.count() == 0){
@@ -48,6 +52,7 @@ public class BootStrapImpl implements BootStrap {
     }
 
 
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
     public List<AuthorizedGroups> initializeDefaultSecurityData(){
 
         Component securityComponent = new Component();

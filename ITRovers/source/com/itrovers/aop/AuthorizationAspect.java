@@ -33,7 +33,7 @@ public class AuthorizationAspect {
 
 
     @Pointcut("within(@org.springframework.stereotype.Controller *) " +
-			"&& !within(@org.springframework.stereotype.Controller com.itrovers.controller.AuthenticationController)")
+			"&& !within(@org.springframework.stereotype.Controller com.itrovers.controller.FrontEndController)")
 	public void allControllers(){}
 	
 	@Pointcut("execution(* save*(..))")
