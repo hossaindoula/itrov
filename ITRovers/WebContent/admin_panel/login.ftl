@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shamcey - Metro Style Admin Template</title>
+    <title>${PageTitle}</title>
     <link rel="stylesheet" href="${rc.getContextPath()}/resources/styles/style.default.css" type="text/css" />
     <link rel="stylesheet" href="${rc.getContextPath()}/resources/styles/style.shinyblue.css" type="text/css" />
 
@@ -33,7 +33,7 @@
 
 <div class="loginpanel">
     <div class="loginpanelinner">
-        <div class="logo animate0 bounceIn"><img src="images/logo.png" alt="" /></div>
+        <div class="logo animate0 bounceIn">ITRovers PTY LTD.</div>
         <form id="login" action="authenticate.itr" method="post">
             <div class="inputwrapper login-alert">
                 <div class="alert alert-error">Invalid username or password</div>
