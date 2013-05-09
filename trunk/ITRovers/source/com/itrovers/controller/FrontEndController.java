@@ -1,11 +1,13 @@
 package com.itrovers.controller;
 
+import com.itrovers.service.AuthenticationAndAuthorizationService;
 import com.itrovers.service.BootStrap;
 import com.itrovers.util.SessionUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
@@ -26,6 +28,9 @@ public class FrontEndController {
 
     @Autowired
     private BootStrap bootStrap;
+
+    @Autowired
+    private AuthenticationAndAuthorizationService authService;
 
     @RequestMapping(method = RequestMethod.GET, value="home.itr")
     public ModelAndView home(){              // this method will tell about data that will be shown..
@@ -213,6 +218,27 @@ public class FrontEndController {
         welcomeModel.put("SubTitle", "Action");
 
         return new ModelAndView("front_panel/welcome", welcomeModel);
+    }
+
+    @RequestMapping(method = RequestMethod.GET,value = "adminLogin.itr")
+    public ModelAndView adminLogin(){
+        Map<String,Object> adminLoginModel = new HashMap<String, Object>();
+        adminLoginModel.put("PageTitle", "Admin Login");
+        adminLoginModel.put("SubTitle", "Action");
+
+        return new ModelAndView("admin_panel/login", adminLoginModel);
+    }
+
+
+    @RequestMapping(method=RequestMethod.POST, value="/authenticate.itr")
+    public ModelAndView authenticate(@RequestParam("username") String username,@RequestParam("password") String password){
+        boolean isAuthenticated = authService.authenticate(username,password);
+
+        if(isAuthenticated){
+            return new ModelAndView("redirect:/dashboard.itr");
+        } else {
+            return new ModelAndView("redirect:/login.itr");
+        }
     }
 
 }

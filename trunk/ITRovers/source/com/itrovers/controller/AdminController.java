@@ -51,17 +51,5 @@ public class AdminController {
     }
 
 
-    @RequestMapping(method=RequestMethod.POST, value="/authenticate.itr")
-    public ModelAndView authenticate(@RequestParam("username") String username,@RequestParam("password") String password){
-        boolean isAuthenticated = authService.authenticate(username,password);
-
-        if(isAuthenticated){
-            return new ModelAndView("redirect:/dashboard.itr");
-        } else {
-            return new ModelAndView("redirect:/login.itr");
-        }
-    }
-
-
 
 }
