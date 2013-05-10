@@ -8,7 +8,7 @@
     <ignored path="ITRovers.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="F:/GamerReview/.idea/workspace.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1366814034677" ignored="false" />
-    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368183560944" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368188567089" ignored="false" />
     <file path="/itr-dispatcher-servlet.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238459841" ignored="false" />
     <file path="/UserDaoImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243997500" ignored="false" />
     <file path="/DESEDE.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238739449" ignored="false" />
@@ -35,7 +35,7 @@
     <file path="/admin_layout.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368131180107" ignored="false" />
     <file path="/dashboard.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368131305852" ignored="false" />
     <file path="/AdminController.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368178959584" ignored="false" />
-    <file path="/nav_panel.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368188430521" ignored="false" />
+    <file path="/nav_panel.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368194006984" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,7 @@
       <file leaf-file-name="nav_panel.ftl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/template/nav_panel.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="91" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.54420733">
+            <state line="6" column="125" selection-start="385" selection-end="385" vertical-scroll-proportion="0.092987806">
               <folding />
             </state>
           </provider>
@@ -1031,7 +1031,11 @@
       <created>1368183569105</created>
       <updated>1368183569105</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="dashboard updated...">
+      <created>1368188574105</created>
+      <updated>1368188574105</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1131,7 +1135,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin panel changed..." />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard updated..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1145,7 +1149,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="freemarker added in appcontext" />
     <MESSAGE value="itr-dispatcher-servlet.xml updated" />
     <MESSAGE value="ITRConstants and SessionUtil added..." />
     <MESSAGE value="UserDetailsService modified..." />
@@ -1170,6 +1173,7 @@
     <MESSAGE value="dashboard model added..." />
     <MESSAGE value="authenticate method's return url changed..." />
     <MESSAGE value="admin panel changed..." />
+    <MESSAGE value="dashboard updated..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1296,7 +1300,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/template/nav_panel.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="91" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.54420733">
+        <state line="6" column="125" selection-start="385" selection-end="385" vertical-scroll-proportion="0.092987806">
           <folding />
         </state>
       </provider>
