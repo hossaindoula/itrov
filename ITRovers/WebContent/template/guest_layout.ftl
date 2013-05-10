@@ -1,7 +1,7 @@
 <#macro gen_app_layout title="">
 	
 			<!-- Header content -->
-				<#include "admin_header.ftl"/>
+				<#include "header.ftl"/>
 			<!-- Header content -->
 			
 			<!--Body content-->
@@ -9,7 +9,7 @@
 			<!--Body content-->
 			
 			<!-- Footer content -->
-				<#include "admin_footer.ftl"/>
+				<#include "footer.ftl"/>
 			<!-- Footer content -->
 			
 			

@@ -12,6 +12,6 @@
     <!--Body content-->
 
     <!-- Footer content -->
-        <#include "footer.ftl"/>
+        <#include "admin_footer.ftl"/>
     <!-- Footer content -->
 </#macro>
