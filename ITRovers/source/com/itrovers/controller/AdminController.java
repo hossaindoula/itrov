@@ -50,6 +50,12 @@ public class AdminController {
         return new ModelAndView("redirect:/");
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="dashboard.itr")
+    public ModelAndView dashboard(){
+        Map<String,Object> dashboardModel = new HashMap<String, Object>();
+        return new ModelAndView("admin_panel/dashboard", dashboardModel);
+    }
+
 
 
 }
