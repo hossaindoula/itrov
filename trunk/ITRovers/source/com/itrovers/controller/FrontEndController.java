@@ -235,7 +235,9 @@ public class FrontEndController {
         boolean isAuthenticated = authService.authenticate(username,password);
 
         if(isAuthenticated){
-            return new ModelAndView("redirect:admin/dashboard.itr");
+            Map<String,Object> dashboardModel = new HashMap<String, Object>();
+            dashboardModel.put("PageTitle","Dashboard");
+            return new ModelAndView("redirect:admin/dashboard.itr", dashboardModel);
         } else {
             return new ModelAndView("redirect:/adminLogin.itr");
         }
