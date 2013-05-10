@@ -235,9 +235,9 @@ public class FrontEndController {
         boolean isAuthenticated = authService.authenticate(username,password);
 
         if(isAuthenticated){
-            return new ModelAndView("redirect:/dashboard.itr");
+            return new ModelAndView("redirect:admin/dashboard.itr");
         } else {
-            return new ModelAndView("redirect:/login.itr");
+            return new ModelAndView("redirect:/adminLogin.itr");
         }
     }
 
