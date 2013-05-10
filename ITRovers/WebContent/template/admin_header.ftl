@@ -5,9 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shamcey - Metro Style Admin Template</title>
-    <link rel="stylesheet" href="${rc.getContextPath()}/resources/scripts/style.default.css" type="text/css" />
+    <link rel="stylesheet" href="${rc.getContextPath()}/resources/styles/style.default.css" type="text/css" />
 
-    <link rel="stylesheet" href="${rc.getContextPath()}/resources/scripts/responsive-tables.css">
+    <link rel="stylesheet" href="${rc.getContextPath()}/resources/styles/responsive-tables.css">
     <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/jquery-migrate-1.1.1.min.js"></script>
     <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/jquery-ui-1.9.2.min.js"></script>
