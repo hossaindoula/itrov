@@ -53,6 +53,7 @@ public class AdminController {
     @RequestMapping(method=RequestMethod.GET, value="dashboard.itr")
     public ModelAndView dashboard(){
         Map<String,Object> dashboardModel = new HashMap<String, Object>();
+        dashboardModel.put("PageTitle","Dashboard");
         return new ModelAndView("admin_panel/dashboard", dashboardModel);
     }
 
