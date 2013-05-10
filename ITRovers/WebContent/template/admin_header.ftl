@@ -5,21 +5,21 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shamcey - Metro Style Admin Template</title>
-    <link rel="stylesheet" href="css/style.default.css" type="text/css" />
+    <link rel="stylesheet" href="${rc.getContextPath()}/resources/scripts/style.default.css" type="text/css" />
 
-    <link rel="stylesheet" href="css/responsive-tables.css">
-    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery-migrate-1.1.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui-1.9.2.min.js"></script>
-    <script type="text/javascript" src="js/modernizr.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.cookie.js"></script>
-    <script type="text/javascript" src="js/jquery.uniform.min.js"></script>
-    <script type="text/javascript" src="js/flot/jquery.flot.min.js"></script>
-    <script type="text/javascript" src="js/flot/jquery.flot.resize.min.js"></script>
-    <script type="text/javascript" src="js/responsive-tables.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
-    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+    <link rel="stylesheet" href="${rc.getContextPath()}/resources/scripts/responsive-tables.css">
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/jquery-migrate-1.1.1.min.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/jquery-ui-1.9.2.min.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/modernizr.min.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/jquery.cookie.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/jquery.uniform.min.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/flot/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/flot/jquery.flot.resize.min.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/responsive-tables.js"></script>
+    <script type="text/javascript" src="${rc.getContextPath()}/resources/scripts/custom.js"></script>
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="${rc.getContextPath()}/resources/scripts/excanvas.min.js"></script><![endif]-->
 </head>
 
 <body>
