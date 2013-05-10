@@ -4,22 +4,22 @@
         <ul class="nav nav-tabs nav-stacked">
             <li class="nav-header">Navigation</li>
             <li class="active"><a href="dashboard.html"><span class="iconfa-laptop"></span> Dashboard</a></li>
-            <li><a href="buttons.html"><span class="iconfa-hand-up"></span> Buttons &amp; Icons</a></li>
-            <li class="dropdown"><a href=""><span class="iconfa-pencil"></span> Forms</a>
+            <li><a href="buttons.html"><span class="iconfa-hand-up"></span> Access Control List </a></li>
+            <li class="dropdown"><a href=""><span class="iconfa-pencil"></span> Contents </a>
                 <ul>
                     <li><a href="forms.html">Form Styles</a></li>
                     <li><a href="wizards.html">Wizard Form</a></li>
                     <li><a href="wysiwyg.html">WYSIWYG</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href=""><span class="iconfa-briefcase"></span> UI Elements &amp; Widgets</a>
+            <li class="dropdown"><a href=""><span class="iconfa-briefcase"></span> Calender </a>
                 <ul>
                     <li><a href="elements.html">Theme Components</a></li>
                     <li><a href="bootstrap.html">Bootstrap Components</a></li>
                     <li><a href="boxes.html">Headers &amp; Boxes</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href=""><span class="iconfa-th-list"></span> Tables</a>
+            <li class="dropdown"><a href=""><span class="iconfa-th-list"></span> Messaging </a>
                 <ul>
                     <li><a href="table-static.html">Static Table</a></li>
                     <li><a href="table-dynamic.html">Dynamic Table</a></li>
