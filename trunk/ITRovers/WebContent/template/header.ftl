@@ -223,7 +223,7 @@
                 </li>
             </ul>
             <ul class="topnav navRight">
-                <li><a href="#login_panel" data-rel="prettyPhoto[login_panel]">LOGIN</a></li>
+                <li><a href="adminLogin.itr" data-rel="prettyPhoto[login_panel]">LOGIN</a></li>
             </ul>
             <ul class="topnav navRight">
                 <li><a href="#" id="open_sliding_panel"> <span class="icon-remove-circle icon-white"></span> SUPPORT </a></li>
