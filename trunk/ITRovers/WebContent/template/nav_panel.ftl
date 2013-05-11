@@ -3,7 +3,7 @@
     <div class="leftmenu">
         <ul class="nav nav-tabs nav-stacked">
             <li class="nav-header">Navigation</li>
-            <li class="active"><a href="dashboard.html"><span class="iconfa-laptop"></span> Dashboard</a></li>
+            <li class="active"><a href="dashboard.itr"><span class="iconfa-laptop"></span> Dashboard</a></li>
             <li class="dropdown"><a href=""><span class="iconfa-briefcase"></span> Access Control List </a>   <!--multi level -->
                 <ul>
                     <li><a href="elements.html">User</a></li>
