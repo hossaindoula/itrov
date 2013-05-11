@@ -7,7 +7,7 @@
 
 <ul class="breadcrumbs">
     <li><a href="dashboard.html"><i class="iconfa-home"></i></a> <span class="separator"></span></li>
-    <li>Authorized Groups</li>
+    <li>Create Authorized Groups</li>
     <li class="right">
         <a href="" data-toggle="dropdown" class="dropdown-toggle"><i class="icon-tint"></i> Color Skins</a>
         <ul class="dropdown-menu pull-right skin-color">
@@ -28,7 +28,7 @@
     <div class="pageicon"><span class="iconfa-laptop"></span></div>
     <div class="pagetitle">
         <h5>All Features Summary</h5>
-        <h1>Authorized groups</h1>
+        <h1>Create Authorized groups</h1>
     </div>
 </div><!--pageheader-->
 
@@ -46,7 +46,7 @@
             </a>
         </li>
         <li class="prodects">
-            <a href="createGroup.itr">
+            <a href="createAuthorizedGroup.itr">
                 <span class="shortcuts-icon iconsi-cart"></span>
                 <span class="shortcuts-label">Create Group</span>
             </a>

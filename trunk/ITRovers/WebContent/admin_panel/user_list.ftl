@@ -7,7 +7,7 @@
 
 <ul class="breadcrumbs">
     <li><a href="dashboard.html"><i class="iconfa-home"></i></a> <span class="separator"></span></li>
-    <li>Authorized Groups</li>
+    <li>User List</li>
     <li class="right">
         <a href="" data-toggle="dropdown" class="dropdown-toggle"><i class="icon-tint"></i> Color Skins</a>
         <ul class="dropdown-menu pull-right skin-color">
