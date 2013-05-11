@@ -6,11 +6,11 @@
             <li class="active"><a href="dashboard.itr"><span class="iconfa-laptop"></span> Dashboard</a></li>
             <li class="dropdown"><a href=""><span class="iconfa-briefcase"></span> Access Control List </a>   <!--multi level -->
                 <ul>
-                    <li><a href="elements.html">User</a></li>
-                    <li><a href="bootstrap.html"Authorized Groups</a></li>
-                    <li><a href="boxes.html">Authority</a></li>
-                    <li><a href="boxes.html">Feature</a></li>
-                    <li><a href="boxes.html">Component</a></li>
+                    <li><a href="user.itr">User</a></li>
+                    <li><a href="authorizedGroups.itr">Authorized Groups</a></li>
+                    <li><a href="authority.itr">Authority</a></li>
+                    <li><a href="feature.itr">Feature</a></li>
+                    <li><a href="component.itr">Component</a></li>
                 </ul>
             </li>
             <li class="dropdown"><a href=""><span class="iconfa-pencil"></span> Contents </a>
