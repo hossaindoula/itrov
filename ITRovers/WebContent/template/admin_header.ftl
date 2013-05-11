@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shamcey - Metro Style Admin Template</title>
+    <title>ITRovers - Admin</title>
     <link rel="stylesheet" href="${rc.getContextPath()}/resources/styles/style.default.css" type="text/css" />
 
     <link rel="stylesheet" href="${rc.getContextPath()}/resources/styles/responsive-tables.css">

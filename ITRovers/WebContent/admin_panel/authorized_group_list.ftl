@@ -46,7 +46,7 @@
             </a>
         </li>
         <li class="prodects">
-            <a href="createGroup.itr">
+            <a href="/createAuthorizedGroup.itr">
                 <span class="shortcuts-icon iconsi-cart"></span>
                 <span class="shortcuts-label">Create Group</span>
             </a>

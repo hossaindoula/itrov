@@ -121,7 +121,7 @@
 <div class="alert alert-block">
     <button data-dismiss="alert" class="close" type="button">&times;</button>
     <h4>Warning!</h4>
-    <p style="margin: 8px 0">Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna.</p>
+    <p style="margin: 8px 0">Best check your self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna.</p>
 </div><!--alert-->
 
 <br />

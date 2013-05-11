@@ -51,6 +51,7 @@ public class AdminController {
     public ModelAndView dashboard(){
         Map<String,Object> dashboardModel = new HashMap<String, Object>();
         dashboardModel.put("PageTitle","Dashboard");
+        dashboardModel.put("Title", "ITRovers - Dashboard");
         return new ModelAndView("admin_panel/dashboard", dashboardModel);
     }
 
@@ -58,6 +59,7 @@ public class AdminController {
     public ModelAndView user(){
         Map<String,Object> userModel = new HashMap<String, Object>();
         userModel.put("PageTitle", "User");
+        userModel.put("Title", "ITRovers - User");
         return new ModelAndView("admin_panel/user", userModel);
     }
 
@@ -65,6 +67,7 @@ public class AdminController {
     public ModelAndView authorizedGroups(){
         Map<String,Object> authorizedGroupsModel = new HashMap<String, Object>();
         authorizedGroupsModel.put("PageTitle", "AuthorizedGroups");
+        authorizedGroupsModel.put("Title", "ITRovers - Authorized Groups");
         return new ModelAndView("admin_panel/authorized_groups", authorizedGroupsModel);
     }
 
@@ -72,6 +75,7 @@ public class AdminController {
     public ModelAndView authority(){
         Map<String,Object> authorityModel = new HashMap<String, Object>();
         authorityModel.put("PageTitle", "Authority");
+        authorityModel.put("Title", "ITRovers - Authority Model");
         return new ModelAndView("admin_panel/authority", authorityModel);
     }
 
@@ -79,6 +83,7 @@ public class AdminController {
     public ModelAndView feature(){
         Map<String,Object> featureModel = new HashMap<String, Object>();
         featureModel.put("PageTitle", "Feature");
+        featureModel.put("Title", "ITRovers - Feature");
         return new ModelAndView("admin_panel/feature", featureModel);
     }
 
@@ -86,11 +91,42 @@ public class AdminController {
     public ModelAndView component(){
         Map<String,Object> componentModel = new HashMap<String, Object>();
         componentModel.put("PageTitle", "Component");
+        componentModel.put("Title", "ITRovers - Component");
         return new ModelAndView("admin_panel/component", componentModel);
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="userList.itr")
+    public ModelAndView userList(){
+        Map<String,Object> userListModel = new HashMap<String, Object>();
+        userListModel.put("PageTitle", "User List");
+        userListModel.put("Title", "ITRovers - User List");
+        return new ModelAndView("admin_panel/user_list", userListModel);
+    }
 
+    @RequestMapping(method=RequestMethod.GET, value="createUser.itr")
+    public ModelAndView createUser(){
+        Map<String,Object> createUserModel = new HashMap<String, Object>();
+        createUserModel.put("PageTitle", "Create User");
+        createUserModel.put("Title", "ITRovers - Create User");
+        return new ModelAndView("admin_panel/create_user", createUserModel);
+    }
 
+    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupList.itr")
+    public ModelAndView authorizedGroupList(){
+        Map<String,Object> authorizedGroupListModel = new HashMap<String, Object>();
+        authorizedGroupListModel.put("PageTitle", "Authorized Group List");
+        authorizedGroupListModel.put("Title", "ITRovers - Authorized Group List");
+        return new ModelAndView("admin_panel/authorized_group_List", authorizedGroupListModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="createAuthorizedGroup.itr")
+    public ModelAndView createAuthorizedGroup(){
+        Map<String,Object> createAuthorizedGroupModel = new HashMap<String, Object>();
+        createAuthorizedGroupModel.put("PageTitle", "Create Authorized Group");
+        createAuthorizedGroupModel.put("Title", "ITRovers - Create Authorized Group");
+        return new ModelAndView("admin_panel/create_AuthorizedGroup", createAuthorizedGroupModel);
+
+    }
 
 
 }
