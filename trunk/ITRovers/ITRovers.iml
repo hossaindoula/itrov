@@ -39,7 +39,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="sessionFactory" />
+          <unit-entry name="sessionFactory" value="itroversDataSource" />
         </datasource-map>
       </configuration>
     </facet>

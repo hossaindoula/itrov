@@ -27,25 +27,19 @@
                     <li><a href="boxes.html">Headers &amp; Boxes</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href=""><span class="iconfa-th-list"></span> Messaging </a>
+            <li class="dropdown"><a href="#"><span class="iconfa-th-list"></span> Messaging </a>
                 <ul>
-                    <li><a href="table-static.html">Static Table</a></li>
-                    <li><a href="table-dynamic.html">Dynamic Table</a></li>
+                    <li><a href="infoMessage.itr">Info Message</a></li>
+                    <li><a href="supportMessage.itr">Support Message</a></li>
+                    <li><a href="newsletter.itr">Newsletter</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span class="iconfa-th-list"></span> System Settings </a>
+                <ul>
+                    <li><a href="emailConfigration.itr">Emain Configuration</a></li>
                 </ul>
             </li>
 
-            <li><a href="media.html"><span class="iconfa-picture"></span> Media Manager</a></li>
-            <li><a href="typography.html"><span class="iconfa-font"></span> Typography</a></li>
-            <li><a href="charts.html"><span class="iconfa-signal"></span> Graph &amp; Charts</a></li>
-            <li><a href="messages.html"><span class="iconfa-envelope"></span> Messages</a></li>
-            <li><a href="calendar.html"><span class="iconfa-calendar"></span> Calendar</a></li>
-            <li class="dropdown"><a href=""><span class="iconfa-book"></span> Other Pages</a>
-                <ul>
-                    <li><a href="404.html">404 Error Page</a></li>
-                    <li><a href="editprofile.html">Edit Profile</a></li>
-                    <li><a href="invoice.html">Invoice Page</a></li>
-                </ul>
-            </li>
         </ul>
     </div><!--leftmenu-->
 

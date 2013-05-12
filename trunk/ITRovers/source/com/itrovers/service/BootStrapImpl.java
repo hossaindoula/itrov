@@ -44,7 +44,9 @@ public class BootStrapImpl implements BootStrap {
             userDetailsService.saveUser(token);
 
             User user = userDetailsService.findByUsername("admin");
+            System.out.println("print token: "+user.getToken().getTokenId());
             List<AuthorizedGroups> groups = initializeDefaultSecurityData();
+            System.out.println("group.size: "+groups.size());
             user.setAuthorizedGroups(groups);
 
             userDetailsService.saveUser(user);
@@ -55,41 +57,36 @@ public class BootStrapImpl implements BootStrap {
     @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
     public List<AuthorizedGroups> initializeDefaultSecurityData(){
 
-        Component securityComponent = new Component();
-        securityComponent.setComponentName("security");
-        securityComponent.setDescription("Security Related Module");
-        securityService.save(securityComponent);
-
         Component adminComponent = new Component();
-        adminComponent.setComponentName("admin");
-        adminComponent.setDescription("Admin Related Module");
+        adminComponent.setComponentName("security");
+        adminComponent.setDescription("Security Related Module");
         securityService.save(adminComponent);
 
         features = new ArrayList<Feature>();
 
         Feature saveFeature = new Feature();
-        saveFeature.setComponent(securityComponent);
+        saveFeature.setComponent(adminComponent);
         saveFeature.setOperation("saveUser");
         saveFeature.setDescription("Saving User Feature");
         securityService.save(saveFeature);
         features.add(saveFeature);
 
         Feature createFeature = new Feature();
-        createFeature.setComponent(securityComponent);
+        createFeature.setComponent(adminComponent);
         createFeature.setOperation("createUser");
         createFeature.setDescription("Creating User Feature");
         securityService.save(createFeature);
         features.add(createFeature);
 
         Feature featureList = new Feature();
-        featureList.setComponent(securityComponent);
+        featureList.setComponent(adminComponent);
         featureList.setOperation("featureList");
         featureList.setDescription("Creating User Feature");
         securityService.save(featureList);
         features.add(featureList);
 
         Feature userListFeature = new Feature();
-        userListFeature.setComponent(securityComponent);
+        userListFeature.setComponent(adminComponent);
         userListFeature.setOperation("userList");
         userListFeature.setDescription("Listing all User Feature");
         securityService.save(userListFeature);
