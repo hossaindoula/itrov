@@ -55,45 +55,8 @@
 
     <br />
 
-    <h5 class="subtitle">Daily Statistics</h5><br />
-    <div id="chartplace" style="height:300px;"></div>
 
     <div class="divider30"></div>
-
-    <table class="table table-bordered responsive">
-        <thead>
-        <tr>
-            <th class="head1">Rendering engine</th>
-            <th class="head0">Browser</th>
-            <th class="head1">Platform(s)</th>
-            <th class="head0">Engine version</th>
-            <th class="head1">CSS grade</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Trident</td>
-            <td>Internet  Explorer 5.5</td>
-            <td>Win 95+</td>
-            <td class="center">5.5</td>
-            <td class="center">A</td>
-        </tr>
-        <tr>
-            <td>Trident</td>
-            <td>Internet Explorer 6</td>
-            <td>Win 98+</td>
-            <td class="center">6</td>
-            <td class="center">A</td>
-        </tr>
-        <tr>
-            <td>Trident</td>
-            <td>Internet Explorer 7</td>
-            <td>Win XP SP2+</td>
-            <td class="center">7</td>
-            <td class="center">A</td>
-        </tr>
-        </tbody>
-    </table>
 
     <br />
 
@@ -162,30 +125,6 @@
 <h5 class="subtitle">Summaries</h5>
 
 <div class="divider15"></div>
-
-<div class="widgetbox">
-    <div class="headtitle">
-        <div class="btn-group">
-            <button data-toggle="dropdown" class="btn dropdown-toggle">Action <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-            </ul>
-        </div>
-        <h4 class="widgettitle">Widget Box</h4>
-    </div>
-    <div class="widgetcontent">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </div><!--widgetcontent-->
-</div><!--widgetbox-->
-
-<h4 class="widgettitle">Event Calendar</h4>
-<div class="widgetcontent nopadding">
-    <div id="datepicker"></div>
-</div>
 
 <div class="tabbedwidget tab-primary">
     <ul>
