@@ -15,9 +15,8 @@
             </li>
             <li class="dropdown"><a href=""><span class="iconfa-pencil"></span> Contents </a>
                 <ul>
-                    <li><a href="forms.html">Form Styles</a></li>
-                    <li><a href="wizards.html">Wizard Form</a></li>
-                    <li><a href="wysiwyg.html">WYSIWYG</a></li>
+                    <li><a href="contentHeader.itr">Content Header</a></li>
+                    <li><a href="contentDetails.itr">Content Details</a></li>
                 </ul>
             </li>
             <li class="dropdown"><a href=""><span class="iconfa-briefcase"></span> Calender </a>
@@ -34,11 +33,33 @@
                     <li><a href="newsletter.itr">Newsletter</a></li>
                 </ul>
             </li>
+            <li class="dropdown"><a href="#"><span class="iconfa-th-list"></span> Project Management </a>
+                <ul>
+                    <li><a href="infoMessage.itr">Info Message</a></li>
+                    <li><a href="supportMessage.itr">Support Message</a></li>
+                    <li><a href="newsletter.itr">Newsletter</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span class="iconfa-th-list"></span> HRM </a>
+                <ul>
+                    <li><a href="infoMessage.itr">Info Message</a></li>
+                    <li><a href="supportMessage.itr">Support Message</a></li>
+                    <li><a href="newsletter.itr">Newsletter</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span class="iconfa-th-list"></span> Accounting </a>
+                <ul>
+                    <li><a href="infoMessage.itr">Info Message</a></li>
+                    <li><a href="supportMessage.itr">Support Message</a></li>
+                    <li><a href="newsletter.itr">Newsletter</a></li>
+                </ul>
+            </li>
             <li class="dropdown"><a href="#"><span class="iconfa-th-list"></span> System Settings </a>
                 <ul>
                     <li><a href="emailConfigration.itr">Emain Configuration</a></li>
                 </ul>
             </li>
+
 
         </ul>
     </div><!--leftmenu-->
