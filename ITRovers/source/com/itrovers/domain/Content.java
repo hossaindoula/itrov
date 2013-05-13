@@ -15,6 +15,9 @@ public class Content {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int Id;
     private String title;
+
+    @ManyToOne
+    private Content parentContent;
     private String url;
 
     public int getId() {
@@ -27,6 +30,14 @@ public class Content {
 
     public String getTitle() {
         return title;
+    }
+
+    public Content getParentContent() {
+        return parentContent;
+    }
+
+    public void setParentContent(Content parentContent) {
+        this.parentContent = parentContent;
     }
 
     public void setTitle(String title) {

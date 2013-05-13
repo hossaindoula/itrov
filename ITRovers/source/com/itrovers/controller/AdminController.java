@@ -128,5 +128,41 @@ public class AdminController {
 
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="contentHeader.itr")
+    public ModelAndView contentHeader(){
+        Map<String,Object> contentHeaderModel = new HashMap<String, Object>();
+        contentHeaderModel.put("PageTitle", "Content Header");
+        contentHeaderModel.put("Title", "ITRovers - Content Header");
+        return new ModelAndView("admin_panel/content_header", contentHeaderModel);
 
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="contentHeaderList.itr")
+    public ModelAndView contentHeaderList(){
+        Map<String,Object> contentHeaderListModel = new HashMap<String, Object>();
+        contentHeaderListModel.put("PageTitle", "Content Header List");
+        contentHeaderListModel.put("Title", "ITRovers - Content Header List");
+        return new ModelAndView("admin_panel/content_header_list", contentHeaderListModel);
+
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="createContentHeader.itr")
+    public ModelAndView createContentHeader(){
+        Map<String,Object> createContentHeaderModel = new HashMap<String, Object>();
+        createContentHeaderModel.put("PageTitle", "Create Content Header");
+        createContentHeaderModel.put("Title", "ITRovers - Create Content Header");
+        return new ModelAndView("admin_panel/content_header_list", createContentHeaderModel);
+
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="contentDetails.itr")
+    public ModelAndView contentDetails(){
+        Map<String,Object> contentDetailsModel = new HashMap<String, Object>();
+        contentDetailsModel.put("PageTitle", "Content Details");
+        contentDetailsModel.put("Title", "ITRovers - Content Details");
+        return new ModelAndView("admin_panel/content_details", contentDetailsModel);
+
+
+
+    }
 }
