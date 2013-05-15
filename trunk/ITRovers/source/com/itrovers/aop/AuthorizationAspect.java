@@ -71,7 +71,7 @@ public class AuthorizationAspect {
 
         operation = proceedJoinPoint.getSignature().getName();
         isAllowed = authorizationService.checkAuthorization(features,module,operation);
-        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/security/unauthorized");
+        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/unauthorized");
 
 	}
 	
@@ -95,7 +95,7 @@ public class AuthorizationAspect {
 
         operation = proceedJoinPoint.getSignature().getName();
         isAllowed = authorizationService.checkAuthorization(features,module,operation);
-        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/security/unauthorized");
+        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/unauthorized");
 
 	}
 	
@@ -119,7 +119,7 @@ public class AuthorizationAspect {
 
         operation = proceedJoinPoint.getSignature().getName();
         isAllowed = authorizationService.checkAuthorization(features,module,operation);
-        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/security/unauthorized");
+        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("redirect:/admin/unauthorized.itr");
 
 	}
 	
@@ -143,7 +143,7 @@ public class AuthorizationAspect {
 
         operation = proceedJoinPoint.getSignature().getName();
         isAllowed = authorizationService.checkAuthorization(features,module,operation);
-        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/security/unauthorized");
+        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/unauthorized");
 
 	}
 	

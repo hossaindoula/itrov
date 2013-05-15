@@ -1,6 +1,7 @@
 <#import "../template/admin_layout.ftl" as layout>
 <@layout.admin_layout "${PageTitle}" >
 
+<script type="text/javascript" src="${rc.getContextPath()}/admin_panel/user_list.js"></script>
 
 
 <div class="rightpanel">
@@ -60,40 +61,7 @@
 
     <div class="divider30"></div>
 
-    <table class="table table-bordered responsive">
-        <thead>
-        <tr>
-            <th class="head1">Rendering engine</th>
-            <th class="head0">Browser</th>
-            <th class="head1">Platform(s)</th>
-            <th class="head0">Engine version</th>
-            <th class="head1">CSS grade</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Trident</td>
-            <td>Internet  Explorer 5.5</td>
-            <td>Win 95+</td>
-            <td class="center">5.5</td>
-            <td class="center">A</td>
-        </tr>
-        <tr>
-            <td>Trident</td>
-            <td>Internet Explorer 6</td>
-            <td>Win 98+</td>
-            <td class="center">6</td>
-            <td class="center">A</td>
-        </tr>
-        <tr>
-            <td>Trident</td>
-            <td>Internet Explorer 7</td>
-            <td>Win XP SP2+</td>
-            <td class="center">7</td>
-            <td class="center">A</td>
-        </tr>
-        </tbody>
-    </table>
+    <div id="user-grid"></div>
 
     <br />
 

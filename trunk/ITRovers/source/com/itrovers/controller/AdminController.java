@@ -180,6 +180,12 @@ public class AdminController {
         return new ModelAndView("admin_panel/account_settings", accountSettingsModel);
     }
 
-
+    @RequestMapping(method=RequestMethod.GET, value="unauthorized.itr")
+    public ModelAndView unauthorized(){
+        Map<String,Object> unauthorizedModel = new HashMap<String, Object>();
+        unauthorizedModel.put("PageTitle", "Unauthorized");
+        unauthorizedModel.put("Title", "ITRovers - Unauthorized");
+        return new ModelAndView("admin_panel/unauthorized", unauthorizedModel);
+    }
 
 }
