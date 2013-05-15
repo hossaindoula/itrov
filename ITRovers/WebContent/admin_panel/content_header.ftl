@@ -41,13 +41,13 @@
         <li class="events">
             <a href="">
                 <span class="shortcuts-icon iconsi-event"></span>
-                <span class="shortcuts-label">Create Content header</span>
+                <span class="shortcuts-label">Create </span>
             </a>
         </li>
         <li class="products">
             <a href="">
                 <span class="shortcuts-icon iconsi-cart"></span>
-                <span class="shortcuts-label">Content Header List</span>
+                <span class="shortcuts-label"> List </span>
             </a>
         </li>
 

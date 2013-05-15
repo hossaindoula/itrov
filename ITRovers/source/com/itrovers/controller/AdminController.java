@@ -44,7 +44,7 @@ public class AdminController {
         userSession.removeAttribute(ITRConstants.SESSION_USER_FEATURES);
         userSession.invalidate();
 
-        return new ModelAndView("redirect:/");
+        return new ModelAndView("redirect:/adminLogin.itr");
     }
 
     @RequestMapping(method=RequestMethod.GET, value="dashboard.itr")
@@ -162,7 +162,24 @@ public class AdminController {
         contentDetailsModel.put("Title", "ITRovers - Content Details");
         return new ModelAndView("admin_panel/content_details", contentDetailsModel);
 
-
-
     }
+
+    @RequestMapping(method=RequestMethod.GET, value="editProfile.itr")
+    public ModelAndView editProfile(){
+        Map<String,Object> editProfileModel = new HashMap<String, Object>();
+        editProfileModel.put("PageTitle", "Edit Profile");
+        editProfileModel.put("Title", "ITRovers - Edit Profile");
+        return new ModelAndView("admin_panel/edit_profile", editProfileModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="accountSettings.itr")
+    public ModelAndView accountSettings(){
+        Map<String,Object> accountSettingsModel = new HashMap<String, Object>();
+        accountSettingsModel.put("PageTitle", "Account Settings");
+        accountSettingsModel.put("Title", "ITRovers - Account Settings");
+        return new ModelAndView("admin_panel/account_settings", accountSettingsModel);
+    }
+
+
+
 }
