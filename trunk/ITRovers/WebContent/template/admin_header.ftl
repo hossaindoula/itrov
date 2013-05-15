@@ -28,7 +28,7 @@
 
     <div class="header">
         <div class="logo">
-            <a href="dashboard.html"><img src="images/logo.png" alt="" /></a>
+            <a href="dashboard.itr"><h5 style="color:#ffffff;">ITRovers - Admin Dashboard</h5></a>
         </div>
         <div class="headerinner">
             <ul class="headmenu">
@@ -58,8 +58,8 @@
                         <li class="nav-header">New Users</li>
                         <li>
                             <a href="">
-                                <img src="images/photos/thumb1.png" alt="" class="userthumb" />
-                                <strong>Draniem Daamul</strong>
+                                <img src="images/messi.jpg" alt="" class="userthumb" />
+                                <strong>Lionel Messi</strong>
                                 <small>April 20, 2013</small>
                             </a>
                         </li>
@@ -111,13 +111,13 @@
                 </li>
                 <li class="right">
                     <div class="userloggedinfo">
-                        <img src="images/photos/thumb1.png" alt="" />
+                        <img src="${rc.getContextPath()}/resources/images/messi.jpg" alt="" />
                         <div class="userinfo">
-                            <h5>Juan Dela Cruz <small>- juan@themepixels.com</small></h5>
+                            <h5>Leionel Messi <small>- juan@themepixels.com</small></h5>
                             <ul>
-                                <li><a href="editprofile.html">Edit Profile</a></li>
-                                <li><a href="">Account Settings</a></li>
-                                <li><a href="index.html">Sign Out</a></li>
+                                <li><a href="editProfile.itr">Edit Profile</a></li>
+                                <li><a href="accountSettings.itr">Account Settings</a></li>
+                                <li><a href="logout.itr">Sign Out</a></li>
                             </ul>
                         </div>
                     </div>
