@@ -1,8 +1,6 @@
 <#import "../template/admin_layout.ftl" as layout>
 <@layout.admin_layout "${PageTitle}" >
 
-<script type="text/javascript" src="${rc.getContextPath()}/admin_panel/user_list.js"></script>
-
 
 <div class="rightpanel">
 
@@ -61,7 +59,15 @@
 
     <div class="divider30"></div>
 
-    <div id="user-grid"></div>
+    <script>
+        alert(1)
+        //jQuery(document).ready(function(){
+        jQuery("#user_grid").load("${rc.getContextPath()}/admin/userListDiv.itr")
+        // })
+        alert(2)
+    </script>
+
+    <div id="user_grid"></div>
 
     <br />
 
