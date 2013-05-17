@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${Title}</title>
-    <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}/extjs4/examples/shared/example.css" />
+
     <link rel="stylesheet" href="${rc.getContextPath()}/resources/styles/style.default.css" type="text/css" />
 
     <link rel="stylesheet" href="${rc.getContextPath()}/resources/styles/responsive-tables.css">
@@ -23,8 +23,7 @@
     <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="${rc.getContextPath()}/resources/scripts/excanvas.min.js"></script><![endif]-->
 
 
-    <script type="text/javascript" src="${rc.getContextPath()}/extjs4/examples/shared/include-ext.js"></script>
-    <script type="text/javascript" src="${rc.getContextPath()}/extjs4/examples/shared/options-toolbar.js"></script>
+
 </head>
 
 <body>

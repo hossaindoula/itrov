@@ -99,7 +99,7 @@ public class AuthorizationAspect {
 
 	}
 	
-	@Around("allControllers() && allListOperations()")
+	/*@Around("allControllers() && allListOperations()")
 	public Object proceedToListAction(ProceedingJoinPoint proceedJoinPoint) throws Throwable {
         features = SessionUtil.getSessionUserFeatures();
         int annotationFind = 0;
@@ -121,7 +121,7 @@ public class AuthorizationAspect {
         isAllowed = authorizationService.checkAuthorization(features,module,operation);
         if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("redirect:/admin/unauthorized.itr");
 
-	}
+	}*/
 	
 	@Around("allControllers() && allDeleteOperations()")
 	public Object proceedToDeleteAction(ProceedingJoinPoint proceedJoinPoint) throws Throwable {

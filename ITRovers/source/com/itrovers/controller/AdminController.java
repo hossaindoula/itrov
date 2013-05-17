@@ -188,4 +188,10 @@ public class AdminController {
         return new ModelAndView("admin_panel/unauthorized", unauthorizedModel);
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="userListDiv.itr")
+    public ModelAndView userListDiv(){
+        Map<String,Object> userListDivModel = new HashMap<String, Object>();
+        return new ModelAndView("admin_panel/user_list_div", userListDivModel);
+    }
+
 }
