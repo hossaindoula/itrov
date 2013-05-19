@@ -54,20 +54,11 @@
 
     <br />
 
-    <h5 class="subtitle">Daily Statistics</h5><br />
-    <div id="chartplace" style="height:300px;"></div>
+
 
     <div class="divider30"></div>
 
-    <script>
-        alert(1)
-        //jQuery(document).ready(function(){
-        jQuery("#user_grid").load("${rc.getContextPath()}/admin/userListDiv.itr")
-        // })
-        alert(2)
-    </script>
-
-    <div id="user_grid"></div>
+    <div style="margin: 0 auto; width:100%; height:400px; overflow: auto;"><object type="text/html" data="userListDiv.itr" style="width:100%; height:400px; margin:1%;"></object></div>
 
     <br />
 
