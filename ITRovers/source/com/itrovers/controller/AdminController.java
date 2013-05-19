@@ -1,17 +1,23 @@
 package com.itrovers.controller;
 
+import com.itrovers.domain.User;
 import com.itrovers.service.AuthenticationAndAuthorizationService;
 import com.itrovers.util.ITRConstants;
+import com.itrovers.util.JSONView;
 import com.itrovers.util.SessionUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import com.itrovers.service.UserDetailsService;
+
 
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Created with IntelliJ IDEA.
@@ -26,6 +32,8 @@ import java.util.Map;
 public class AdminController {
 
     private HttpSession userSession;
+    @Autowired
+    private UserDetailsService userDetailsService;
 
     @Autowired
     private AuthenticationAndAuthorizationService authService;
@@ -194,4 +202,28 @@ public class AdminController {
         return new ModelAndView("admin_panel/user_list_div", userListDivModel);
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="userJsonData.itr")
+    public ModelAndView userJsonData(){
+        int start =  0;
+        int limit = 15;
+        Map<String,Object> userListMap = null;
+        Map<String,Object> userMap = new HashMap<String, Object>();
+        List<User> users = userDetailsService.getAllUsers();
+        List<Map<String,Object>> userMapList = new ArrayList<Map<String, Object>>();
+        for (User user : users) {
+            userListMap = new HashMap<String, Object>();
+            userListMap.put("id", user.getId());
+            userListMap.put("username", user.getToken().getUsername());
+            userListMap.put("password", user.getToken().getPassword());
+            userListMap.put("active", true);
+
+            userMapList.add(userListMap);
+        }
+
+        userMap.put( "userList",  userMapList.subList(start, start + limit > userMapList.size() ?
+                userMapList.size() : start + limit));
+        userMap.put( "totalCount",  userMapList.size());
+
+        return new ModelAndView(new JSONView(), userMap);
+    }
 }
