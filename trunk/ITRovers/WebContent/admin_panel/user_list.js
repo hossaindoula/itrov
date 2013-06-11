@@ -20,22 +20,22 @@ Ext.onReady(function(){
 
 
 
+
     // create the Data Store
-    var store = Ext.create('Ext.data.Store', {
+    var store = Ext.create('Ext.data.JsonStore', {
         // destroy the store if the grid is destroyed
         autoDestroy: true,
         model: 'User',
-        url: 'userJsonData.itr',
-        reader: new Ext.data.JsonReader({
-            root: 'userList',
-            totalProperty: 'totalCount',
-            id: 'id'
-        },[
-            {name: 'id', type: 'int', mapping: 'id'},
-            {name: 'username', type: 'string', mapping: 'username'},
-            {name: 'password', type: 'string', mapping: 'password'},
-            {name: 'active', type: 'string', mapping: 'active'}
-        ]),
+        proxy: {
+            type: 'ajax',
+            url: 'userJsonData.itr',
+            reader: {
+                type: 'json',
+                root: 'userList',
+                idProperty: 'id',
+                totalProperty: 'total'
+            }
+        },
         autoLoad : true
 
     })
