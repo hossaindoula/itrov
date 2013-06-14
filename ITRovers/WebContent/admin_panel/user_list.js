@@ -7,7 +7,7 @@ Ext.require([
 ]);
 
 Ext.onReady(function(){
-    // Define our data model
+    // Define our data model ,'user' in this case.
     Ext.define('User', {
         extend: 'Ext.data.Model',
         fields: [
@@ -19,17 +19,15 @@ Ext.onReady(function(){
     });
 
 
-
-
-    // create the Data Store
+    // create the Data Store         // interaction with methods of controller class
     var store = Ext.create('Ext.data.JsonStore', {
         // destroy the store if the grid is destroyed
         autoDestroy: true,
         model: 'User',
-        proxy: {
+        proxy: {             //    types of data rendering , used in data retrieve process. type of data which is being sent from controller
             type: 'ajax',
             url: 'userJsonData.itr',
-            reader: {
+            reader: {                    // parsing data type
                 type: 'json',
                 root: 'userList',
                 idProperty: 'id',
@@ -47,7 +45,7 @@ Ext.onReady(function(){
 
     // create the grid and specify what field you want
     // to use for the editor at each column.
-    var grid = Ext.create('Ext.grid.Panel', {
+    var grid = Ext.create('Ext.grid.Panel', {            // as is entity
         store: store,
         columns: [{
             header: 'ID',

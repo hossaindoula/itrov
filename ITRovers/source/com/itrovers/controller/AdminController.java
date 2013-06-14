@@ -1,7 +1,9 @@
 package com.itrovers.controller;
 
+import com.itrovers.domain.ContentTexts;
 import com.itrovers.domain.User;
 import com.itrovers.service.AuthenticationAndAuthorizationService;
+import com.itrovers.service.ContentHeaderDetailsService;
 import com.itrovers.util.ITRConstants;
 import com.itrovers.util.JSONView;
 import com.itrovers.util.SessionUtil;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import com.itrovers.service.UserDetailsService;
+import com.itrovers.domain.Content;
 
 
 import javax.servlet.http.HttpSession;
@@ -38,6 +41,9 @@ public class AdminController {
     @Autowired
     private AuthenticationAndAuthorizationService authService;
 
+    @Autowired
+    private ContentHeaderDetailsService contentHeaderDetailsService;
+
     @RequestMapping(method = RequestMethod.GET, value = "login.itr")
     public ModelAndView login(){
         Map<String,Object> loginModel = new HashMap<String, Object>();
@@ -61,14 +67,6 @@ public class AdminController {
         dashboardModel.put("PageTitle","Dashboard");
         dashboardModel.put("Title", "ITRovers - Dashboard");
         return new ModelAndView("admin_panel/dashboard", dashboardModel);
-    }
-
-    @RequestMapping(method=RequestMethod.GET, value="user.itr")
-    public ModelAndView user(){
-        Map<String,Object> userModel = new HashMap<String, Object>();
-        userModel.put("PageTitle", "User");
-        userModel.put("Title", "ITRovers - User");
-        return new ModelAndView("admin_panel/user", userModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="authorizedGroups.itr")
@@ -202,6 +200,74 @@ public class AdminController {
         return new ModelAndView("admin_panel/user_list_div", userListDivModel);
     }
 
+
+
+    @RequestMapping(method=RequestMethod.GET, value="contentHeaderListDiv.itr")
+    public ModelAndView contentHeaderListDiv(){
+        Map<String,Object> contentHeaderListDivModel = new HashMap<String, Object>();
+        return new ModelAndView("admin_panel/content_header_list_div", contentHeaderListDivModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="contentHeaderJsonData.itr")
+    public ModelAndView contentHeaderJsonData(){
+        int start =  0;
+        int limit = 15;
+        Map<String,Object> contentHeaderListMap = null;
+        Map<String,Object> contentHeaderMap = new HashMap<String, Object>();
+
+        List<Content> contents = contentHeaderDetailsService.getAllContents();
+        List<Map<String,Object>> contentMapList = new ArrayList<Map<String, Object>>();
+
+        for (Content content: contents) {
+            contentHeaderListMap = new HashMap<String, Object>();
+            contentHeaderListMap.put("id", content.getId());
+            contentHeaderListMap.put("title", content.getTitle());
+
+            contentMapList.add(contentHeaderListMap);
+        }
+
+        contentHeaderMap.put( "contentHeaderList",  contentMapList.subList(start, start + limit > contentMapList.size() ?
+                contentMapList.size() : start + limit));
+        contentHeaderMap.put("totalCount", contentMapList.size());
+
+        return new ModelAndView(new JSONView(), contentHeaderMap);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="contentHeaderJsonData.itr")
+    public ModelAndView contentTextsJsonData(){
+        int start =  0;
+        int limit = 15;
+        Map<String,Object> contentHeaderListMap = null;
+        Map<String,Object> contentHeaderMap = new HashMap<String, Object>();
+
+        List<Content> contentsTexts = contentHeaderDetailsService.getAllContents();
+        List<Map<String,Object>> contentTextsMapList = new ArrayList<Map<String, Object>>();
+
+        for (Content contentTexts: contentsTexts) {
+            contentHeaderListMap = new HashMap<String, Object>();
+            contentHeaderListMap.put("id", contentTexts.getId());
+            contentHeaderListMap.put("title", contentTexts.getTitle());
+
+            contentTextsMapList.add(contentHeaderListMap);
+        }
+
+        contentHeaderMap.put( "contentHeaderList",  contentTextsMapList.subList(start, start + limit > contentTextsMapList.size() ?
+                contentTextsMapList.size() : start + limit));
+        contentHeaderMap.put("totalCount", contentTextsMapList.size());
+
+        return new ModelAndView(new JSONView(), contentHeaderMap);
+    }
+
+
+
+    @RequestMapping(method=RequestMethod.GET, value="user.itr")
+    public ModelAndView user(){
+        Map<String,Object> userModel = new HashMap<String, Object>();
+        userModel.put("PageTitle", "User");
+        userModel.put("Title", "ITRovers - User");
+        return new ModelAndView("admin_panel/user", userModel);
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="userJsonData.itr")
     public ModelAndView userJsonData(){
         int start =  0;
@@ -224,6 +290,6 @@ public class AdminController {
                 userMapList.size() : start + limit));
         userMap.put( "totalCount",  userMapList.size());
 
-        return new ModelAndView(new JSONView(), userMap);
+        return new ModelAndView(new JSONView(), userMap);       // returning JSON data
     }
 }
