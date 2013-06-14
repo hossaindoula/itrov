@@ -41,6 +41,6 @@ public interface UserDetailsService{
     
     public User findByUsernameAndPassword(String username, String password);
     
-    public User findByUsername(String username);
+    public User findByUsername(String userName);
     
 }
