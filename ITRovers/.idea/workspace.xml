@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6546f58-0c84-40bf-8b92-3c0b836ccc29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/dao/ContentDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/dao/ContentDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/service/ContentHeaderDetailsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/com/itrovers/service/ContentHeaderDetailsServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/admin_panel/content_list_div.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" afterPath="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/service/UserDetailsService.java" afterPath="$PROJECT_DIR$/source/com/itrovers/service/UserDetailsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/user_list.js" afterPath="$PROJECT_DIR$/WebContent/admin_panel/user_list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITRovers.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="F:/GamerReview/.idea/workspace.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1366814034677" ignored="false" />
-    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1371207649072" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1371207887035" ignored="false" />
     <file path="/itr-dispatcher-servlet.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238459841" ignored="false" />
     <file path="/UserDaoImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243997500" ignored="false" />
     <file path="/DESEDE.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238739449" ignored="false" />
@@ -92,6 +87,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -128,7 +124,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -150,7 +145,7 @@
       <file leaf-file-name="user_list.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="117" selection-start="2013" selection-end="2024" vertical-scroll-proportion="0.0">
+            <state line="60" column="117" selection-start="2013" selection-end="2024" vertical-scroll-proportion="-26.153847">
               <folding />
             </state>
           </provider>
@@ -159,7 +154,7 @@
       <file leaf-file-name="user_list_div.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list_div.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="62" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+            <state line="1" column="7" selection-start="0" selection-end="550" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -168,7 +163,7 @@
       <file leaf-file-name="content_list.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/content_list.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="119" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.0">
+            <state line="61" column="72" selection-start="2100" selection-end="2100" vertical-scroll-proportion="-20.923077">
               <folding />
             </state>
           </provider>
@@ -177,10 +172,19 @@
       <file leaf-file-name="content_list.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/content_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="7" selection-start="2253" selection-end="2253" vertical-scroll-proportion="1.3754579">
+            <state line="65" column="101" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.5359629">
               <folding>
                 <element signature="e#0#161#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_list_div.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/content_list_div.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="7" selection-start="510" selection-end="510" vertical-scroll-proportion="-7.1923075">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,15 +193,6 @@
         <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/UserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="43" column="43" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentHeaderDetailsServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/com/itrovers/service/ContentHeaderDetailsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -215,7 +210,7 @@
       <file leaf-file-name="AdminController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="0" selection-start="8954" selection-end="8954" vertical-scroll-proportion="0.0">
+            <state line="207" column="52" selection-start="9222" selection-end="9222" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -240,7 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source/com/itrovers/service/AuthenticationAndAuthorizationServiceImpl.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationFilter.java" />
         <option value="$PROJECT_DIR$/source/com/itrovers/util/AuthorizationToken.java" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/user_list.js" />
@@ -254,8 +248,9 @@
         <option value="$PROJECT_DIR$/source/com/itrovers/service/ContentHeaderDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/content_list.js" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/content_list.html" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/content_list.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/admin_panel/content_list_div.ftl" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" />
       </list>
     </option>
   </component>
@@ -316,6 +311,20 @@
           </PATH>
         </subPane>
         <subPane subId="All" />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -515,20 +524,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITRovers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ITRovers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,8 +540,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -593,6 +588,19 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -619,19 +627,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1087,7 +1082,11 @@
       <created>1370974017136</created>
       <updated>1370974017136</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="contenttext model , dao, service updated and pages">
+      <created>1371207906105</created>
+      <updated>1371207906105</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1127,7 +1126,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18876405" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32801822" sideWeight="0.49573106" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282322" sideWeight="0.15507412" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1142,6 +1140,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1235,13 +1234,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="17" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
@@ -1307,20 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list_div.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="62" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="117" selection-start="2013" selection-end="2024" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="25" selection-start="1027" selection-end="1029" vertical-scroll-proportion="0.0">
@@ -1328,23 +1306,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list_div.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="0" selection-start="8954" selection-end="8954" vertical-scroll-proportion="0.0">
+        <state line="1" column="7" selection-start="0" selection-end="550" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/content_list_div.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="510" selection-end="510" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="117" selection-start="2013" selection-end="2024" vertical-scroll-proportion="-26.153847">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/content_list.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="119" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.0">
+        <state line="61" column="72" selection-start="2100" selection-end="2100" vertical-scroll-proportion="-20.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="52" selection-start="9222" selection-end="9222" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/content_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="7" selection-start="2253" selection-end="2253" vertical-scroll-proportion="1.3754579">
+        <state line="65" column="101" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.5359629">
           <folding>
             <element signature="e#0#161#0" expanded="false" />
           </folding>
