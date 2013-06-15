@@ -205,7 +205,7 @@ public class AdminController {
     @RequestMapping(method=RequestMethod.GET, value="contentHeaderListDiv.itr")
     public ModelAndView contentHeaderListDiv(){
         Map<String,Object> contentHeaderListDivModel = new HashMap<String, Object>();
-        return new ModelAndView("admin_panel/content_list_div", contentHeaderListDivModel);
+        return new ModelAndView("admin_panel/content_header_list_div", contentHeaderListDivModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="contentHeaderJsonData.itr")
@@ -233,7 +233,7 @@ public class AdminController {
         return new ModelAndView(new JSONView(), contentHeaderMap);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="contentHeaderJsonData.itr")
+    @RequestMapping(method=RequestMethod.GET, value="contentTextsJsonData.itr")
     public ModelAndView contentTextsJsonData(){
         int start =  0;
         int limit = 15;
