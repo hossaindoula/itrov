@@ -2,12 +2,11 @@
 <@layout.admin_layout "${PageTitle}" >
 
 
-
 <div class="rightpanel">
 
 <ul class="breadcrumbs">
     <li><a href="dashboard.html"><i class="iconfa-home"></i></a> <span class="separator"></span></li>
-    <li>${PageTitle}</li>
+    <li>{PageTitle}</li>
     <li class="right">
         <a href="" data-toggle="dropdown" class="dropdown-toggle"><i class="icon-tint"></i> Color Skins</a>
         <ul class="dropdown-menu pull-right skin-color">
@@ -28,7 +27,7 @@
     <div class="pageicon"><span class="iconfa-laptop"></span></div>
     <div class="pagetitle">
         <h5>All Features Summary</h5>
-        <h1>${PageTitle}</h1>
+        <h1>{PageTitle}</h1>
     </div>
 </div><!--pageheader-->
 
@@ -40,15 +39,15 @@
     <h5 class="subtitle">Recently Viewed Pages</h5>
     <ul class="shortcuts">
         <li class="events">
-            <a href="contentHeaderList.itr">
+            <a href="authorizedGroupList.itr">
                 <span class="shortcuts-icon iconsi-event"></span>
-                <span class="shortcuts-label">modify1</span>
+                <span class="shortcuts-label">Group List</span>
             </a>
         </li>
         <li class="prodects">
-            <a href="createContentheader.itr">
+            <a href="createGroup.itr">
                 <span class="shortcuts-icon iconsi-cart"></span>
-                <span class="shortcuts-label">modify2</span>
+                <span class="shortcuts-label">Create Group</span>
             </a>
         </li>
     </ul>
@@ -56,7 +55,10 @@
     <br />
 
 
+
     <div class="divider30"></div>
+
+    <div style="margin: 0 auto; width:100%; height:400px; overflow: auto;"><object type="text/html" data="contentHeaderListDiv.itr" style="width:100%; height:400px; margin:1%;"></object></div>
 
     <br />
 
@@ -110,201 +112,225 @@
 
 <div id="dashboard-right" class="span4">
 
-    <h5 class="subtitle">Announcements</h5>
+<h5 class="subtitle">Announcements</h5>
 
-    <div class="divider15"></div>
+<div class="divider15"></div>
 
-    <div class="alert alert-block">
-        <button data-dismiss="alert" class="close" type="button">&times;</button>
-        <h4>Warning!</h4>
-        <p style="margin: 8px 0">Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna.</p>
-    </div><!--alert-->
+<div class="alert alert-block">
+    <button data-dismiss="alert" class="close" type="button">&times;</button>
+    <h4>Warning!</h4>
+    <p style="margin: 8px 0">Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna.</p>
+</div><!--alert-->
 
-    <br />
+<br />
 
-    <h5 class="subtitle">Summaries</h5>
+<h5 class="subtitle">Summaries</h5>
 
-    <div class="divider15"></div>
+<div class="divider15"></div>
 
-    <div class="tabbedwidget tab-primary">
-        <ul>
-            <li><a href="#tabs-1"><span class="iconfa-user"></span></a></li>
-            <li><a href="#tabs-2"><span class="iconfa-star"></span></a></li>
-            <li><a href="#tabs-3"><span class="iconfa-comments"></span></a></li>
+<div class="widgetbox">
+    <div class="headtitle">
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn dropdown-toggle">Action <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <h4 class="widgettitle">Widget Box</h4>
+    </div>
+    <div class="widgetcontent">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div><!--widgetcontent-->
+</div><!--widgetbox-->
+
+<h4 class="widgettitle">Event Calendar</h4>
+<div class="widgetcontent nopadding">
+    <div id="datepicker"></div>
+</div>
+
+<div class="tabbedwidget tab-primary">
+    <ul>
+        <li><a href="#tabs-1"><span class="iconfa-user"></span></a></li>
+        <li><a href="#tabs-2"><span class="iconfa-star"></span></a></li>
+        <li><a href="#tabs-3"><span class="iconfa-comments"></span></a></li>
+    </ul>
+    <div id="tabs-1" class="nopadding">
+        <h5 class="tabtitle">Last Logged In Users</h5>
+        <ul class="userList">
+            <li>
+                <div>
+                    <img src="images/photos/thumb1.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Draniem Daamul</h5>
+                        <span class="pos">Software Engineer</span>
+                        <span>Last Logged In: 04/20/2013 8:40PM</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb2.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Therineka Chonpe</h5>
+                        <span class="pos">Regional Manager</span>
+                        <span>Last Logged In: 04/20/2013 3:30PM</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb3.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Zaham Sindilmaca</h5>
+                        <span class="pos">Chief Technical Officer</span>
+                        <span>Last Logged In: 04/19/2013 1:30AM</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb4.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Annie Cerona</h5>
+                        <span class="pos">Engineering Manager</span>
+                        <span>Last Logged In: 04/19/2013 11:30AM</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb5.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Delher Carasbong</h5>
+                        <span class="pos">Software Engineer</span>
+                        <span>Last Logged In: 04/19/2013 11:00AM</span>
+                    </div>
+                </div>
+            </li>
         </ul>
-        <div id="tabs-1" class="nopadding">
-            <h5 class="tabtitle">Last Logged In Users</h5>
-            <ul class="userlist">
-                <li>
-                    <div>
-                        <img src="images/photos/thumb1.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Draniem Daamul</h5>
-                            <span class="pos">Software Engineer</span>
-                            <span>Last Logged In: 04/20/2013 8:40PM</span>
-                        </div>
+    </div>
+    <div id="tabs-2" class="nopadding">
+        <h5 class="tabtitle">Favorites</h5>
+        <ul class="userlist userlist-favorites">
+            <li>
+                <div>
+                    <img src="images/photos/thumb3.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Zaham Sindilmaca</h5>
+                        <p class="link">
+                            <a href=""><i class="iconfa-envelope"></i> Message</a>
+                            <a href=""><i class="iconfa-phone"></i> Call</a>
+                        </p>
                     </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb2.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Therineka Chonpe</h5>
-                            <span class="pos">Regional Manager</span>
-                            <span>Last Logged In: 04/20/2013 3:30PM</span>
-                        </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb4.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Annie Cerona</h5>
+                        <p class="link">
+                            <a href=""><i class="iconfa-envelope"></i> Message</a>
+                            <a href=""><i class="iconfa-phone"></i> Call</a>
+                        </p>
                     </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb3.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Zaham Sindilmaca</h5>
-                            <span class="pos">Chief Technical Officer</span>
-                            <span>Last Logged In: 04/19/2013 1:30AM</span>
-                        </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb5.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Delher Carasbong</h5>
+                        <p class="link">
+                            <a href=""><i class="iconfa-envelope"></i> Message</a>
+                            <a href=""><i class="iconfa-phone"></i> Call</a>
+                        </p>
                     </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb4.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Annie Cerona</h5>
-                            <span class="pos">Engineering Manager</span>
-                            <span>Last Logged In: 04/19/2013 11:30AM</span>
-                        </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb1.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Draniem Daamul</h5>
+                        <p class="link">
+                            <a href=""><i class="iconfa-envelope"></i> Message</a>
+                            <a href=""><i class="iconfa-phone"></i> Call</a>
+                        </p>
                     </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb5.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Delher Carasbong</h5>
-                            <span class="pos">Software Engineer</span>
-                            <span>Last Logged In: 04/19/2013 11:00AM</span>
-                        </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb2.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Therineka Chonpe</h5>
+                        <p class="link">
+                            <a href=""><i class="iconfa-envelope"></i> Message</a>
+                            <a href=""><i class="iconfa-phone"></i> Call</a>
+                        </p>
                     </div>
-                </li>
-            </ul>
-        </div>
-        <div id="tabs-2" class="nopadding">
-            <h5 class="tabtitle">Favorites</h5>
-            <ul class="userlist userlist-favorites">
-                <li>
-                    <div>
-                        <img src="images/photos/thumb3.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Zaham Sindilmaca</h5>
-                            <p class="link">
-                                <a href=""><i class="iconfa-envelope"></i> Message</a>
-                                <a href=""><i class="iconfa-phone"></i> Call</a>
-                            </p>
-                        </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="tabs-3" class="nopadding">
+        <h5 class="tabtitle">Top Comments</h5>
+        <ul class="userlist">
+            <li>
+                <div>
+                    <img src="images/photos/thumb4.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Annie Cerona</h5>
+                        <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
                     </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb4.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Annie Cerona</h5>
-                            <p class="link">
-                                <a href=""><i class="iconfa-envelope"></i> Message</a>
-                                <a href=""><i class="iconfa-phone"></i> Call</a>
-                            </p>
-                        </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb5.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Delher Carasbong</h5>
+                        <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
                     </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb5.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Delher Carasbong</h5>
-                            <p class="link">
-                                <a href=""><i class="iconfa-envelope"></i> Message</a>
-                                <a href=""><i class="iconfa-phone"></i> Call</a>
-                            </p>
-                        </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb1.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Draniem Daamul</h5>
+                        <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
                     </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb1.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Draniem Daamul</h5>
-                            <p class="link">
-                                <a href=""><i class="iconfa-envelope"></i> Message</a>
-                                <a href=""><i class="iconfa-phone"></i> Call</a>
-                            </p>
-                        </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb2.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Therineka Chonpe</h5>
+                        <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
                     </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb2.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Therineka Chonpe</h5>
-                            <p class="link">
-                                <a href=""><i class="iconfa-envelope"></i> Message</a>
-                                <a href=""><i class="iconfa-phone"></i> Call</a>
-                            </p>
-                        </div>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/photos/thumb3.png" alt="" class="pull-left" />
+                    <div class="uinfo">
+                        <h5>Zaham Sindilmaca</h5>
+                        <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
                     </div>
-                </li>
-            </ul>
-        </div>
-        <div id="tabs-3" class="nopadding">
-            <h5 class="tabtitle">Top Comments</h5>
-            <ul class="userlist">
-                <li>
-                    <div>
-                        <img src="images/photos/thumb4.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Annie Cerona</h5>
-                            <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb5.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Delher Carasbong</h5>
-                            <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb1.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Draniem Daamul</h5>
-                            <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb2.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Therineka Chonpe</h5>
-                            <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <img src="images/photos/thumb3.png" alt="" class="pull-left" />
-                        <div class="uinfo">
-                            <h5>Zaham Sindilmaca</h5>
-                            <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div><!--tabbedwidget-->
+                </div>
+            </li>
+        </ul>
+    </div>
+</div><!--tabbedwidget-->
 
-    <br />
+<br />
 
 </div><!--span4-->
 </div><!--row-fluid-->
