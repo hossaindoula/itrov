@@ -183,7 +183,7 @@ public class AdminController {
         Map<String,Object> saveContentModel = new HashMap<String, Object>();
         saveContentModel.put("PageTitle", "Save Content");
         saveContentModel.put("Title", "ITRovers - Save Content" );
-        return new ModelAndView("redirect:/createHeader.itr", saveContentModel);
+        return new ModelAndView("redirect:/createContentHeader.itr", saveContentModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="accountSettings.itr")
