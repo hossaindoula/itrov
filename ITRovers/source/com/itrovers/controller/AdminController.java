@@ -157,7 +157,7 @@ public class AdminController {
         Map<String,Object> createContentHeaderModel = new HashMap<String, Object>();
         createContentHeaderModel.put("PageTitle", "Create Content Header");
         createContentHeaderModel.put("Title", "ITRovers - Create Content Header");
-        return new ModelAndView("admin_panel/content_header_list", createContentHeaderModel);
+        return new ModelAndView("admin_panel/create_content_header", createContentHeaderModel);
 
     }
 
@@ -176,6 +176,14 @@ public class AdminController {
         editProfileModel.put("PageTitle", "Edit Profile");
         editProfileModel.put("Title", "ITRovers - Edit Profile");
         return new ModelAndView("admin_panel/edit_profile", editProfileModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="saveContent.itr")
+    public ModelAndView saveContent(){
+        Map<String,Object> saveContentModel = new HashMap<String, Object>();
+        saveContentModel.put("PageTitle", "Save Content");
+        saveContentModel.put("Title", "ITRovers - Save Content" );
+        return new ModelAndView("admin_panel/save_content", saveContentModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="accountSettings.itr")
