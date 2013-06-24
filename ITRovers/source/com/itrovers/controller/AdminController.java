@@ -217,7 +217,7 @@ public class AdminController {
         content.setTitle(contentTitle);
         content.setUrl(contentDescription);
         contentHeaderDetailsService.saveContent(content);
-        return new ModelAndView("redirect:/admin/createContentHeader.itr", saveContentDetailsModel);
+        return new ModelAndView("redirect:/admin/createContentDetails.itr", saveContentDetailsModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="accountSettings.itr")
