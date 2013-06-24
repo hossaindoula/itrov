@@ -49,7 +49,7 @@
                         </div>
 
                         <div class="control-group">
-                            <label class="control-label" for="contentUrl">Content URL</label>
+                            <label class="control-label" for="contentDescription">Content Description</label>
                             <div class="controls"><input type="text" name="contentDescription" id="contentDescription" class="input-large" /></div>
                         </div>
 
