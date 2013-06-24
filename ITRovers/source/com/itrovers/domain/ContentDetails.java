@@ -1,9 +1,6 @@
 package com.itrovers.domain;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.util.Date;
 
 /**
@@ -13,7 +10,8 @@ import java.util.Date;
  * Time: 8:13 PM
  * To change this template use File | Settings | File Templates.
  */
-public class ContentTexts {
+@Entity
+public class ContentDetails {
 
     @Id              // about us
     @GeneratedValue(strategy = GenerationType.IDENTITY)

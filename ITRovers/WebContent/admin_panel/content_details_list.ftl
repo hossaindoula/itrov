@@ -6,7 +6,7 @@
 
 <ul class="breadcrumbs">
     <li><a href="dashboard.html"><i class="iconfa-home"></i></a> <span class="separator"></span></li>
-    <li>${PageTitle}</li>
+    <li>{PageTitle}</li>
     <li class="right">
         <a href="" data-toggle="dropdown" class="dropdown-toggle"><i class="icon-tint"></i> Color Skins</a>
         <ul class="dropdown-menu pull-right skin-color">
@@ -27,7 +27,7 @@
     <div class="pageicon"><span class="iconfa-laptop"></span></div>
     <div class="pagetitle">
         <h5>All Features Summary</h5>
-        <h1>${PageTitle}</h1>
+        <h1>{PageTitle}</h1>
     </div>
 </div><!--pageheader-->
 
@@ -39,61 +39,26 @@
     <h5 class="subtitle">Recently Viewed Pages</h5>
     <ul class="shortcuts">
         <li class="events">
-            <a href="createContentDetails.itr">
+            <a href="authorizedGroupList.itr">
                 <span class="shortcuts-icon iconsi-event"></span>
-                <span class="shortcuts-label">Create </span>
+                <span class="shortcuts-label">Group List</span>
             </a>
         </li>
-        <li class="products">
-            <a href="">
+        <li class="prodects">
+            <a href="createGroup.itr">
                 <span class="shortcuts-icon iconsi-cart"></span>
-                <span class="shortcuts-label"> List </span>
+                <span class="shortcuts-label">Create Group</span>
             </a>
         </li>
-
     </ul>
 
     <br />
 
-    <h5 class="subtitle">Daily Statistics</h5><br />
-    <div id="chartplace" style="height:300px;"></div>
+
 
     <div class="divider30"></div>
 
-    <table class="table table-bordered responsive">
-        <thead>
-        <tr>
-            <th class="head1">Rendering engine</th>
-            <th class="head0">Browser</th>
-            <th class="head1">Platform(s)</th>
-            <th class="head0">Engine version</th>
-            <th class="head1">CSS grade</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Trident</td>
-            <td>Internet  Explorer 5.5</td>
-            <td>Win 95+</td>
-            <td class="center">5.5</td>
-            <td class="center">A</td>
-        </tr>
-        <tr>
-            <td>Trident</td>
-            <td>Internet Explorer 6</td>
-            <td>Win 98+</td>
-            <td class="center">6</td>
-            <td class="center">A</td>
-        </tr>
-        <tr>
-            <td>Trident</td>
-            <td>Internet Explorer 7</td>
-            <td>Win XP SP2+</td>
-            <td class="center">7</td>
-            <td class="center">A</td>
-        </tr>
-        </tbody>
-    </table>
+    <div style="margin: 0 auto; width:100%; height:400px; overflow: auto;"><object type="text/html" data="contentHeaderListDiv.itr" style="width:100%; height:400px; margin:1%;"></object></div>
 
     <br />
 
@@ -195,7 +160,7 @@
     </ul>
     <div id="tabs-1" class="nopadding">
         <h5 class="tabtitle">Last Logged In Users</h5>
-        <ul class="userlist">
+        <ul class="userList">
             <li>
                 <div>
                     <img src="images/photos/thumb1.png" alt="" class="pull-left" />

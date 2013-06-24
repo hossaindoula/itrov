@@ -2,7 +2,7 @@ package com.itrovers.service;
 import java.util.List;
 
 import com.itrovers.domain.Content;
-import com.itrovers.domain.ContentTexts;
+import com.itrovers.domain.ContentDetails;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,17 +19,17 @@ public interface ContentHeaderDetailsService {
 
     public boolean saveContent(Content content);
 
-    public boolean saveContentText(ContentTexts contentTexts);
+    public boolean saveContent(ContentDetails contentDetails);
 
     public List<Content> getAllContents();
 
-    public List<ContentTexts> getAllContentTexts();
+    public List<ContentDetails> getAllContentTexts();
 
     public  int count();
 
     public Content findContentByContentId(String contentId);
 
-    public ContentTexts findContentTextsByContentTextsId(String contentTextsID);
+    public ContentDetails findContentTextsByContentTextsId(String contentTextsID);
 
     public Content findByContentName(String contentName);
 

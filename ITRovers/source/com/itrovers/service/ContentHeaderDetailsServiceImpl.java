@@ -9,13 +9,11 @@ package com.itrovers.service;
  */
 import com.itrovers.dao.ContentDao;
 import com.itrovers.domain.Content;
-import com.itrovers.domain.ContentTexts;
+import com.itrovers.domain.ContentDetails;
 
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -37,15 +35,12 @@ public class ContentHeaderDetailsServiceImpl implements ContentHeaderDetailsServ
     @Override
     @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
     public boolean saveContent(Content content){
-        return false;
+        return contentDao.save(content);
     }
 
-
     @Override
-    @Transactional(propagation = Propagation.SUPPORTS, readOnly = false)
-    public boolean saveContentText(ContentTexts contentTexts){
-        return false;
-
+    public boolean saveContent(ContentDetails contentDetails) {
+        return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
@@ -54,7 +49,7 @@ public class ContentHeaderDetailsServiceImpl implements ContentHeaderDetailsServ
     }
 
     @Override
-    public List<ContentTexts> getAllContentTexts() {
+    public List<ContentDetails> getAllContentTexts() {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
@@ -74,7 +69,7 @@ public class ContentHeaderDetailsServiceImpl implements ContentHeaderDetailsServ
     }
 
     @Override
-    public ContentTexts findContentTextsByContentTextsId(String contentTextsID) {
+    public ContentDetails findContentTextsByContentTextsId(String contentTextsID) {
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
