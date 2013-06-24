@@ -7,7 +7,7 @@ package com.itrovers.dao;
  * Time: 21:21
  * To change this template use File | Settings | File Templates.
  */
-import com.itrovers.domain.ContentTexts;
+import com.itrovers.domain.ContentDetails;
 import org.hibernate.Session;
 import org.hibernate.criterion.Projections;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,6 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.annotation.Propagation;
 
-import com.itrovers.util.DESEDE;
 import com.itrovers.domain.Content;
 
 import java.util.List;
@@ -37,8 +36,8 @@ public class ContentDaoImpl implements ContentDao {
     }
 
     @Override
-    public boolean save(ContentTexts contentTexts) {
-        hibernateTemplate.persist(contentTexts);
+    public boolean save(ContentDetails contentDetails) {
+        hibernateTemplate.persist(contentDetails);
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
@@ -50,14 +49,14 @@ public class ContentDaoImpl implements ContentDao {
     }
 
     @Override
-    public boolean update(ContentTexts contentTexts) {
-        hibernateTemplate.merge(contentTexts);
+    public boolean update(ContentDetails contentDetails) {
+        hibernateTemplate.merge(contentDetails);
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
-    public boolean delete(ContentTexts contentTexts) {
-        hibernateTemplate.delete(contentTexts);
+    public boolean delete(ContentDetails contentDetails) {
+        hibernateTemplate.delete(contentDetails);
         return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 

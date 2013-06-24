@@ -58,12 +58,13 @@
                     <value> com.itrovers.domain.Authority</value>
                     <value> com.itrovers.domain.AuthorizedGroups</value>
                     <value> com.itrovers.domain.Component </value>
-                    <!-- <value> com.itrovers.domain.Content</value>
-                    <value> com.itrovers.domain.ContentTexts</value>  -->
+                    <value> com.itrovers.domain.Content</value>
+                    <value>com.itrovers.domain.ContentDetails</value>
                     <value> com.itrovers.domain.Feature</value>
                     <value> com.itrovers.domain.Tag</value>
                     <value> com.itrovers.domain.Token</value>
                     <value> com.itrovers.domain.User</value>
+
                 </list>
             </property>
 

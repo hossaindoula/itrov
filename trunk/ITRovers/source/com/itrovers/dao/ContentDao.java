@@ -2,7 +2,7 @@ package com.itrovers.dao;
 
 import java.util.List;
 import com.itrovers.domain.Content;
-import com.itrovers.domain.ContentTexts;
+import com.itrovers.domain.ContentDetails;
 
 
 /**
@@ -16,15 +16,15 @@ public interface ContentDao {
 
     public  boolean save(Content content);
 
-    public  boolean save(ContentTexts contentTexts);
+    public  boolean save(ContentDetails contentDetails);
 
     public boolean update(Content content);
 
-    public boolean update(ContentTexts contentTexts);
+    public boolean update(ContentDetails contentDetails);
 
     public boolean delete(Content content);
 
-    public boolean delete(ContentTexts contentTexts);
+    public boolean delete(ContentDetails contentDetails);
 
     public Content get(int contentId);
 

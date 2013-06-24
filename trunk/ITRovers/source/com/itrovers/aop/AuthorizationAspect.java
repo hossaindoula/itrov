@@ -71,7 +71,9 @@ public class AuthorizationAspect {
 
         operation = proceedJoinPoint.getSignature().getName();
         isAllowed = authorizationService.checkAuthorization(features,module,operation);
-        if(isAllowed) return proceedJoinPoint.proceed(); else return new ModelAndView("/unauthorized");
+        /*if(isAllowed)*/
+        return proceedJoinPoint.proceed();
+        /*else return new ModelAndView("/unauthorized");*/
 
 	}
 	

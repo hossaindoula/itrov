@@ -1,6 +1,5 @@
 package com.itrovers.controller;
 
-import com.itrovers.domain.ContentTexts;
 import com.itrovers.domain.User;
 import com.itrovers.service.AuthenticationAndAuthorizationService;
 import com.itrovers.service.ContentHeaderDetailsService;
@@ -11,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import com.itrovers.service.UserDetailsService;
 import com.itrovers.domain.Content;
@@ -152,12 +152,30 @@ public class AdminController {
 
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="contentDetailsList.itr")
+    public ModelAndView contentDetailsList(){
+        Map<String,Object> contentDetailsListModel = new HashMap<String, Object>();
+        contentDetailsListModel.put("PageTitle", "Content Details List");
+        contentDetailsListModel.put("Title", "ITRovers - Content Details List");
+        return new ModelAndView("admin_panel/content_details_list", contentDetailsListModel);
+
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="createContentHeader.itr")
     public ModelAndView createContentHeader(){
         Map<String,Object> createContentHeaderModel = new HashMap<String, Object>();
         createContentHeaderModel.put("PageTitle", "Create Content Header");
         createContentHeaderModel.put("Title", "ITRovers - Create Content Header");
         return new ModelAndView("admin_panel/create_content_header", createContentHeaderModel);
+
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="createContentDetails.itr")
+    public ModelAndView createContentDetails(){
+        Map<String,Object> createContentDetailsModel = new HashMap<String, Object>();
+        createContentDetailsModel.put("PageTitle", "Create Content Details");
+        createContentDetailsModel.put("Title", "ITRovers - Create Content Details");
+        return new ModelAndView("admin_panel/create_content_details", createContentDetailsModel);
 
     }
 
@@ -178,12 +196,28 @@ public class AdminController {
         return new ModelAndView("admin_panel/edit_profile", editProfileModel);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="saveContent.itr")
-    public ModelAndView saveContent(){
+    @RequestMapping(method=RequestMethod.POST, value="saveContent.itr")
+    public ModelAndView saveContent(@RequestParam("contentTitle") String contentTitle, @RequestParam("contentUrl") String contentUrl){
         Map<String,Object> saveContentModel = new HashMap<String, Object>();
         saveContentModel.put("PageTitle", "Save Content");
         saveContentModel.put("Title", "ITRovers - Save Content" );
-        return new ModelAndView("redirect:/createContentHeader.itr", saveContentModel);
+        Content content = new Content();
+        content.setTitle(contentTitle);
+        content.setUrl(contentUrl);
+        contentHeaderDetailsService.saveContent(content);
+        return new ModelAndView("redirect:/admin/createContentHeader.itr", saveContentModel);
+    }
+
+    @RequestMapping(method=RequestMethod.POST, value="saveContentDetails.itr")
+    public ModelAndView saveContentDetails(@RequestParam("contentTitle") String contentTitle, @RequestParam("contentDescription") String contentDescription){
+        Map<String,Object> saveContentDetailsModel = new HashMap<String, Object>();
+        saveContentDetailsModel.put("PageTitle", "Save Content");
+        saveContentDetailsModel.put("Title", "ITRovers - Save Content");
+        Content content = new Content();
+        content.setTitle(contentTitle);
+        content.setUrl(contentDescription);
+        contentHeaderDetailsService.saveContent(content);
+        return new ModelAndView("redirect:/admin/createContentHeader.itr", saveContentDetailsModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="accountSettings.itr")
@@ -216,6 +250,12 @@ public class AdminController {
         return new ModelAndView("admin_panel/content_header_list_div", contentHeaderListDivModel);
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="contentDetailsListDiv.itr")
+    public ModelAndView contentDetailsListDiv(){
+        Map<String,Object> contentDetailsListDivModel = new HashMap<String, Object>();
+        return new ModelAndView("admin_panel/content_details_list_div", contentDetailsListDivModel);
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="contentHeaderJsonData.itr")
     public ModelAndView contentHeaderJsonData(){
         int start =  0;
@@ -241,29 +281,29 @@ public class AdminController {
         return new ModelAndView(new JSONView(), contentHeaderMap);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="contentTextsJsonData.itr")
-    public ModelAndView contentTextsJsonData(){
+    @RequestMapping(method=RequestMethod.GET, value="contentDetailsJsonData.itr")
+    public ModelAndView contentDetailsJsonData(){
         int start =  0;
         int limit = 15;
-        Map<String,Object> contentHeaderListMap = null;
-        Map<String,Object> contentHeaderMap = new HashMap<String, Object>();
+        Map<String,Object> contentDetailsListMap = null;
+        Map<String,Object> contentDetailsMap = new HashMap<String, Object>();
 
-        List<Content> contentsTexts = contentHeaderDetailsService.getAllContents();
-        List<Map<String,Object>> contentTextsMapList = new ArrayList<Map<String, Object>>();
+        List<Content> contentDetails = contentHeaderDetailsService.getAllContents();
+        List<Map<String,Object>> contentDetailsMapList = new ArrayList<Map<String, Object>>();
 
-        for (Content contentTexts: contentsTexts) {
-            contentHeaderListMap = new HashMap<String, Object>();
-            contentHeaderListMap.put("id", contentTexts.getId());
-            contentHeaderListMap.put("title", contentTexts.getTitle());
+        for (Content contentsDetails: contentDetails) {
+            contentDetailsListMap = new HashMap<String, Object>();
+            contentDetailsListMap.put("id", contentsDetails.getId());
+            contentDetailsListMap.put("title", contentsDetails.getTitle());
 
-            contentTextsMapList.add(contentHeaderListMap);
+            contentDetailsMapList.add(contentDetailsListMap);
         }
 
-        contentHeaderMap.put( "contentHeaderList",  contentTextsMapList.subList(start, start + limit > contentTextsMapList.size() ?
-                contentTextsMapList.size() : start + limit));
-        contentHeaderMap.put("totalCount", contentTextsMapList.size());
+        contentDetailsMap.put("contentDetailList", contentDetailsMapList.subList(start, start + limit > contentDetailsMapList.size() ?
+                contentDetailsMapList.size() : start + limit));
+        contentDetailsMap.put("totalCount", contentDetailsMapList.size());
 
-        return new ModelAndView(new JSONView(), contentHeaderMap);
+        return new ModelAndView(new JSONView(), contentDetailsMap);
     }
 
 

@@ -24,7 +24,7 @@
 </ul>
 
 <div class="pageheader">
-    <form action="saveContent.itr" method="post" class="searchbar">
+    <form action="" method="post" class="searchbar">
         <input type="text" name="keyword" placeholder="To search type and hit enter..." />
     </form>
     <div class="pageicon"><span class="iconfa-pencil"></span></div>
@@ -42,15 +42,15 @@
 <div class="widgetbox box-inverse">
     <h4 class="widgettitle">With Form Validation</h4>
     <div class="widgetcontent wc1">
-        <form id="form1" class="stdform" method="post" action="forms.html">
+        <form id="form1" class="stdform" method="post" action="saveContent.itr">
             <div class="par control-group">
-                <label class="control-label" for="firstname">Content Title</label>
-                <div class="controls"><input type="text" name="firstname" id="firstname" class="input-large" /></div>
+                <label class="control-label" for="contentTitle">Content Title</label>
+                <div class="controls"><input type="text" name="contentTitle" id="contentTitle" class="input-large" /></div>
             </div>
 
             <div class="control-group">
-                <label class="control-label" for="lastname">Content URL</label>
-                <div class="controls"><input type="text" name="lastname" id="lastname" class="input-large" /></div>
+                <label class="control-label" for="contentUrl">Content URL</label>
+                <div class="controls"><input type="text" name="contentUrl" id="contentUrl" class="input-large" /></div>
             </div>
 
             <p class="stdformbutton">
