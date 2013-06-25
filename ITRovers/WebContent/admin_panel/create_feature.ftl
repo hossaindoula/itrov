@@ -40,28 +40,60 @@
     <h5 class="subtitle">Recently Viewed Pages</h5>
     <ul class="shortcuts">
         <li class="events">
-            <a href="authorizedGroupList.itr">
+            <a href="featureList.itr">
                 <span class="shortcuts-icon iconsi-event"></span>
-                <span class="shortcuts-label">Group List</span>
+                <span class="shortcuts-label">Feature List</span>
             </a>
         </li>
         <li class="prodects">
-            <a href="/createAuthorizedGroup.itr">
+            <a href="createFeature.itr">
                 <span class="shortcuts-icon iconsi-cart"></span>
-                <span class="shortcuts-label">Create Group</span>
+                <span class="shortcuts-label">Create Feature</span>
             </a>
         </li>
     </ul>
 
     <br />
 
+    <h5 class="subtitle">Daily Statistics</h5><br />
+    <div id="chartplace" style="height:300px;"></div>
+
     <div class="divider30"></div>
 
-    <div style="margin: 0 auto; width:100%; height:400px; overflow: auto;"><object type="text/html" data="userListDiv.itr" style="width:100%; height:400px; margin:1%;"></object></div>
-
-    <br />
-
-
+    <table class="table table-bordered responsive">
+        <thead>
+        <tr>
+            <th class="head1">Rendering engine</th>
+            <th class="head0">Browser</th>
+            <th class="head1">Platform(s)</th>
+            <th class="head0">Engine version</th>
+            <th class="head1">CSS grade</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Trident</td>
+            <td>Internet  Explorer 5.5</td>
+            <td>Win 95+</td>
+            <td class="center">5.5</td>
+            <td class="center">A</td>
+        </tr>
+        <tr>
+            <td>Trident</td>
+            <td>Internet Explorer 6</td>
+            <td>Win 98+</td>
+            <td class="center">6</td>
+            <td class="center">A</td>
+        </tr>
+        <tr>
+            <td>Trident</td>
+            <td>Internet Explorer 7</td>
+            <td>Win XP SP2+</td>
+            <td class="center">7</td>
+            <td class="center">A</td>
+        </tr>
+        </tbody>
+    </table>
 
     <br />
 

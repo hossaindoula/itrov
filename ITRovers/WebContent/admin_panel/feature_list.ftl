@@ -2,7 +2,6 @@
 <@layout.admin_layout "${PageTitle}" >
 
 
-
 <div class="rightpanel">
 
 <ul class="breadcrumbs">
@@ -40,28 +39,26 @@
     <h5 class="subtitle">Recently Viewed Pages</h5>
     <ul class="shortcuts">
         <li class="events">
-            <a href="authorizedGroupList.itr">
+            <a href="featureList.itr">
                 <span class="shortcuts-icon iconsi-event"></span>
-                <span class="shortcuts-label">Group List</span>
+                <span class="shortcuts-label">Feature List</span>
             </a>
         </li>
         <li class="prodects">
-            <a href="/createAuthorizedGroup.itr">
+            <a href="createFeature.itr">
                 <span class="shortcuts-icon iconsi-cart"></span>
-                <span class="shortcuts-label">Create Group</span>
+                <span class="shortcuts-label">Create Features</span>
             </a>
         </li>
     </ul>
 
     <br />
 
+
+
     <div class="divider30"></div>
 
-    <div style="margin: 0 auto; width:100%; height:400px; overflow: auto;"><object type="text/html" data="userListDiv.itr" style="width:100%; height:400px; margin:1%;"></object></div>
-
-    <br />
-
-
+    <div style="margin: 0 auto; width:100%; height:400px; overflow: auto;"><object type="text/html" data="featureListDiv.gr" style="width:100%; height:400px; margin:1%;"></object></div>
 
     <br />
 
@@ -163,7 +160,7 @@
     </ul>
     <div id="tabs-1" class="nopadding">
         <h5 class="tabtitle">Last Logged In Users</h5>
-        <ul class="userlist">
+        <ul class="userList">
             <li>
                 <div>
                     <img src="images/photos/thumb1.png" alt="" class="pull-left" />
