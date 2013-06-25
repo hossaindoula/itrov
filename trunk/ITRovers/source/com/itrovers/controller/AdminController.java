@@ -1,5 +1,6 @@
 package com.itrovers.controller;
 
+import com.itrovers.domain.Feature;
 import com.itrovers.domain.User;
 import com.itrovers.service.AuthenticationAndAuthorizationService;
 import com.itrovers.service.ContentHeaderDetailsService;
@@ -24,7 +25,7 @@ import java.util.ArrayList;
 
 /**
  * Created with IntelliJ IDEA.
- * User: Administrator
+ * User: Ninad
  * Date: 2013-05-05
  * Time: 21:28
  * To change this template use File | Settings | File Templates.
@@ -77,6 +78,22 @@ public class AdminController {
         return new ModelAndView("admin_panel/authorized_groups", authorizedGroupsModel);
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupsList.itr")
+    public ModelAndView authorizedGroupsList(){
+        Map<String,Object> authorizedGroupsModel = new HashMap<String, Object>();
+        authorizedGroupsModel.put("PageTitle", "AuthorizedGroups");
+        authorizedGroupsModel.put("Title", "ITRovers - Authorized Groups");
+        return new ModelAndView("admin_panel/authorized_groups_list", authorizedGroupsModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupsListDiv.itr")
+    public ModelAndView authorizedGroupsListDiv(){
+        Map<String,Object> authorizedGroupsModel = new HashMap<String, Object>();
+        authorizedGroupsModel.put("PageTitle", "AuthorizedGroups");
+        authorizedGroupsModel.put("Title", "ITRovers - Authorized Groups");
+        return new ModelAndView("admin_panel/authorized_groups_list_div", authorizedGroupsModel);
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="authority.itr")
     public ModelAndView authority(){
         Map<String,Object> authorityModel = new HashMap<String, Object>();
@@ -91,6 +108,55 @@ public class AdminController {
         featureModel.put("PageTitle", "Feature");
         featureModel.put("Title", "ITRovers - Feature");
         return new ModelAndView("admin_panel/feature", featureModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="featureList.itr")
+    public ModelAndView featureList(){
+        Map<String,Object> featureListModel = new HashMap<String, Object>();
+        featureListModel.put("PageTitle", "Feature List");
+        featureListModel.put("Title", "ITRovers - Feature List");
+        return new ModelAndView("admin_panel/feature_list", featureListModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="featureListDiv.gr")
+    public ModelAndView featureListDiv(){
+        Map<String,Object> featureListDivModel = new HashMap<String, Object>();
+        featureListDivModel.put("PageTitle", "Feature List");
+        featureListDivModel.put("Title", "ITRovers - Feature List");
+        return new ModelAndView("admin_panel/feature_list_div", featureListDivModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="featureJsonData.gr")
+    public ModelAndView featureJsonData(){
+        int start =  0;
+        int limit = 15;
+        Map<String,Object> featureListMap = null;
+        Map<String,Object> featureMap = new HashMap<String, Object>();
+        List<Feature> features = securityService.findAllFeatures();
+        List<Map<String,Object>> featureMapList = new ArrayList<Map<String, Object>>();
+        for (Feature feature : features) {
+            featureListMap = new HashMap<String, Object>();
+            featureListMap.put("id", feature.getFeatureId());
+            featureListMap.put("component", feature.getComponent().getComponentName());
+            featureListMap.put("description", feature.getDescription());
+            featureListMap.put("operation", feature.getOperation());
+
+            featureMapList.add(featureListMap);
+        }
+
+        featureMap.put("featureList", featureMapList.subList(start, start + limit > featureMapList.size() ?
+                featureMapList.size() : start + limit));
+        featureMap.put("totalCount", featureMapList.size());
+
+        return new ModelAndView(new JSONView(), featureMap);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="createFeature.gr")
+    public ModelAndView createFeature(){
+        Map<String,Object> createFeatureModel = new HashMap<String, Object>();
+        createFeatureModel.put("PageTitle", "Create Feature");
+        createFeatureModel.put("Title", "ITRovers - Create Feature");
+        return new ModelAndView("admin_panel/create_feature", createFeatureModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="component.itr")
@@ -125,6 +191,14 @@ public class AdminController {
         return new ModelAndView("admin_panel/authorized_group_List", authorizedGroupListModel);
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupsListDiv.itr")
+    public ModelAndView authorizedGroupListDiv(){
+        Map<String,Object> authorizedGroupsModel = new HashMap<String, Object>();
+        authorizedGroupsModel.put("PageTitle", "AuthorizedGroups");
+        authorizedGroupsModel.put("Title", "ITRovers - Authorized Groups");
+        return new ModelAndView("admin_panel/authorized_groups_list_div", authorizedGroupsModel);
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="createAuthorizedGroup.itr")
     public ModelAndView createAuthorizedGroup(){
         Map<String,Object> createAuthorizedGroupModel = new HashMap<String, Object>();
@@ -133,6 +207,8 @@ public class AdminController {
         return new ModelAndView("admin_panel/create_AuthorizedGroup", createAuthorizedGroupModel);
 
     }
+
+
 
     @RequestMapping(method=RequestMethod.GET, value="contentHeader.itr")
     public ModelAndView contentHeader(){
