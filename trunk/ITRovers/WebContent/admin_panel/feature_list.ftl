@@ -58,7 +58,7 @@
 
     <div class="divider30"></div>
 
-    <div style="margin: 0 auto; width:100%; height:400px; overflow: auto;"><object type="text/html" data="featureListDiv.gr" style="width:100%; height:400px; margin:1%;"></object></div>
+    <div style="margin: 0 auto; width:100%; height:400px; overflow: auto;"><object type="text/html" data="featureListDiv.itr" style="width:100%; height:400px; margin:1%;"></object></div>
 
     <br />
 

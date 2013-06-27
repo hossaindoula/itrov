@@ -1,4 +1,4 @@
-html>
+<html>
 <head>
     <link rel="stylesheet" type="text/css" href="${rc.getContextPath()}/extjs4/examples/shared/example.css" />
     <script type="text/javascript" src="${rc.getContextPath()}/extjs4/examples/shared/include-ext.js"></script>

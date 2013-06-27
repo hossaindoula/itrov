@@ -57,19 +57,19 @@ Ext.onReady(function(){
     var grid = Ext.create('Ext.grid.Panel', {            // as is entity
         store: store,
         columns: [{
-            header: 'AUTHORIZEDID',
+            header: 'AUTH GROUP ID',
             dataIndex: 'id'
         },{
-            header: 'AUTHORIZATIONNAME',
+            header: 'AUTH GROUP NAME',
             dataIndex: 'name'
 
         },{
-            header: 'AUTHORIZATIONDESCRIPTION',
+            header: 'DESCRIPTION',
             dataIndex: 'description'
 
         }
         ],
-        renderTo: 'authorization-grid',
+        renderTo: 'authorizedGroups-grid',
         width: 600,
         height: 400,
         title: 'AuthorizedGroups',
