@@ -58,7 +58,7 @@ Ext.onReady(function(){
     var grid = Ext.create('Ext.grid.Panel', {            // as is entity
         store: store,
         columns: [{
-            header: 'FEATUREID',
+            header: 'FEATURE ID',
             dataIndex: 'id'
         },{
             header: 'COMPONENT',

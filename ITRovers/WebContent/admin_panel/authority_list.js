@@ -20,7 +20,7 @@ Ext.onReady(function(){
     Ext.define('Authority', {
         extend: 'Ext.data.Model',
         fields: [
-            { name: 'id', type: 'long'},
+            { name: 'id', type: 'int'},
             { name: 'name', type: 'string' },
             { name: 'description', type: 'string' }
 
@@ -35,7 +35,7 @@ Ext.onReady(function(){
         model: 'Authority',
         proxy: {             //    types of data rendering , used in data retrieve process. type of data which is being sent from controller
             type: 'ajax',
-            url: 'authorityJsonData.gr',
+            url: 'authorityJsonData.itr',
             reader: {                    // parsing data type
                 type: 'json',
                 root: 'authorityList',

@@ -109,7 +109,7 @@ public class AdminController {
         Map<String,Object> authorityListModel = new HashMap<String, Object>();
         authorityListModel.put("PageTitle", "Authority List");
         authorityListModel.put("Title", "ITRovers - Authority List");
-        return new ModelAndView("admin_panel/feature_list", authorityListModel);
+        return new ModelAndView("admin_panel/authority_list", authorityListModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="authorityListDiv.itr")
@@ -117,7 +117,7 @@ public class AdminController {
         Map<String,Object> authorityListDivModel = new HashMap<String, Object>();
         authorityListDivModel.put("PageTitle", "Authority List");
         authorityListDivModel.put("Title", "ITRovers - Authority List");
-        return new ModelAndView("admin_panel/feature_list_div", authorityListDivModel);
+        return new ModelAndView("admin_panel/authority_list_div", authorityListDivModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="authorityJsonData.itr")
@@ -233,12 +233,12 @@ public class AdminController {
         return new ModelAndView("admin_panel/authorized_group_List", authorizedGroupListModel);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupsListDiv.itr")
+    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupListDiv.itr")
     public ModelAndView authorizedGroupListDiv(){
         Map<String,Object> authorizedGroupsModel = new HashMap<String, Object>();
         authorizedGroupsModel.put("PageTitle", "AuthorizedGroups");
         authorizedGroupsModel.put("Title", "ITRovers - Authorized Groups");
-        return new ModelAndView("admin_panel/authorized_groups_list_div", authorizedGroupsModel);
+        return new ModelAndView("admin_panel/authorized_group_list_div", authorizedGroupsModel);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="createAuthorizedGroup.itr")
@@ -459,7 +459,7 @@ public class AdminController {
         return new ModelAndView(new JSONView(), userMap);       // returning JSON data
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupsJsonData.gr")
+    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupsJsonData.itr")
     public ModelAndView authorizedGroupsJsonData(){
         int start =  0;
         int limit = 15;
