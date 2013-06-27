@@ -1,9 +1,9 @@
 package com.itrovers.controller;
 
-import com.itrovers.domain.Feature;
-import com.itrovers.domain.User;
+import com.itrovers.domain.*;
 import com.itrovers.service.AuthenticationAndAuthorizationService;
 import com.itrovers.service.ContentHeaderDetailsService;
+import com.itrovers.service.SecurityService;
 import com.itrovers.util.ITRConstants;
 import com.itrovers.util.JSONView;
 import com.itrovers.util.SessionUtil;
@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import com.itrovers.service.UserDetailsService;
-import com.itrovers.domain.Content;
 
 
 import javax.servlet.http.HttpSession;
@@ -44,6 +43,9 @@ public class AdminController {
 
     @Autowired
     private ContentHeaderDetailsService contentHeaderDetailsService;
+
+    @Autowired
+    private SecurityService securityService;
 
     @RequestMapping(method = RequestMethod.GET, value = "login.itr")
     public ModelAndView login(){
@@ -102,6 +104,46 @@ public class AdminController {
         return new ModelAndView("admin_panel/authority", authorityModel);
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="authorityList.itr")
+    public ModelAndView authorityList(){
+        Map<String,Object> authorityListModel = new HashMap<String, Object>();
+        authorityListModel.put("PageTitle", "Authority List");
+        authorityListModel.put("Title", "ITRovers - Authority List");
+        return new ModelAndView("admin_panel/feature_list", authorityListModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="authorityListDiv.itr")
+    public ModelAndView authorityListDiv(){
+        Map<String,Object> authorityListDivModel = new HashMap<String, Object>();
+        authorityListDivModel.put("PageTitle", "Authority List");
+        authorityListDivModel.put("Title", "ITRovers - Authority List");
+        return new ModelAndView("admin_panel/feature_list_div", authorityListDivModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="authorityJsonData.itr")
+    public ModelAndView authorityJsonData(){
+        int start =  0;
+        int limit = 15;
+        Map<String,Object> authorityListMap = null;
+        Map<String,Object> authorityMap = new HashMap<String, Object>();
+        List<Authority> authorities = securityService.findAllAuthorities();
+        List<Map<String,Object>> authorityMapList = new ArrayList<Map<String, Object>>();
+        for (Authority authority : authorities) {
+            authorityListMap = new HashMap<String, Object>();
+            authorityListMap.put("id", authority.getAuthorityId());
+            authorityListMap.put("description", authority.getAuthorityDescription());
+            authorityListMap.put("name", authority.getAuthorityName());
+
+            authorityMapList.add(authorityListMap);
+        }
+
+        authorityMap.put("authorityList", authorityMapList.subList(start, start + limit > authorityMapList.size() ?
+                authorityMapList.size() : start + limit));
+        authorityMap.put("totalCount", authorityMapList.size());
+
+        return new ModelAndView(new JSONView(), authorityMap);
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="feature.itr")
     public ModelAndView feature(){
         Map<String,Object> featureModel = new HashMap<String, Object>();
@@ -118,7 +160,7 @@ public class AdminController {
         return new ModelAndView("admin_panel/feature_list", featureListModel);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="featureListDiv.gr")
+    @RequestMapping(method=RequestMethod.GET, value="featureListDiv.itr")
     public ModelAndView featureListDiv(){
         Map<String,Object> featureListDivModel = new HashMap<String, Object>();
         featureListDivModel.put("PageTitle", "Feature List");
@@ -126,7 +168,7 @@ public class AdminController {
         return new ModelAndView("admin_panel/feature_list_div", featureListDivModel);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="featureJsonData.gr")
+    @RequestMapping(method=RequestMethod.GET, value="featureJsonData.itr")
     public ModelAndView featureJsonData(){
         int start =  0;
         int limit = 15;
@@ -151,7 +193,7 @@ public class AdminController {
         return new ModelAndView(new JSONView(), featureMap);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="createFeature.gr")
+    @RequestMapping(method=RequestMethod.GET, value="createFeature.itr")
     public ModelAndView createFeature(){
         Map<String,Object> createFeatureModel = new HashMap<String, Object>();
         createFeatureModel.put("PageTitle", "Create Feature");
@@ -416,4 +458,29 @@ public class AdminController {
 
         return new ModelAndView(new JSONView(), userMap);       // returning JSON data
     }
+
+    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupsJsonData.gr")
+    public ModelAndView authorizedGroupsJsonData(){
+        int start =  0;
+        int limit = 15;
+        Map<String,Object> authorizedGroupsListMap = null;
+        Map<String,Object> authorizedGroupsMap = new HashMap<String, Object>();
+        List<AuthorizedGroups> authorizedGroups = securityService.findAllAuthorizedGroup();
+        List<Map<String,Object>> authorizedGroupMapList = new ArrayList<Map<String, Object>>();
+        for (AuthorizedGroups authorizedGroup : authorizedGroups) {
+            authorizedGroupsListMap = new HashMap<String, Object>();
+            authorizedGroupsListMap.put("id", authorizedGroup.getId());
+            authorizedGroupsListMap.put("description", authorizedGroup.getAuthorizationName());
+            authorizedGroupsListMap.put("name", authorizedGroup.getAuthorizationDescription());
+
+            authorizedGroupMapList.add(authorizedGroupsListMap);
+        }
+
+        authorizedGroupsMap.put("authorizedGroupList", authorizedGroupMapList.subList(start, start + limit > authorizedGroupMapList.size() ?
+                authorizedGroupMapList.size() : start + limit));
+        authorizedGroupsMap.put("totalCount", authorizedGroupMapList.size());
+
+        return new ModelAndView(new JSONView(), authorizedGroupsMap);
+    }
+
 }
