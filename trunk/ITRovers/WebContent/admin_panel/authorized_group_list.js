@@ -20,9 +20,9 @@ Ext.onReady(function(){
     Ext.define('AuthorizedGroups', {
         extend: 'Ext.data.Model',
         fields: [
-            { name: 'authorizedId', type: 'long'},
-            { name: 'authorizationName', type: 'string' },
-            { name: 'authorizationDescription', type: 'string' },
+            { name: 'id', type: 'long'},
+            { name: 'name', type: 'string' },
+            { name: 'description', type: 'string' }
 
         ]
     });
@@ -58,14 +58,14 @@ Ext.onReady(function(){
         store: store,
         columns: [{
             header: 'AUTHORIZEDID',
-            dataIndex: 'authorizedId'
+            dataIndex: 'id'
         },{
             header: 'AUTHORIZATIONNAME',
-            dataIndex: 'authorizationName'
+            dataIndex: 'name'
 
         },{
             header: 'AUTHORIZATIONDESCRIPTION',
-            dataIndex: 'authorizationDescription'
+            dataIndex: 'description'
 
         }
         ],
