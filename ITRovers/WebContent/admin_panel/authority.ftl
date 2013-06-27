@@ -40,13 +40,13 @@
     <h5 class="subtitle">Recently Viewed Pages</h5>
     <ul class="shortcuts">
         <li class="events">
-            <a href="authorityList.gr">
+            <a href="authorityList.itr">
                 <span class="shortcuts-icon iconsi-event"></span>
                 <span class="shortcuts-label">Authority List</span>
             </a>
         </li>
         <li class="prodects">
-            <a href="createAuthority.gr">
+            <a href="createAuthority.itr">
                 <span class="shortcuts-icon iconsi-cart"></span>
                 <span class="shortcuts-label">Create Authority</span>
             </a>

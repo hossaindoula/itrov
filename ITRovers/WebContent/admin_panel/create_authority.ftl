@@ -2,6 +2,7 @@
 <@layout.admin_layout "${PageTitle}" >
 
 
+
 <div class="rightpanel">
 
 <ul class="breadcrumbs">
@@ -39,13 +40,13 @@
     <h5 class="subtitle">Recently Viewed Pages</h5>
     <ul class="shortcuts">
         <li class="events">
-            <a href="authorityList.gr">
+            <a href="authorityList.itr">
                 <span class="shortcuts-icon iconsi-event"></span>
                 <span class="shortcuts-label">Authority List</span>
             </a>
         </li>
         <li class="prodects">
-            <a href="createAuthority.gr">
+            <a href="createAuthority.itr">
                 <span class="shortcuts-icon iconsi-cart"></span>
                 <span class="shortcuts-label">Create Authority</span>
             </a>
@@ -54,11 +55,45 @@
 
     <br />
 
+    <h5 class="subtitle">Daily Statistics</h5><br />
 
 
     <div class="divider30"></div>
 
-    <div style="margin: 0 auto; width:100%; height:400px; overflow: auto;"><object type="text/html" data="authorityListDiv.itr" style="width:100%; height:400px; margin:1%;"></object></div>
+    <table class="table table-bordered responsive">
+        <thead>
+        <tr>
+            <th class="head1">Rendering engine</th>
+            <th class="head0">Browser</th>
+            <th class="head1">Platform(s)</th>
+            <th class="head0">Engine version</th>
+            <th class="head1">CSS grade</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Trident</td>
+            <td>Internet  Explorer 5.5</td>
+            <td>Win 95+</td>
+            <td class="center">5.5</td>
+            <td class="center">A</td>
+        </tr>
+        <tr>
+            <td>Trident</td>
+            <td>Internet Explorer 6</td>
+            <td>Win 98+</td>
+            <td class="center">6</td>
+            <td class="center">A</td>
+        </tr>
+        <tr>
+            <td>Trident</td>
+            <td>Internet Explorer 7</td>
+            <td>Win XP SP2+</td>
+            <td class="center">7</td>
+            <td class="center">A</td>
+        </tr>
+        </tbody>
+    </table>
 
     <br />
 
@@ -160,7 +195,7 @@
     </ul>
     <div id="tabs-1" class="nopadding">
         <h5 class="tabtitle">Last Logged In Users</h5>
-        <ul class="userList">
+        <ul class="userlist">
             <li>
                 <div>
                     <img src="images/photos/thumb1.png" alt="" class="pull-left" />
@@ -337,7 +372,7 @@
 
 <div class="footer">
     <div class="footer-left">
-        <span>&copy; 2013. ITROvers PTY LTD. All Rights Reserved.</span>
+        <span>&copy; 2013. ITRovers PTY LTD. All Rights Reserved.</span>
     </div>
     <div class="footer-right">
         <span>ITRovers</span>
