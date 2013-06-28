@@ -38,7 +38,7 @@ Ext.onReady(function(){
             url: 'authorizedGroupsJsonData.itr',
             reader: {                    // parsing data type
                 type: 'json',
-                root: 'authorizedGroupsList',
+                root: 'authorizedGroupList',
                 idProperty: 'id',
                 totalProperty: 'total'
             }

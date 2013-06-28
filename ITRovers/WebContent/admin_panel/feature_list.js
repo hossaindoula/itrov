@@ -17,7 +17,7 @@ Ext.require([
 
 Ext.onReady(function(){
     // Define our data model ,'user' in this case.
-    Ext.define('AuthorizedGroups', {
+    Ext.define('Feature', {
         extend: 'Ext.data.Model',
         fields: [
             { name: 'id', type: 'long'},
@@ -36,7 +36,7 @@ Ext.onReady(function(){
         model: 'Feature',
         proxy: {             //    types of data rendering , used in data retrieve process. type of data which is being sent from controller
             type: 'ajax',
-            url: '´featureJsonData.itr',
+            url: 'featureJsonData.itr',
             reader: {                    // parsing data type
                 type: 'json',
                 root: 'featureList',
