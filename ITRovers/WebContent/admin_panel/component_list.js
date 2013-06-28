@@ -17,7 +17,7 @@ Ext.require([
 
 Ext.onReady(function(){
     // Define our data model ,'user' in this case.
-    Ext.define('Authority', {
+    Ext.define('Component', {
         extend: 'Ext.data.Model',
         fields: [
             { name: 'id', type: 'int'},
