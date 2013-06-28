@@ -209,6 +209,46 @@ public class AdminController {
         return new ModelAndView("admin_panel/component", componentModel);
     }
 
+    @RequestMapping(method=RequestMethod.GET, value="componentList.itr")
+    public ModelAndView componentList(){
+        Map<String,Object> componentListModel = new HashMap<String, Object>();
+        componentListModel.put("PageTitle", "Component List");
+        componentListModel.put("Title", "ITRovers - Component List");
+        return new ModelAndView("admin_panel/component_list", componentListModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="componentListDiv.itr")
+    public ModelAndView componentListDiv(){
+        Map<String,Object> componentListDivModel = new HashMap<String, Object>();
+        componentListDivModel.put("PageTitle", "Component List");
+        componentListDivModel.put("Title", "ITRovers - Component List");
+        return new ModelAndView("admin_panel/component_list_div", componentListDivModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="componentJsonData.itr")
+    public ModelAndView componentJsonData(){
+        int start =  0;
+        int limit = 15;
+        Map<String,Object> componentListMap = null;
+        Map<String,Object> componentMap = new HashMap<String, Object>();
+        List<Component> components = securityService.findAllComponents();
+        List<Map<String,Object>> componentMapList = new ArrayList<Map<String, Object>>();
+        for (Component component : components) {
+            componentListMap = new HashMap<String, Object>();
+            componentListMap.put("id", component.getComponentId());
+            componentListMap.put("description", component.getDescription());
+            componentListMap.put("name", component.getComponentName());
+
+            componentMapList.add(componentListMap);
+        }
+
+        componentMap.put("componentList", componentMapList.subList(start, start + limit > componentMapList.size() ?
+                componentMapList.size() : start + limit));
+        componentMap.put("totalCount", componentMapList.size());
+
+        return new ModelAndView(new JSONView(), componentMap);
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="userList.itr")
     public ModelAndView userList(){
         Map<String,Object> userListModel = new HashMap<String, Object>();
