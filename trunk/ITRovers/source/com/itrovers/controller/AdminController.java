@@ -120,7 +120,27 @@ public class AdminController {
         return new ModelAndView("admin_panel/authority_list_div", authorityListDivModel);
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="authorityJsonData.itr")
+    @RequestMapping(method=RequestMethod.GET, value="createAuthority.itr")
+    public ModelAndView createAuthority(){
+        Map<String,Object> createAuthorityModel = new HashMap<String, Object>();
+        createAuthorityModel.put("PageTitle", "Create Authority");
+        createAuthorityModel.put("Title", "ITRovers - Create Authority");
+        return new ModelAndView("admin_panel/create_authority", createAuthorityModel);
+    }
+
+    @RequestMapping(method= RequestMethod.POST)
+    public ModelAndView saveAuthorityData(@RequestParam("authorityname") String authorityname,
+                                     @RequestParam("authoritydescription") String authoritydescription){
+        Map<String,String> saveAuthority = new HashMap<String,String>();
+
+        Authority authority = new Authority();
+        authority.setAuthorityName(authorityname);
+        authority.setAuthorityDescription(authoritydescription);
+
+        return new ModelAndView("admin_panel/create_authority",saveAuthority);
+    }
+
+    @RequestMapping(method=RequestMethod.POST, value="authorityJsonData.itr")
     public ModelAndView authorityJsonData(){
         int start =  0;
         int limit = 15;
@@ -143,6 +163,8 @@ public class AdminController {
 
         return new ModelAndView(new JSONView(), authorityMap);
     }
+
+
 
     @RequestMapping(method=RequestMethod.GET, value="feature.itr")
     public ModelAndView feature(){
@@ -265,6 +287,24 @@ public class AdminController {
         return new ModelAndView("admin_panel/create_user", createUserModel);
     }
 
+    @RequestMapping(method= RequestMethod.POST)
+    public ModelAndView saveUserData(@RequestParam("username") String username,
+                                     @RequestParam("password") String password){
+        Map<String,String> saveUser = new HashMap<String,String>();
+
+        Token token = new Token();
+        token.setUsername(username);
+        token.setPassword(password);
+
+        User user = new User();
+        user.setToken(token);
+        user.setActive(true);
+
+        userDetailsService.saveUser(user);
+
+        return new ModelAndView("admin_panel/create_user", saveUser);
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="authorizedGroupList.itr")
     public ModelAndView authorizedGroupList(){
         Map<String,Object> authorizedGroupListModel = new HashMap<String, Object>();
@@ -286,8 +326,20 @@ public class AdminController {
         Map<String,Object> createAuthorizedGroupModel = new HashMap<String, Object>();
         createAuthorizedGroupModel.put("PageTitle", "Create Authorized Group");
         createAuthorizedGroupModel.put("Title", "ITRovers - Create Authorized Group");
-        return new ModelAndView("admin_panel/create_AuthorizedGroup", createAuthorizedGroupModel);
+        return new ModelAndView("admin_panel/create_authorized_group", createAuthorizedGroupModel);
 
+    }
+
+    @RequestMapping(method= RequestMethod.POST)
+    public ModelAndView saveAuthorizedGroupData(@RequestParam("authorizedgroupname") String authorizedgroupname,
+                                          @RequestParam("authorizedgroupdescription") String authorizedgroupdescription){
+        Map<String,String> saveAuthorizedGroup = new HashMap<String,String>();
+
+        AuthorizedGroups authorizedGroups = new AuthorizedGroups();
+        authorizedGroups.setAuthorizationName(authorizedgroupname);
+        authorizedGroups.setAuthorizationDescription(authorizedgroupdescription);
+
+        return new ModelAndView("admin_panel/create_authorized_group",saveAuthorizedGroup);
     }
 
 
@@ -499,7 +551,7 @@ public class AdminController {
         return new ModelAndView(new JSONView(), userMap);       // returning JSON data
     }
 
-    @RequestMapping(method=RequestMethod.GET, value="authorizedGroupsJsonData.itr")
+    @RequestMapping(method=RequestMethod.POST, value="authorizedGroupsJsonData.itr")
     public ModelAndView authorizedGroupsJsonData(){
         int start =  0;
         int limit = 15;

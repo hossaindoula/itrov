@@ -27,7 +27,7 @@
     </form>
     <div class="pageicon"><span class="iconfa-laptop"></span></div>
     <div class="pagetitle">
-        <h5>All Features Summary</h5>
+        <h5>Feature</h5>
         <h1>${PageTitle}</h1>
     </div>
 </div><!--pageheader-->

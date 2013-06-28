@@ -39,15 +39,15 @@
     <h5 class="subtitle">Recently Viewed Pages</h5>
     <ul class="shortcuts">
         <li class="events">
-            <a href="authorizedGroupList.itr">
+            <a href="userList.itr">
                 <span class="shortcuts-icon iconsi-event"></span>
-                <span class="shortcuts-label">Group List</span>
+                <span class="shortcuts-label">User List</span>
             </a>
         </li>
         <li class="prodects">
-            <a href="createGroup.itr">
+            <a href="createUser.itr">
                 <span class="shortcuts-icon iconsi-cart"></span>
-                <span class="shortcuts-label">Create Group</span>
+                <span class="shortcuts-label">Create User</span>
             </a>
         </li>
     </ul>
