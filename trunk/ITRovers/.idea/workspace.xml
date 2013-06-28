@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e6546f58-0c84-40bf-8b92-3c0b836ccc29" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/admin_panel/component_list.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/admin_panel/component_list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/admin_panel/component_list_div.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" afterPath="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/authority_list.js" afterPath="$PROJECT_DIR$/WebContent/admin_panel/authority_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list.js" afterPath="$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list_div.ftl" afterPath="$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list_div.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/feature.ftl" afterPath="$PROJECT_DIR$/WebContent/admin_panel/feature.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/feature_list.ftl" afterPath="$PROJECT_DIR$/WebContent/admin_panel/feature_list.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/feature_list.js" afterPath="$PROJECT_DIR$/WebContent/admin_panel/feature_list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/feature_list_div.ftl" afterPath="$PROJECT_DIR$/WebContent/admin_panel/feature_list_div.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/user_list.ftl" afterPath="$PROJECT_DIR$/WebContent/admin_panel/user_list.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/admin_panel/component.ftl" afterPath="$PROJECT_DIR$/WebContent/admin_panel/component.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ITRovers.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="F:/GamerReview/.idea/workspace.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1366814034677" ignored="false" />
-    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372375635190" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372377229304" ignored="false" />
     <file path="/itr-dispatcher-servlet.xml" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238459841" ignored="false" />
     <file path="/UserDaoImpl.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367243997500" ignored="false" />
     <file path="/DESEDE.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1367238739449" ignored="false" />
@@ -45,7 +41,7 @@
     <file path="/login.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368130346960" ignored="false" />
     <file path="/admin_layout.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368131180107" ignored="false" />
     <file path="/dashboard.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368131305852" ignored="false" />
-    <file path="/AdminController.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372339833970" ignored="false" />
+    <file path="/AdminController.java" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372426971405" ignored="false" />
     <file path="/nav_panel.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368484928208" ignored="false" />
     <file path="/a.dummy" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368285088945" ignored="false" />
     <file path="/user.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1368294754067" ignored="false" />
@@ -94,6 +90,9 @@
     <file path="D:/work/GamerReview/src/main/resources/jdbc.properties" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372362550009" ignored="false" />
     <file path="/feature_list_div.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372371568937" ignored="false" />
     <file path="/authorized_group_list_div.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372374526852" ignored="false" />
+    <file path="/component.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372426477941" ignored="false" />
+    <file path="/component_list.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372423884613" ignored="false" />
+    <file path="/component_list_div.ftl" changelist="e6546f58-0c84-40bf-8b92-3c0b836ccc29" time="1372424212916" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,10 +153,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdminController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AdminController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.33285302">
+            <state line="217" column="82" selection-start="9817" selection-end="9817" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="30" selection-start="797" selection-end="811" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authority_list.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authority_list.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="14232" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authority.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authority.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="13753" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component_list.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/component_list.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="115" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-13.961538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component_list.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/component_list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="28" selection-start="1917" selection-end="1917" vertical-scroll-proportion="1.2492795">
               <folding />
             </state>
           </provider>
@@ -166,70 +210,16 @@
       <file leaf-file-name="authority_list.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authority_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="2386" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authorized_group_list.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list.js">
+      <file leaf-file-name="Authority.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Authority.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feature_list.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/feature_list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feature_list_div.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/feature_list_div.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authorized_group_list_div.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list_div.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feature.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/feature.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feature_list.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/feature_list.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_list.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="25" column="50" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -245,10 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/admin_panel/create_content_details.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/admin_panel/create_feature.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/admin_panel/authority_list.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/admin_panel/authority.ftl" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/create_authority.ftl" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/feature_list.ftl" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/feature.ftl" />
@@ -256,11 +242,15 @@
         <option value="$PROJECT_DIR$/WebContent/admin_panel/authority_list.js" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/feature_list_div.ftl" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list.ftl" />
-        <option value="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/feature_list.js" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list_div.ftl" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list.js" />
         <option value="$PROJECT_DIR$/WebContent/admin_panel/user_list.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/admin_panel/component_list.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/admin_panel/component_list_div.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/admin_panel/component_list.js" />
+        <option value="$PROJECT_DIR$/WebContent/admin_panel/component.ftl" />
+        <option value="$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java" />
       </list>
     </option>
   </component>
@@ -345,6 +335,96 @@
               <option name="myItemId" value="ITRovers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itrovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ITRovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="itrovers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -359,38 +439,6 @@
           </PATH>
         </subPane>
         <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ITRovers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WebContent/admin_panel">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ITRovers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="source">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com/itrovers/controller">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
@@ -424,8 +472,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
   </component>
   <component name="RecentsManager">
@@ -443,6 +491,120 @@
       <recent name="C:\ITRovers\source" />
       <recent name="C:\ITRovers\WebContent\template" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="svn" revision="94">C:\ITRovers\WebContent\admin_panel\authorized_group_list.js</PATH>
+            <PATH vcs="svn" revision="94">C:\ITRovers\WebContent\admin_panel\feature_list.js</PATH>
+            <PATH vcs="svn" revision="94">C:\ITRovers\WebContent\admin_panel\login.ftl</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Glassfish Server.Glassfish 3.1.2.2">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -472,6 +634,19 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -498,19 +673,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1006,7 +1168,11 @@
       <created>1372340906129</created>
       <updated>1372340906129</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="issues are solved..">
+      <created>1372377258108</created>
+      <updated>1372377258108</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1154,45 +1320,35 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authority_list_div.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="495" selection-end="495" vertical-scroll-proportion="-5.230769" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list_div.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Authority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="50" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Feature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="20" selection-start="920" selection-end="924" vertical-scroll-proportion="0.0" />
+        <state line="25" column="50" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="121" selection-start="2040" selection-end="2040" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authorized_groups.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="86" selection-start="1818" selection-end="1818" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authority_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="59" column="121" selection-start="2040" selection-end="2040" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
@@ -1204,58 +1360,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authorized_group_list_div.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authority_list.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="14232" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/feature.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/component_list_div.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="5" column="139" selection-start="456" selection-end="456" vertical-scroll-proportion="0.1559633">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/feature_list.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authority_list_div.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="520" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/feature_list.js">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authority.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="13753" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/feature_list_div.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/component.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="191" column="27" selection-start="8077" selection-end="8081" vertical-scroll-proportion="0.33204633">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/user_list.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/authority_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="2386" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/component_list.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="60" column="115" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-13.961538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/com/itrovers/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.33285302">
+        <state line="217" column="82" selection-start="9817" selection-end="9817" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/com/itrovers/domain/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="30" selection-start="797" selection-end="811" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/admin_panel/component_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="28" selection-start="1917" selection-end="1917" vertical-scroll-proportion="1.2492795">
           <folding />
         </state>
       </provider>
