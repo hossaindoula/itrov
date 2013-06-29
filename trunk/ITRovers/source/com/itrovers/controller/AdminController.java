@@ -223,6 +223,22 @@ public class AdminController {
         return new ModelAndView("admin_panel/create_feature", createFeatureModel);
     }
 
+    @RequestMapping(method= RequestMethod.POST)
+    public ModelAndView saveFeatureData(@RequestParam("component") Component component,
+                                          @RequestParam("operation") String operation,
+                                          @RequestParam("description") String description){
+
+        Map<String,String> saveFeature = new HashMap<String,String>();
+
+        Feature feature = new Feature();
+        feature.setComponent(component);
+        feature.setOperation(operation);
+        feature.setDescription(description);
+
+
+        return new ModelAndView("admin_panel/create_feature",saveFeature);
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="component.itr")
     public ModelAndView component(){
         Map<String,Object> componentModel = new HashMap<String, Object>();
