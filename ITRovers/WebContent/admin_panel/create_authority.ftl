@@ -42,7 +42,7 @@
             <div class="widgetbox box-inverse">
                 <h4 class="widgettitle">Please Enter Authority informations</h4>
                 <div class="widgetcontent wc1">
-                    <form id="form1" class="stdform" method="post" action="saveUserData.itr">
+                    <form id="form1" class="stdform" method="post" action="saveAuthorityData.itr">
                         <div class="par control-group">
                             <label class="control-label" for="authorityname">AUTHORITY NAME</label>
                             <div class="controls"><input type="text" name="authorityname" id="authorityname" class="input-large" /></div>
