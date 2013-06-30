@@ -136,6 +136,7 @@ public class AdminController {
         Authority authority = new Authority();
         authority.setAuthorityName(authorityname);
         authority.setAuthorityDescription(authoritydescription);
+        securityService.save(authority);
 
         return new ModelAndView("admin_panel/create_authority",saveAuthority);
     }
@@ -224,16 +225,19 @@ public class AdminController {
     }
 
     @RequestMapping(method= RequestMethod.POST)
-    public ModelAndView saveFeatureData(@RequestParam("component") Component component,
+    public ModelAndView saveFeatureData(@RequestParam("componentId") long componentId,
                                           @RequestParam("operation") String operation,
                                           @RequestParam("description") String description){
 
         Map<String,String> saveFeature = new HashMap<String,String>();
 
         Feature feature = new Feature();
+        Component component = securityService.getComponentById(componentId);
         feature.setComponent(component);
         feature.setOperation(operation);
         feature.setDescription(description);
+
+        securityService.save(feature);
 
 
         return new ModelAndView("admin_panel/create_feature",saveFeature);
@@ -261,6 +265,30 @@ public class AdminController {
         componentListDivModel.put("PageTitle", "Component List");
         componentListDivModel.put("Title", "ITRovers - Component List");
         return new ModelAndView("admin_panel/component_list_div", componentListDivModel);
+    }
+
+    @RequestMapping(method=RequestMethod.GET, value="createComponent.itr")
+    public ModelAndView createComponent(){
+        Map<String,Object> createComponentModel = new HashMap<String, Object>();
+        createComponentModel.put("PageTitle", "Create Component");
+        createComponentModel.put("Title", "ITRovers - Create Component");
+        return new ModelAndView("admin_panel/create_component", createComponentModel);
+    }
+
+    @RequestMapping(method= RequestMethod.POST)
+    public ModelAndView saveComponentData(@RequestParam("componentName") String componentName,
+                                          @RequestParam("description") String description){
+
+        Map<String,String> saveComponent = new HashMap<String,String>();
+
+        Component component = new Component();
+        component.setComponentName(componentName);
+        component.setDescription(description);
+
+        securityService.save(component);
+
+
+        return new ModelAndView("admin_panel/create_component",saveComponent);
     }
 
     @RequestMapping(method=RequestMethod.GET, value="componentJsonData.itr")
@@ -311,8 +339,9 @@ public class AdminController {
         Token token = new Token();
         token.setUsername(username);
         token.setPassword(password);
+        userDetailsService.saveUser(token);
 
-        User user = new User();
+        User user = userDetailsService.findByUsername(username);
         user.setToken(token);
         user.setActive(true);
 
@@ -354,6 +383,7 @@ public class AdminController {
         AuthorizedGroups authorizedGroups = new AuthorizedGroups();
         authorizedGroups.setAuthorizationName(authorizedgroupname);
         authorizedGroups.setAuthorizationDescription(authorizedgroupdescription);
+        securityService.save(authorizedGroups);
 
         return new ModelAndView("admin_panel/create_authorized_group",saveAuthorizedGroup);
     }

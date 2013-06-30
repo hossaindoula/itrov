@@ -44,12 +44,12 @@
                 <div class="widgetcontent wc1">
                     <form id="form1" class="stdform" method="post" action="saveAuthorizedGroupData.itr">
                         <div class="par control-group">
-                            <label class="control-label" for="authorizedgroupname">AUTHORITY NAME</label>
+                            <label class="control-label" for="authorizedgroupname">AUTH GROUP NAME</label>
                             <div class="controls"><input type="text" name="authorizedgroupname" id="authorizedgroupname" class="input-large" /></div>
                         </div>
 
                         <div class="par control-group">
-                            <label class="control-label" for="authorizedgroupdescription">AUTHORITY DESCRIPTION</label>
+                            <label class="control-label" for="authorizedgroupdescription">DESCRIPTION</label>
                             <div class="controls"><input type="text" name="authorizedgroupdescription" id="authorizedgroupdescription" class="input-large" /></div>
                         </div>
 

@@ -29,8 +29,8 @@
         </form>
         <div class="pageicon"><span class="iconfa-pencil"></span></div>
         <div class="pagetitle">
-            <h5>Authority</h5>
-            <h1>Create Authority</h1>
+            <h5>Features</h5>
+            <h1>Create Feature</h1>
         </div>
     </div><!--pageheader-->
 
@@ -40,22 +40,22 @@
 
 
             <div class="widgetbox box-inverse">
-                <h4 class="widgettitle">Please Enter Authority informations</h4>
+                <h4 class="widgettitle">Please Enter Feature information</h4>
                 <div class="widgetcontent wc1">
                     <form id="form1" class="stdform" method="post" action="saveFeatureData.itr">
                         <div class="par control-group">
-                            <label class="control-label" for="authorityname">FEATURE COMPONENT</label>
-                            <div class="controls"><input type="text" name="authorityname" id="authorityname" class="input-large" /></div>
+                            <label class="control-label" for="componentId">COMPONENT ID</label>
+                            <div class="controls"><input type="text" name="componentId" id="componentId" class="input-large" /></div>
                         </div>
 
                         <div class="par control-group">
-                            <label class="control-label" for="authorityname">FEATURE OPERATION</label>
-                            <div class="controls"><input type="text" name="authorityname" id="authorityname" class="input-large" /></div>
+                            <label class="control-label" for="operation">FEATURE OPERATION</label>
+                            <div class="controls"><input type="text" name="operation" id="operation" class="input-large" /></div>
                         </div>
 
                         <div class="par control-group">
-                            <label class="control-label" for="authoritydescription">DESCRIPTION</label>
-                            <div class="controls"><input type="text" name="authoritydescription" id="authoritydescription" class="input-large" /></div>
+                            <label class="control-label" for="description">DESCRIPTION</label>
+                            <div class="controls"><input type="text" name="description" id="description" class="input-large" /></div>
                         </div>
 
                         <p class="stdformbutton">
